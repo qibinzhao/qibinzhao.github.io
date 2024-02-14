@@ -1,0 +1,326 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$primary-color: #0a9be9;
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.sponsor-logos{
+    @media (max-width: 48em){
+        text-align: justify;
+        margin: 20px;
+    }
+    margin-top: 20px;
+    text-align: center;
+    img{
+        max-height: 120px;
+        padding: 20px;
+        max-width: 155px;
+        @media (max-width: 48em){
+            max-width: 120px;
+        }
+    }
+}
+
+.sponsor-logos:after{
+    @media (max-width: 48em){
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height:0;
+    }
+}
+
+.archive{
+    @media (min-width: 80em){
+        padding-right: 100px;
+    }
+}
+
+.sponsor {
+    display: flex;
+    width: 80%;
+
+    .details {
+        float: left;
+        width: 90%;
+        .time, .PI, .description{
+                font-size: 0.8em;
+        }
+    }
+}
+
+p {
+  text-align: justify;
+}
+//For image captions
+img+em{
+display: block;
+font-size: small;
+}
+
+.category {
+  h2 {
+     margin-top:0.5em
+  }
+  p {
+    margin-bottom:0.5em
+  }
+}
+
+@media (min-width: 1025px) {
+body.narrow {
+  div{
+    div {
+      article{
+        max-width: 60%;
+        margin: auto;
+        font-size: 0.7em;
+      }      
+      
+    }
+    .page__hero--overlay {
+      padding: 2em 0 0em 0;
+    }
+    .page__hero--overlay {
+      .wrapper{
+        font-size: 0.7em;
+        margin-left: 10%;
+        .page__title {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+}
+}
+
+/* ------------------- 修改部分 --------------------- */
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #555;
+    background-color: #fff;
+}
+
+
+/* 主页head部分格式调整 */
+.masthead {
+    border-width: 0 1px 3px 1px;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.masthead__inner-wrap {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+@media (min-width: 768px){
+.masthead__inner-wrap{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}}
+
+.greedy-nav {
+    background: #f8f8f8;
+}
+
+
+
+/*目录固定*/
+.masthead-fixed-top, .masthead-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1130;
+}
+
+/* 主页footer部分格式调整 */
+.page__footer {
+    border-width: 3px 1px 0 1px;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    width: 100%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000;
+}
+
+.page__footer footer{
+    display: none;
+}
+
+
+.page__footer footer-new{
+    width: 100%;
+    display: block;
+    color: #000;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* 其他页面目录下面留白空间高度 */
+.page__other__hero--overlay {
+      padding: 55px 0 12px 0;
+      margin-bottom: 0;
+}
+
+
+/*home页图片部分*/
+.page__hero--overlay {
+      padding: 75px 0 12px 0;
+      margin-bottom: 0;
+}
+
+.page__hero--overlay .page__title {
+    font-size: 18px;
+}
+@media (min-width: 768px){
+.page__hero--overlay .page__title {
+    font-size: 25px;
+}}
+
+.page__lead {
+    font-size: 1em;
+}
+
+.page__hero--overlay .page__lead {
+    max-width: 100%;
+}
+
+p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.page__hero--overlay .wrapper {
+    max-width: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn {
+    margin-bottom: 0.25em;
+    padding: 0.5em 1em;
+    font-size: .25em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+
+/* 控制页面主体区域宽度 */
+.container-home {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+#main {
+    max-width:100%;
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+/* 目录动态效果 */
+
+.greedy-nav .visible-links li {
+    display: inline-block;
+    font-size: 0;
+}
+
+.greedy-nav .visible-links li a {
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+    color: #000;
+    font-size: 14px;   
+}
+
+.greedy-nav .visible-links a:hover {
+    transform: scale(1.1);
+}
+
+.greedy-nav .visible-links a::before {
+    display: block;
+    content: '';
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    color: red;
+}
+
+// Styles for publications page ends
+.paper-btn {
+    background-color: #158CBA;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.paper-btn button {
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+/* Darker background on mouse-over */
+.paper-btn:hover {
+    background-color: darken(#0576b3, 40%);
+}
+
+.paper-font i {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.paper-font span {
+    font-size: 16px;
+    margin-bottom:10px ;
+}
+
+.container-home div {
+border:thin solid transparent;
+}
+/*overflow-x:hidden;
+overflow-y:overlay;*/
+
+.search-content {
+    display: none;
+    visibility: hidden;
+    padding-top: 4em;
+    padding-bottom: 1em;
+}
+
+@media (min-width: 768px){
+.search-content__inner-wrap {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+    }
+}

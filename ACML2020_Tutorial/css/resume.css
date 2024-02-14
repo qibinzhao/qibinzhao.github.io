@@ -1,0 +1,259 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  /*color: #777777; */
+  padding-left: 1rem;
+  padding-right: 1rem;}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 15rem;
+    padding-right: 2rem; } }
+
+#container {margin:0 auto; max-width: 1400px;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: none;
+  color: #343a40; }
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem; }
+@media (max-width: 992px) {
+  h1 {
+  font-size: 5rem;
+  line-height: 4.5rem; } }
+
+@media (max-width: 620px) {
+  h1 {
+  font-size: 2.7rem;
+  line-height: 3rem; } }
+
+h2 {
+  font-size: 3.5rem; }
+  @media (max-width: 992px) {
+  h2 {
+  font-size: 3rem; } }
+
+h3 {
+  font-size: 2.3rem; }
+  @media (max-width: 992px) {
+  h3 {
+  font-size: 1.8rem; } }
+
+h4 {
+  font-size: 2rem; }
+  @media (max-width: 992px) {
+  h3 {
+  font-size: 1.5rem; } }
+
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+  text-justify: distribute;
+}
+  @media (max-width: 992px) {
+    p {
+      font-size: 0.9rem;
+      text-align: justify;
+      text-justify: distribute;} }
+
+img {
+  border-radius: 50%;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  width:150px;
+  /*height:100%;*/
+  /*m-right: 3rem;*/
+}
+  @media (max-width: 992px) {
+    img {
+      padding-top: 0.9rem;
+      padding-bottom: 0.4rem;} }
+
+iframe {
+  width:300%;
+  height:450px;
+}
+  @media (max-width: 992px) {
+    iframe {
+      width:100%;
+      height:250px; } }
+
+aa {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  padding-left: 1.35rem;
+}/* 列表字体大小，行间距 */
+
+ab {
+  /*padding-left: 22%;*/
+
+  font-size: 1.1rem;
+  color: #000000;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+  @media (max-width: 992px) {
+    ab {
+      font-size: 0.9rem; } }
+
+li {
+  font-size: 1.1rem;
+  /*line-height: 1.3rem;*/
+  margin-left: -2rem;
+  padding-top: 0.6rem;
+
+}/* 列表字体大小，行间距 */
+  @media (max-width: 992px) {
+    li {
+      font-size: 0.9rem;
+      /*line-height: 1.3rem;*/
+      margin-left: -2rem;
+      padding-top: 0.4rem;} }
+
+lli {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding-left: 2rem;
+  padding-right: 7rem;
+}/* member页分栏用*/
+  @media (max-width: 1024px) {
+    lli {
+      font-size: 1.1rem;
+      line-height: 2rem;
+      padding-left: 1.5rem;
+      padding-right: 5rem;} }
+
+llli {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  /*padding-left: 2rem;*/
+  /*padding-right: 9rem;*/
+}/* access页分栏用*/
+  @media (max-width: 992px) {
+    llli {
+      font-size: 0.9rem; } }
+
+lii {
+  font-size: 1.1rem;
+  /*line-height: 2rem;*/
+  margin-left: -2rem;
+}/* 列表字体大小，行间距 */
+
+.subheading {
+  text-transform: none;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  padding-top: 1rem;
+  letter-spacing: 0.01rem;
+  font-size: 1.8rem; } /* 首页姓名下介绍 */
+  @media (max-width: 992px) {
+    .subheading {
+    font-weight: 400;
+    /*letter-spacing: 0.01rem;*/
+    font-size: 1.5rem; } } 
+  @media (max-width: 620px) {
+    .subheading {
+    font-weight: 400;
+    /*letter-spacing: 0.01rem;*/
+    font-size: 1.2rem; } } 
+
+.list-social-icons a {
+  color: #495057; }
+  .list-social-icons a:hover {
+    color: #26abe2; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: #26abe2; } /* publication 图标 */
+
+/* 目录 */
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: none; }
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 14rem;  /*!  目录栏宽度  */
+    height: 100vh; }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem; }
+      #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2); }/*侧边栏logo*/
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      padding-bottom:10rem;/* 宽屏 目录高度 */
+      width: 80%;/* 宽屏 目录距离左边的距离 */
+      margin-bottom: auto; }
+      #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+        #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block; }
+          #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+            display: block; } }
+
+section.resume-section {
+  border-bottom: 1px solid #c3c3c3; /* 各页面之间分割线 */
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } }
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+.bg-primary {
+  background-color: #1c5c01 !important; } /* 目录背景颜色 */
+
+.text-primary {
+  color: #26abe2 !important; }/* 首页 姓 的颜色*/
+
+/*a {
+  color: #1c5c01; }
+  a:hover, a:focus, a:active {
+    color: #824027; }*/
+
+a {
+  }
+  a:hover, a:focus, a:active {
+    }

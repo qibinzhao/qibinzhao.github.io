@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ACML 2020 Tutorial</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <!-- fa 图标 -->
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="container">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">        
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="margin-left: 0rem; font-size: 1rem;">
+            <a class="nav-link js-scroll-trigger" href="#home"style="font-size: 1.4rem;">Top</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0rem;">
+            <a class="nav-link js-scroll-trigger" href="#description"style="font-size: 1.4rem;">Description</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0rem;">
+            <a class="nav-link js-scroll-trigger" href="#prerequisites"style="font-size: 1.4rem;">Prerequisites</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0rem;">
+            <a class="nav-link js-scroll-trigger" href="#outline" style="font-size: 1.4rem;">Outline</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0rem;">
+            <a class="nav-link js-scroll-trigger" href="#slides"style="font-size: 1.4rem;">Slides</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0rem;">
+            <a class="nav-link js-scroll-trigger" href="#presenter"style="font-size: 1.4rem;">Presenter</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0rem;">
+            <a class="nav-link js-scroll-trigger" href="#references"style="font-size: 1.4rem;">References</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <!-- =======================ACML 2020 Tutorial=========================== -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="home">
+        <div class="my-auto">
+
+          <div class="subheading mb-5">
+            <h2><a style="color: #267504;" href="http://www.acml-conf.org/2020/" target="_blank">ACML 2020</a> Tutorial</h2>
+          </div>
+
+          <h3 style="text-align: center;">Tensor Networks in Machine Learning: Recent Advances and Frontiers</h3>
+          
+          <!-- <h4><br>Speaker</h4>
+          <p><a href="https://qibinzhao.github.io" target="_blank">Qibin Zhao (RIKEN AIP)</a></p> -->
+
+          <section id="description">
+            <h4><br>Description</h4>
+            <p>Tensor Networks (TNs) are efficient representation of high-order tensors by a network of many low-order tensors, which have been studied in quantum physics and applied mathematics. In recent years, TNs have been increasingly investigated and applied to machine learning for high-dimensional data analysis, model compression and efficient computation in deep neural networks (DNNs), and theoretical analysis of expressive power for DNNs. This tutorial aims to present an overview of recent progress of TNs technology applied to machine learning from perspectives of TN for data representation, parameter modeling, and functional approximation. Specifically, we will introduce the fundamental model and algorithms of TNs, typical approaches in unsupervised learning, tensor completion, multi-modal learning and various applications in DNN, CNN, RNN and etc. We also discuss new frontiers and future trends in this research area.</p>
+          </section>
+
+          <section id="prerequisites">
+            <h4><br>Prerequisites</h4>
+            <p>The audiences of this tutorial are expected to have basic knowledge in multilinear algebra, tensor decomposition, machine learning and deep neural networks.</p>
+          </section>
+
+          <!-- <h4><a style="color: #267504;">More information is coming soon.</a></h4><br> -->
+
+          <section id="outline">
+            <h4><br>Tutorial Outline</h4>
+            <p>
+	            <ul class="fa-ul mb-0">
+	              <li align="left"><b>Part I. Tensor Methods for Data Representation</b><br>
+	              	<ol class="fa fa-caret-right"> Tensor Decomposition</ol><br>
+	              	<ol class="fa fa-caret-right"> Tensor Completion for Missing Values</ol><br>
+	              	<ol class="fa fa-caret-right"> Latent Convex Tensor Decomposition</ol><br>
+	              	<ol class="fa fa-caret-right"> Tensor Network Diagram</ol><br>
+	              	<ol class="fa fa-caret-right"> Tensor Train and Tensor Ring Models</ol>
+	              </li>
+
+	              <li align="left"><b>Part II. Tensor Networks in Deep Learning Modeling</b><br>
+	              	<ol class="fa fa-caret-right"> Model Compression of NN by Tensor Networks</ol><br>
+	              	<ol class="fa fa-caret-right"> Learning Algorithms for Reparametrization by Tensor Networks</ol><br>
+	              	<ol class="fa fa-caret-right"> Supervised Learning with Quantum Inspired Tensor Networks</ol><br>
+	              	<ol class="fa fa-caret-right"> Exponential Machine</ol><br>
+	              	<ol class="fa fa-caret-right"> Speedup and Compression of CNN</ol><br>
+	              	<ol class="fa fa-caret-right"> Tensor Networks for Theoretical Analysis of DNNs</ol><br>
+	              	<ol class="fa fa-caret-right"> Multimodal Learning by Tensor Networks</ol><br>
+	              	<ol class="fa fa-caret-right"> Applications to RNN, LSTM, and Transformer</ol><br>
+	              </li>
+
+	              <li align="left"><b>Part III. Frontiers and Future Trends</b><br>
+	              	<ol class="fa fa-caret-right"> TN for Function Approximation of Supervised Learning</ol><br>
+	              	<ol class="fa fa-caret-right"> TN Representation for Probabilistic Graphical Model</ol><br>
+	              	<ol class="fa fa-caret-right"> Generative Modeling by TN</ol><br>
+	              	<ol class="fa fa-caret-right"> Gaussian Mixture Distribution with Multi-dimensional Modes</ol><br>
+	              	<ol class="fa fa-caret-right"> Supervised Learning by Multi-scale TNs, 2D PEPS type TNs, and Tree TNs</ol><br>
+	              	<!-- <ol class="fa fa-caret-right"> Supervised Learning by 2D PEPS Type Tensor Networks</ol><br>
+	              	<ol class="fa fa-caret-right"> Supervised Learning by Tree Tensor Networks</ol><br> -->
+	              	<ol class="fa fa-caret-right"> Structure Learning of Tensor Networks</ol><br>
+	              	<ol class="fa fa-caret-right"> Discussions</ol>
+	              </li>
+
+	             </ul>
+              	<br>
+             </p>
+
+            
+          </section>
+          
+
+          <section id="slides">
+            <h4><br>Tutorial Slides</h4>
+            <p>This tutorial slide is available here: <a href="./TNML-ACML2020Tutorial-QibinZhao.pdf" target="_blank"> TNML-ACML2020Tutorial-QibinZhao.pdf</a></p>
+          </section><br>
+          
+          <section id="presenter">
+            <h4><br>Presenter</h4>
+            <p><a href="https://qibinzhao.github.io" target="_blank">Qibin Zhao</a> is a team leader for tensor learning team at <a href="https://aip.riken.jp/labs/generic_tech/tensor_learn/" target="_blank">RIKEN Center for Advanced Intelligence Project</a>. He is also a visiting professor in Saitama Institute of Technology and a visiting associate professor in Tokyo University of Agriculture and Technology, Japan. Previously, he was a research scientist at RIKEN Brain Science Institute from 2009 to 2017.  His research interests include machine learning, tensor factorization and tensor networks, computer vision and brain signal processing. He has published more than 120 scientific papers in international journals and conferences and two monographs on tensor networks (2016, 2017). He serves as an editorial board member for journal “Science China: Technological Sciences”, and also serves as an Area Chair for the international conferences of NeurIPS 2020, ICML 2021, ICLR 2021, AISTATS 2021, IJCAI 2021 and ACML 2020. He is (co-)organizing two workshops on tensor networks in NeurIPS 2020 <a href="https://tensorworkshop.github.io/NeurIPS2020/" target="_blank"><i><u>[Link]</u></i></a> and IJCAI 2020 <a href="https://tensorworkshop.github.io/2020/" target="_blank"><i><u>[Link]</u></i></a>.</p>
+          </section><br>
+          
+          
+          <!-- =======================References=========================== -->
+	      <section id="references">
+	        <div class="my-auto">
+	          <!-- <div class="subheading mb-3"><a href="./publications/TLT-PublicationList.pdf" target="_blank">Full publication list</a></div> -->
+
+	          <h4><br>References</h4>
+	          <ul class="fa-ul mb-0">
+	          	<!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[1]</i> 
+	            	Liu, X., Zhao, Q., Walid, A. (2020). Tensor and Tensor Networks for Machine Learning: An Hourglass Architecture. <i>International Workshop on Tensor Network Representations in Machine Learning In conjunction with IJCAI2020</i>.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[2]</i> 
+	            	Wang, M., Liu, M., Liu, J., Wang, S., Long, G., & Qian, B. (2017). Safe medicine recommendation via medical knowledge graph embedding. <i>arXiv preprint arXiv:1710.05980</i>.
+	            </li>
+	           
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[3]</i>
+	            	Vasilescu, M. A. O., & Terzopoulos, D. (2002). Multilinear analysis of image ensembles: Tensorfaces. In <i>European conference on computer vision</i>, (pp. 447-460). Springer, Berlin, Heidelberg.
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[4]</i>
+	            	De Lathauwer, L., De Moor, B., & Vandewalle, J. (2000). A multilinear singular value decomposition. <i>SIAM journal on Matrix Analysis and Applications</i>, 21(4), 1253-1278.
+
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[5]</i>
+	            	Zhou, G., & Cichocki, A. (2012). Fast and unique Tucker decompositions via multiway blind source separation. <i>Bulletin of the Polish Academy of Sciences. Technical Sciences</i>, 60(3), 389-405.
+
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[6]</i>
+	            	Anandkumar, A., Ge, R., Hsu, D., & Kakade, S. M. (2014). A tensor approach to learning mixed membership community models. <i>The Journal of Machine Learning Research</i>, 15(1), 2239-2312.
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[7]</i>
+	            	Zhao, Q., Zhang, L., & Cichocki, A. (2015). Bayesian CP factorization of incomplete tensors with automatic rank determination. <i>IEEE transactions on pattern analysis and machine intelligence (T-PAMI)</i>, 37(9), 1751-1763.
+
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[8]</i>
+	            	He, W., Yao, Q., Li, C., Yokoya, N., & Zhao, Q. (2019). Non-local meets global: An integrated paradigm for hyperspectral denoising. In <i>2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, (pp. 6861-6870). IEEE.
+
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[9]</i>
+	            	Li, C., He, W., Yuan, L., Sun, Z., & Zhao, Q. (2019). Guaranteed Matrix Completion Under Multiple Linear Transformations. In <i>2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, (pp. 11128-11137). IEEE.
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[10]</i>
+	            	Tomioka, R., Hayashi, K., & Kashima, H. (2010). Estimation of low-rank tensors via convex optimization. <i>arXiv preprint arXiv:1010.0789.</i>
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[11]</i>
+	            	Tomioka, R., & Suzuki, T. (2013). Convex tensor decomposition via structured schatten norm regularization. In <i>Advances in neural information processing systems (NeurIPS)</i>, (pp. 1331-1339).
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[12]</i>
+	            	Li, C., Khan, M. E., Sun, Z., Niu, G., Han, B., Xie, S., & Zhao, Q. (2020). Beyond Unfolding: Exact Recovery of Latent Convex Tensor Decomposition under Reshuffling. In <i>Proceedings of the AAAI Conference on Artificial Intelligence.</i>
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[13]</i>
+	            	Imaizumi, M., Maehara, T., & Hayashi, K. (2017). On tensor train rank minimization: Statistical efficiency and scalable algorithm. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, (pp. 3930-3939).
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[14]</i>
+	            	Yuan, L., Li, C., Mandic, D., Cao, J., & Zhao, Q. (2019). Tensor ring decomposition with rank minimization on latent space: An efficient approach for tensor completion. In <i>Proceedings of the AAAI Conference on Artificial Intelligence</i> (Vol. 33, pp. 9151-9158).
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[15]</i>
+	            	Orús, R. (2014). A practical introduction to tensor networks: Matrix product states and projected entangled pair states. <i>Annals of Physics</i>, 349, 117-158.
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[16]</i>
+	            	Oseledets, I. V. (2011). Tensor-train decomposition. <i>SIAM Journal on Scientific Computing</i>, 33(5), 2295-2317.
+
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[17]</i>
+	            	Zhao, Q., Sugiyama, M., Yuan, L., & Cichocki, A. (2019, May). Learning efficient tensor representations with ring-structured networks. In <i>ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing</i>, (pp. 8608-8612). IEEE.
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[18]</i>
+	            	Cichocki, A., Lee, N., Oseledets, I., Phan, A. H., Zhao, Q., & Mandic, D. P. (2016). Tensor networks for dimensionality reduction and large-scale optimization: Part 1 low-rank tensor decompositions. <i>Foundations and Trends in Machine Learning</i>, 9(4-5), 249-429.
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[19]</i>
+	            	Cichocki, A., Phan, A. H., Oseledets, I., Zhao, Q., Sugiyama, M., Lee, N., & Mandic, D. (2017). Tensor networks for dimensionality reduction and large-scale optimizations: Part 2 applications and future perspectives. <i>Foundations and Trends in Machine Learning</i>, 9(6), 431-673.
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[20]</i>
+	            	Han, S., Pool, J., Tran, J., & Dally, W. (2015). Learning both weights and connections for efficient neural network. In <i>Advances in neural information processing systems (NeurIPS)</i>, (pp. 1135-1143).
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[21]</i>
+	            	Hinton, G., Vinyals, O., & Dean, J. (2015). Distilling the knowledge in a neural network. <i>arXiv preprint arXiv:1503.02531.</i>
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[22]</i>
+	            	Han, S., Mao, H., & Dally, W. J. (2015). Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding. <i>arXiv preprint arXiv:1510.00149.</i>
+
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[23]</i>
+	            	Novikov, A., Podoprikhin, D., Osokin, A., & Vetrov, D. P. (2015). Tensorizing neural networks. In <i>Advances in neural information processing systems (NeurIPS)</i>, (pp. 442-450).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[24]</i>
+	            	Stoudenmire, E., & Schwab, D. J. (2016). Supervised learning with tensor networks. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, (pp. 4799-4807).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[25]</i>
+	            	Novikov, A., Trofimov, M., & Oseledets, I. (2016). Exponential machines. <i>arXiv preprint arXiv:1605.03795.</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[26]</i>
+	            	Ye, J., Wang, L., Li, G., Chen, D., Zhe, S., Chu, X., & Xu, Z. (2018). Learning compact recurrent neural networks with block-term tensor decomposition. In <i>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, (pp. 9378-9387).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[27]</i>
+	            	Pan, Y., Xu, J., Wang, M., Ye, J., Wang, F., Bai, K., & Xu, Z. (2019, July). Compressing recurrent neural networks with tensor ring for action recognition. In <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, (Vol. 33, pp. 4683-4690).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[28]</i>
+	            	Kossaifi, J., Lipton, Z. C., Kolbeinsson, A., Khanna, A., Furlanello, T., & Anandkumar, A. (2020). Tensor regression networks. <i>Journal of Machine Learning Research</i>, 21(123), 1-21.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[29]</i>
+	            	Lebedev, V., Ganin, Y., Rakhuba, M., Oseledets, I., & Lempitsky, V. (2015). Speeding-up convolutional neural networks using fine-tuned CP-decomposition. In <i>3rd International Conference on Learning Representations (ICLR)</i>.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[30]</i>
+	            	Tai, C., Xiao, T., Zhang, Y., Wang, X., & Weinan, E. (2016). Convolutional neural networks with low-rank regularization. In <i>4th International Conference on Learning Representations (ICLR)</i>.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[31]</i>
+	            	Kim, Y. D., Park, E., Yoo, S., Choi, T., Yang, L., & Shin, D. (2016). Compression of deep convolutional neural networks for fast and low power mobile applications. In <i>4th International Conference on Learning Representations (ICLR)</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[32]</i>
+	            	Hayashi, K., Yamaguchi, T., Sugawara, Y., & Maeda, S. I. (2019). Exploring Unexplored Tensor Network Decompositions for Convolutional Neural Networks. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, (pp. 5552-5562).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[33]</i>
+	            	Li, C., Sun, Z., Yu, J., Hou, M., & Zhao, Q. (2019). Low-rank Embedding of Kernels in Convolutional Neural Networks under Random Shuffling. In <i>ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>,  (pp. 3022-3026). IEEE.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[34]</i>
+	            	Li, J., Sun, Y., Su, J., Suzuki, T., & Huang, F. (2020). Understanding Generalization in Deep Learning via Tensor Methods. <i>arXiv preprint arXiv:2001.05070.</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[35]</i>
+	            	Cohen, N., & Shashua, A. (2016). Convolutional rectifier networks as generalized tensor decompositions. In <i>International Conference on Machine Learning (ICML)</i>, (pp. 955-963).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[36]</i>
+	            	Levine, Y., Yakira, D., Cohen, N., & Shashua, A. (2018). Deep Learning and Quantum Entanglement: Fundamental Connections with Implications to Network Design. In <i>International Conference on Learning Representations (ICLR).</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[37]</i>
+	            	Cohen, N., Sharir, O., & Shashua, A. (2016). On the expressive power of deep learning: A tensor analysis. In <i>Conference on learning theory (COLT)</i>, (pp. 698-728).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[38]</i>
+	            	Khrulkov, V., Novikov, A., & Oseledets, I. (2018). Expressive power of recurrent neural networks. In <i>International Conference on Learning Representations (ICLR).</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[39]</i>
+	            	Antol, S., Agrawal, A., Lu, J., Mitchell, M., Batra, D., Lawrence Zitnick, C., & Parikh, D. (2015). Vqa: Visual question answering. In <i>Proceedings of the IEEE international conference on computer vision (ICCV)</i>, (pp. 2425-2433).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[40]</i>
+	            	Zadeh, A., Chen, M., Poria, S., Cambria, E., & Morency, L. P. (2017). Tensor Fusion Network for Multimodal Sentiment Analysis. In <i>Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing</i>, (pp. 1103-1114).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[41]</i>
+	            	Liu, Z., Shen, Y., Lakshminarasimhan, V. B., Liang, P. P., Zadeh, A. B., & Morency, L. P. (2018). Efficient Low-rank Multimodal Fusion With Modality-Specific Factors. In <i>Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics</i>, (pp. 2247-2256).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[42]</i>
+	            	Ben-Younes, H., Cadene, R., Cord, M., & Thome, N. (2017). Mutan: Multimodal tucker fusion for visual question answering. In <i>Proceedings of the IEEE international conference on computer vision (ICCV)</i>, (pp. 2612-2620).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[43]</i>
+	            	Ma, X., Zhang, P., Zhang, S., Duan, N., Hou, Y., Zhou, M., & Song, D. (2019). A tensorized transformer for language modeling. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, (pp. 2232-2242).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[44]</i>
+	            	Liang, P. P., Liu, Z., Tsai, Y. H. H., Zhao, Q., Salakhutdinov, R., & Morency, L. P. (2019). Learning Representations from Imperfect Time Series Data via Tensor Rank Regularization. In <i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics</i>, (pp. 1569-1576).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[45]</i>
+	            	Hou, M., Tang, J., Zhang, J., Kong, W., & Zhao, Q. (2019). Deep multimodal multilinear fusion with high-order polynomial pooling. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, (pp. 12136-12145).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[46]</i>
+	            	Yu, R., Zheng, S., Anandkumar, A., & Yue, Y. (2017). Long-term forecasting using higher order tensor RNNs. <i>arXiv preprint arXiv:1711.00073.</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[47]</i>
+	            	Su, J., Byeon, W., Huang, F., Kautz, J., & Anandkumar, A. (2020). Convolutional Tensor-Train LSTM for Spatio-temporal Learning. In <i>Advances in Neural Information Processing Systems (NeurIPS).</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[48]</i>
+	            	Kargas, N., & Sidiropoulos, N. D. (2020). Nonlinear System Identification via Tensor Completion. In <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[49]</i>
+	            	Glasser, I., Sweke, R., Pancotti, N., Eisert, J., & Cirac, I. (2019). Expressive power of tensor-network factorizations for probabilistic modeling. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, (pp. 1498-1510).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[50]</i>
+	            	Robeva, E., & Seigal, A. (2019). Duality of graphical models and tensor networks. <i>Information and Inference: A Journal of the IMA</i>, 8(2), 273-288.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[51]</i>
+	            	Ran, S. J. (2019). Bayesian Tensor Network with Polynomial Complexity for Probabilistic Machine Learning. <i>arXiv, arXiv-1912</i>.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[52]</i>
+	            	Han, Z. Y., Wang, J., Fan, H., Wang, L., & Zhang, P. (2018). Unsupervised generative modeling using matrix product states. <i>Physical Review X</i>, 8(3), 031012.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[53]</i>
+	            	Kuznetsov, M., Polykovskiy, D., Vetrov, D. P., & Zhebrak, A. (2019). A prior of a Googol Gaussians: a tensor ring induced prior for generative models. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, (pp. 4102-4112).
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[54]</i>
+	            	Stoudenmire, E. M. (2018). Learning relevant features of data with multi-scale tensor networks. <i>Quantum Science and Technology</i>, 3(3), 034003.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[55]</i>
+	            	Selvan, R., & Dam, E. B. (2020). Tensor Networks for Medical Image Classification. In <i>Medical Imaging with Deep Learning (MIDL).</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[56]</i>
+	            	Glasser, I., Pancotti, N., & Cirac, J. I. (2020). From probabilistic graphical models to generalized tensor networks for supervised learning. <i>IEEE Access</i>, 8, 68169-68182.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[57]</i>
+	            	Cheng, S., Wang, L., & Zhang, P. (2020). Supervised Learning with Projected Entangled Pair States. <i>arXiv preprint arXiv:2009.09932.</i>
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[58]</i>
+	            	Liu, D., Ran, S. J., Wittek, P., Peng, C., García, R. B., Su, G., & Lewenstein, M. (2019). Machine learning by unitary tensor network of hierarchical tree structure. <i>New Journal of Physics</i>, 21(7), 073059.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[59]</i>
+	            	Sheikh, H. R., & Bovik, A. C. (2006). Image information and visual quality. <i>IEEE Transactions on image processing</i>, 15(2), 430-444.
+	            </li>
+	            <!----------------------------------------------------------------->
+	            <li align="left"><i class="fa">[60]</i>
+	            	Li, C., & Sun, S. (2020). Evolutionary topology search for tensor network decomposition. In <i>Proceedings of the 37th International Conference on Machine Learning (ICML)</i>.
+	            </li>
+	            <!---------------------------------------
+	            <li align="left"><i class="fa">[2]</i>
+	            	title<i>xxxx</i>
+	            </li>
+	            -------------------------->
+	          </ul>
+	        </div>
+	      </section>
+
+        </div>
+      </section>
+
+      
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>

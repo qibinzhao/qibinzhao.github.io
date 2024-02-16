@@ -1,0 +1,261 @@
+---
+layout: splash
+permalink: /
+title: "Welcome to the Tensor Learning Team"
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/linkprediction.jpg
+excerpt: 'We study various tensor-based machine learning technologies, e.g., tensor decomposition, multilinear latent variable model, tensor regression and classification, tensor networks, deep tensor learning, and Bayesian tensor learning, with aim to facilitate the learning from high-order structured data or large-scale latent space. Our goal is to develop innovative, scalable and efficient tensor learning algorithms supported by theoretical principles. The novel applications in computer vision and brain data analysis will also be explored to provide new insights into tensor learning methods. [<i class="fa fa-link"></i> RIKEN Web](https://aip.riken.jp/labs/generic_tech/tensor_learn/?lang=en){: .paper-btn}'
+---
+
+<!-- <link rel="stylesheet" type="text/css" href="/assets/css/home.css"> -->
+
+<link rel="stylesheet" href="/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/slick/slick.css">
+<link rel="stylesheet" href="/slick/slick-theme.css">
+
+<style>
+
+  .custom-author-avatar {
+    border: 1px solid #bfbfbf;
+    max-width: 200px;
+    border-radius: 50%;
+  }
+
+  .entry-headers {
+    padding-top: 1.0em;
+  }
+
+  .news-date {
+    font-size:0.7em;
+    color:#5481B0;
+  }
+  .news-title {
+    font-size:0.8em;
+  }
+
+  .news-p p {
+    font-size:0.85em;
+    margin-bottom: 1.0em;
+    text-align: start; 
+  }
+
+  .news-a a {
+    font-size:0.85em;
+    color: #158CBA;
+  }
+
+  /* news部分 */
+  .well {
+    min-height: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+    box-shadow: inset 0 2px 0 rgba(0,0,0,0.05);
+}
+
+h4 {
+    display: block;
+    margin-block-start: 0.33em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.page__footer-follow li {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: .8em;
+  text-transform: none;
+}
+
+.fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+a {
+    color: #158CBA;
+}
+
+#gridid i {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.paper-btnYT {
+    background-color: #bf0004;;
+    border: none;
+    color: white;
+    padding: 1px 1px;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+</style>
+
+<!-- https://thornelabs.net/2014/06/08/a-better-way-to-display-random-jekyll-posts-on-page-load-or-refresh-using-jquery-and-json.html -->
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+
+  function generateRandomPosts()
+  {
+  $.getJSON("/assets/json/research-highlights-search.json", function(data) {
+  console.log("[research-highlights-search.json loaded for random posts]");
+
+  var postsCount = data.length;
+  var posts = data;
+
+  var randomIndexUsed = [];
+  var counter = 0;
+  var numberOfPosts = 1;
+
+  var divRandomPosts = $("#random_posts");
+
+  while (counter < numberOfPosts) {
+
+       var randomIndex = Math.floor(Math.random() * postsCount);
+
+       if (randomIndexUsed.indexOf(randomIndex) == "-1")
+       {
+       var postHREF = posts[randomIndex].href;
+       var postTitle = posts[randomIndex].title;
+       var postPhoto = posts[randomIndex].author_src;
+       var postExcerpt = posts[randomIndex].post_excerpt;
+
+       if (counter == (numberOfPosts - 1))
+       {
+       divRandomPosts.append('<img src="' + postPhoto + '" class="img-fluid custom-author-avatar">');
+                   divRandomPosts.append('<h3 style="text-align: center;"><a href="' + postHREF + '">' + postTitle + '</a></h3>');
+       divRandomPosts.append('<p style="text-align: left;">' + postExcerpt + '</p>');
+       }
+       else
+       {
+       divRandomPosts.append('<img src="' + postPhoto + '" class="img-fluid custom-author-avatar">')
+       divRandomPosts.append('<h3 style="text-align: center;"><a href="' + postHREF + '">' + postTitle + '</a></h3>');
+       divRandomPosts.append('<p style="text-align: left;">' + postExcerpt + '</p>');
+       }
+
+       randomIndexUsed.push(randomIndex);
+
+       counter++;
+       }
+       }
+       });
+       }
+
+       $(document).ready(function() {
+       generateRandomPosts();
+       });
+       </script>
+  
+<div style="padding-bottom: 20rem;" class="container-home">
+  <div class="row">
+    <div id="gridid" class="col-sm-12">
+      <div class="row">
+        <div class="col-sm-8 clearfix">
+          <h1 class="entry-headers">Research</h1>
+          <!-- <hr> -->
+          <p>The modern machine learning technology achieves remarkable success, but it requires a large amount of high-quality data, large learning models as well as high computational power for training, which also leads to the lack of reliability and interpretability of well-trained models. Our team aims to develop the innovative models and algorithms for efficient, robust, and interpretable machine learning. In particular, we develop various tensor-based methods, leveraging tensor factorization and tensor networks, for efficient and robust representation learning as well as fast computation. We also conduct research on their theoretical analysis and applications in computer vision and neuroscience fields.</p>
+
+          <h5>Research Subjects:</h5>
+          <ul>
+            <li>Tensor factorization and tensor networks</li>
+            <li>Robust and interpretable machine learning</li>
+            <li>Real-world applications in computer vision and neuroscience</li>
+          </ul>
+
+
+          <div class="highlights">
+            <!-- <div class="slick-slide">
+              <img style="border:solid 1px #fff; margin:0 auto;" src="assets/images/TrustedAI.jpg">
+            </div> -->
+
+            <!-- <div class="slick-slide">
+              <iframe width="560" height="315" src="https://www.youtube.com/watch?v=VmzCmjzdhsM&t=202s&ab_channel=TensorWorkshop" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              Quantum Mechanics, Tensor Networks and Machine Learning.
+            </div> -->
+
+            <!-- <div class="slick-slide">
+              <iframe width="560" height="315" src="https://www.youtube.com/watch?v=j7SbUx794x4&ab_channel=TensorWorkshop" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              Generative Tensor Network Classification for Supervised Learning.
+            </div> -->
+
+            <!-- <div class="slick-slide">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/2wFb46Q8kmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a href="https://nips.cc/Conferences/2019/Schedule?showEvent=13205" target="_blank">NeurIPS 2019 Tutorial</a>. See <a href="papers/neurips_tutorial.pdf" target="_blank">Slides</a>, <a href="https://slideslive.com/38921489/deep-learning-with-bayesian-principles" target="_blank">on SlidesLive</a> or <a href="https://www.youtube.com/watch?v=2wFb46Q8kmA"
+              target="_blank">YouTube</a>.
+            </div> -->
+          </div>
+          <br>
+          <div>
+            <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <script type="text/javascript">
+              $('.highlights').slick({
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              accessibility: true,
+              mobileFirst: true,
+              arrows: true,
+                });
+            </script>
+          </div>
+          
+        </div>
+
+
+        <div class="col-sm-4 clearfix" style="margin-top: 20px;">
+          <div class="well news-a">
+            <h4>News</h4>
+            {% assign sortednews = site.news | reverse %}
+            <section class="news-p">
+              {% for post in sortednews limit:6  %}
+              <span class="news-date">{{ post.date | date: "%b %Y" }}</span><br><p>{{ post.title }}</p>
+              {% endfor %}
+            </section>
+            <p>For previous news, see the <a href="/news-list/">News List</a></p>
+
+            <br>
+            <h4>Our Videos on <a href="https://www.youtube.com/@aipriken8732/search?query=Tensor%20Learning%20Team"><button class="paper-btnYT"><i class="fa fa-link"></i> YouTube AIP RIKEN</button></a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 0;" class="page__footer">
+  <footer-new>
+    <div class="row">
+      <div id="gridid" class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-6 clearfix" style="padding-left: 30px; padding-right: 30px">
+            <div class="page__footer-follow">
+              <ul class="social-icons">
+                <li><strong>Access:</strong><br>Nihonbashi 1-chome Mitsui Building, 15th floor,<br>1-4-1 Nihonbashi,Chuo-ku, Tokyo<br>103-0027, Japan &nbsp; <a href="https://goo.gl/maps/KfJb19p3ZQLqYjae7" rel="nofollow noopener noreferrer">（<i style="font-style:normal" class="fa fa-location-arrow" aria-hidden="true"></i> Map） </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 clearfix" style="padding-left: 30px; padding-right: 30px">
+          <!-- start custom footer snippets -->
+          <!-- end custom footer snippets -->
+            <div class="page__footer-follow">
+              <ul class="social-icons">
+                <li><strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>&nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal"  class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/rikenaiptlt" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="page__footer-copyright" style="padding-left: 30px; padding-right: 30px; color:#808080">© 2023 Tensor Learning Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
+          </div>
+        </div>
+      </div>
+    </div>

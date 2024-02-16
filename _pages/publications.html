@@ -1,0 +1,435 @@
+---
+layout: splash
+permalink: /publications/
+title: "Publications"
+$paragraph-indent: true
+---
+
+<script>
+  function download_file(name, contents, mime_type) {
+    // preprocessing for bibtex
+  while(contents.includes("  ")) {
+    contents = contents.replace(new RegExp("  ", 'g'), " ");
+  }
+  contents = contents.replace(new RegExp("\n", 'g'), "");
+  contents = contents.split(",");
+  contents = contents[0] + ",\n" + contents.slice(1, contents.length)
+  contents = contents.replace(new RegExp("},", 'g'), "}");
+  contents = contents.replace(new RegExp("} ", 'g'), "}");
+  contents = contents.replace(new RegExp(" }", 'g'), "}");
+  contents = contents.split("}");
+  var final_text = ""
+  for(var i=0 ; i < contents.length - 1 ; i++) {
+    if(i < contents.length - 2) {
+      final_text += contents[i] + "},\n "
+    }
+  }
+  final_text = final_text.substring(0, final_text.length-3) + "\n}";
+  
+    mime_type = mime_type || "text/plain";
+    var blob = new Blob([final_text], {type: mime_type});
+    var dlink = document.createElement('a');
+  document.body.appendChild(dlink);
+    dlink.download = name;
+    dlink.href = window.URL.createObjectURL(blob);
+    dlink.onclick = function(e) {
+      // revokeObjectURL needs a delay to work properly
+      var that = this;
+      setTimeout(function() {
+          window.URL.revokeObjectURL(that.href);
+      }, 1500);
+    };
+    dlink.click();
+    dlink.remove();
+    document.body.removeChild(dlink);
+  }
+</script>
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.css">
+
+
+<style>
+
+  .entry-headers {
+    padding-top: 1.0em;
+  }
+
+.page__footer-follow li {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: .8em;
+  text-transform: none;
+}
+
+td {
+    border-bottom: 1px solid #fff;
+}
+
+a {
+    color: #158CBA;
+}
+
+.ai {
+    font-family: 'Academicons';
+    font-weight: 400;
+    /* display: inline-block; */
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+#gridid i {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+li {
+    font-size: 12px;
+}
+
+</style>
+
+<div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
+  <!-- <h1 style="text-transform: capitalize" class="entry-headers"><a href="/assets/publications/TLT-PublicationList.pdf"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;Full publication list</button></a></h1> -->
+  <br><a href="/assets/publications/TLT-PublicationList.pdf"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;Full publication list</button></a>
+  
+  <!-- ---------------------------------------------------------------------- -->
+  <h2>2023</h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2023 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h2> 2022 </h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2022 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}
+        
+        {{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h2> 2021 </h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2021 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h2> 2020 </h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2020 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h2> 2019 </h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2019 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h2> 2018 </h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2018 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h2> 2017 </h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2017 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h2> 2016 </h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2016 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <!-- ---------------------------------------------------------------------- -->
+  <h1 style="text-transform: capitalize" class="entry-headers"> Books </h1>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 'book' %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i><span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#66;&nbsp;</span> {{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+  <div >
+    
+  </div>
+</div>
+
+
+
+<div style="position: absolute; bottom: 0;" class="page__footer">
+  <footer-new>
+    <div class="row">
+      <div id="gridid" class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-6 clearfix" style="padding-left: 30px; padding-right: 30px">
+            <div class="page__footer-follow">
+              <ul class="social-icons">
+                <li><strong>Access:</strong><br>Nihonbashi 1-chome Mitsui Building, 15th floor,<br>1-4-1 Nihonbashi,Chuo-ku, Tokyo<br>103-0027, Japan &nbsp; <a href="https://goo.gl/maps/KfJb19p3ZQLqYjae7" rel="nofollow noopener noreferrer">（<i style="font-style:normal" class="fa fa-location-arrow" aria-hidden="true"></i> Map） </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 clearfix" style="padding-left: 30px; padding-right: 30px">
+          <!-- start custom footer snippets -->
+          <!-- end custom footer snippets -->
+            <div class="page__footer-follow">
+              <ul class="social-icons">
+                <li><strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>&nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal"  class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/rikenaiptlt" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="page__footer-copyright" style="padding-left: 30px; padding-right: 30px; color:#808080">© 2023 Tensor Learning Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
+        </div>
+      </div>
+    </div>
+  </div>

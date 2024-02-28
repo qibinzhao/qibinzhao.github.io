@@ -6,7 +6,7 @@ year: 2023
 type: journal
 title: 'Comprehensive multiview representation learning via deep autoencoder-like nonnegative matrix factorization'
 authors: H. Huang, G. Zhou, Q. Zhao, L. He, and S. Xie
-venue: IEEE Transactions on Neural Networks and Learning Systems
+venue: IEEE Transactions on Neural Networks and Learning Systems, 2023
 picture: 
 links:
   - type: website

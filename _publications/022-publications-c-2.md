@@ -6,7 +6,7 @@ year: 2022
 type: conference
 title: 'Dual-path image inpainting with auxiliary GAN inversion'
 authors: W. Wang, L. Niu, J. Zhang, X. Yang, and L. Zhang
-venue: The Conference on Computer Vision and Pattern Recognition (CVPR), 2022
+venue: Conference on Computer Vision and Pattern Recognition (CVPR), 2022
 picture: 
 links:
   - type: pdf

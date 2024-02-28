@@ -96,7 +96,40 @@ li {
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"><a href="/assets/publications/TLT-PublicationList.pdf"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;Full publication list</button></a></h1> -->
   <br><a href="/assets/publications/TLT-PublicationList.pdf"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;Full publication list</button></a>
-  
+  <!-- ---------------------------------------------------------------------- -->
+  <h2>2024</h2>
+  <table class="publications">
+    {% assign sorted = site.publications | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2024 %}
+    <tr class="paper-font" style="height:120px;">
+      <td>
+        <b><span>{{ paper.title }}</span></b><br>
+        <span>{{ paper.authors }}</span><br>
+        <i>
+        {% if paper.type == 'conference' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#67;&nbsp;</span>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 0.5px solid #000;font-size: 13px">&nbsp;&#74;&nbsp;</span>
+        {% endif %}{{ paper.venue }}</i><br>
+        {% if paper.bibtex.size > 0 %}
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
+        {% endif %}
+        {% for link in paper.links %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% endfor %}
+        {% if paper.note.size > 0 %}
+        <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
+        {% endif %}
+        {% if paper.specialnote.size > 0 %}
+        <br><span style="color:red; font-size:8px;">{{ paper.specialnote }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
   <!-- ---------------------------------------------------------------------- -->
   <h2>2023</h2>
   <table class="publications">

@@ -1,25 +1,22 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/044-publications/
+permalink: /publications/040-publications-j-1/
 year: 2023
 type: journal
 title: 'Comprehensive multiview representation learning via deep autoencoder-like nonnegative matrix factorization'
 authors: H. Huang, G. Zhou, Q. Zhao, L. He, and S. Xie
-venue: IEEE Transactions on Neural Networks and Learning Systems, 2023
+venue: IEEE Transactions on Neural Networks and Learning Systems
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: https://arxiv.org/abs/2303.00196
-  # - type: pdf
-  #   display: PDF
-  #   url: https://openreview.net/pdf?id=rih3hsSWx8
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/Analysis4TNN
+  - type: website
+    display: Website
+    url: https://ieeexplore.ieee.org/abstract/document/10241999
+  - type: code
+    display: Code
+    url: https://github.com/libertyhhn/DANMF-MRL
 bibtex: '@article{huang2023comprehensive,
-  title={Comprehensive multiview representation learning via deep autoencoder-like nonnegative matrix factorization},
+  title={Comprehensive Multiview Representation Learning via Deep Autoencoder-Like Nonnegative Matrix Factorization},
   author={Huang, Haonan and Zhou, Guoxu and Zhao, Qibin and He, Lifang and Xie, Shengli},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
   year={2023},

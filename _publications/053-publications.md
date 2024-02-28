@@ -18,7 +18,12 @@ links:
   # - type: code
   #   display: Code
   #   url: https://github.com/pingzaiwang/Analysis4TNN
-bibtex: ''
+bibtex: '@article{lin2024adversarial,
+  title={Adversarial Training on Purification (AToP): Advancing Both Robustness and Generalization},
+  author={Lin, Guang and Li, Chao and Zhang, Jianhai and Tanaka, Toshihisa and Zhao, Qibin},
+  journal={arXiv preprint arXiv:2401.16352},
+  year={2024}
+}'
 ---
 
 <script>

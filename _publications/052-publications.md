@@ -18,7 +18,12 @@ links:
   # - type: code
   #   display: Code
   #   url: https://github.com/pingzaiwang/Analysis4TNN
-bibtex: ''
+bibtex: '@inproceedings{ju2023deep,
+  title={Deep Geodesic Canonical Correlation Analysis for Covariance-Based Neuroimaging Data},
+  author={Ju, Ce and Kobler, Reinmar J and Tang, Liyao and Guan, Cuntai and Kawanabe, Motoaki},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2023}
+}'
 ---
 
 <script>

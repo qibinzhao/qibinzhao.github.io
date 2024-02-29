@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /academic_activities/012-activities/
 date: 2024-01-01
-title: 'International Workshop on TMME: Tensor Models for Machine lEarning - Empowering Efficiency, lnterpretability, and Reliability in conjunction with IEEE CAI 2024'
+title: 'Workshop on TMME: Tensor Models for Machine Learning: Empowering Efficiency, lnterpretability, and Reliability in conjunction with IEEE CAI 2024'
 url_: https://tensorworkshop.github.io/TMME-CAI2024/
 pdf_url: 
 sub: 0

@@ -1,7 +1,7 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/042-publications/
+permalink: /publications/023-publications-c-3/
 year: 2023
 type: conference
 title: 'Undirected Probabilistic Model for Tensor Decomposition'
@@ -9,9 +9,12 @@ authors: Z. Tao, T. Tanaka, and Q. Zhao
 venue: Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS), 2023
 picture: 
 links:
-  # - type: website
-  #   display: Website
-  #   url: https://ojs.aaai.org/index.php/AAAI/article/view/26329
+  - type: website
+    display: Openreview
+    url: https://openreview.net/forum?id=3NWWgB2SuF
+  - type: code
+    display: Code
+    url: https://github.com/taozerui/energy_td
 bibtex: '@inproceedings{tao2023undirected,
   title={Undirected Probabilistic Model for Tensor Decomposition},
   author={Tao, Zerui and Tanaka, Toshihisa and Zhao, Qibin},

@@ -1,7 +1,7 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/050-publications/
+permalink: /publications/024-publications-c-2/
 year: 2024
 type: conference
 title: 'Efficient nonparametric tensor decomposition for binary and count data'
@@ -9,20 +9,20 @@ authors: Z. Tao, T. Tanaka, and Q. Zhao
 venue: AAAI Conference on Artificial Intelligence (AAAI), 2024
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: https://arxiv.org/abs/2303.00196
+  - type: arxiv
+    display: arxiv
+    url: https://arxiv.org/abs/2401.07711
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/Analysis4TNN
-bibtex: '@article{tao2024efficient,
-  title={Efficient Nonparametric Tensor Decomposition for Binary and Count Data},
+  - type: code
+    display: Code
+    url: https://github.com/taozerui/gptd
+bibtex: '@inproceedings{tao2024eff,
   author={Tao, Zerui and Tanaka, Toshihisa and Zhao, Qibin},
-  journal={arXiv preprint arXiv:2401.07711},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  title={Efficient Nonparametric Tensor Decomposition for Binary and Count Data},
+  year={2024},
 }'
 ---
 

@@ -8,20 +8,32 @@ gallery:
   #   image_path: /assets/images/gallery/harsha_defense_1.png
   #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
-  - url: /assets/images/gallery/006.jpg
-    image_path: /assets/images/gallery/006.jpg
+  - url: /assets/images/gallery/AAAI2024_03.jpg
+    image_path: /assets/images/gallery/AAAI2024_03.jpg
+    alt: "Presentation at AAAI 2024 "
+    title: "Presentation at AAAI 2024"
+  - url: /assets/images/gallery/AAAI2024_02.jpg
+    image_path: /assets/images/gallery/AAAI2024_02.jpg
+    alt: "Presentation at AAAI 2024"
+    title: "Presentation at AAAI 2024"
+  - url: /assets/images/gallery/AAAI2024_01.jpg
+    image_path: /assets/images/gallery/AAAI2024_01.jpg
+    alt: "Presentation at AAAI 2024"
+    title: "Presentation at AAAI 2024"
+  - url: /assets/images/gallery/NeurIPS2023_04.jpg
+    image_path: /assets/images/gallery/NeurIPS2023_04.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/images/gallery/005.jpg
-    image_path: /assets/images/gallery/005.jpg
+  - url: /assets/images/gallery/NeurIPS2023_03.jpg
+    image_path: /assets/images/gallery/NeurIPS2023_03.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/images/gallery/004.jpg
-    image_path: /assets/images/gallery/004.jpg
+  - url: /assets/images/gallery/NeurIPS2023_02.jpg
+    image_path: /assets/images/gallery/NeurIPS2023_02.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/images/gallery/003.jpg
-    image_path: /assets/images/gallery/003.jpg
+  - url: /assets/images/gallery/NeurIPS2023_01.jpg
+    image_path: /assets/images/gallery/NeurIPS2023_01.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
   - url: /assets/images/gallery/002.jpg

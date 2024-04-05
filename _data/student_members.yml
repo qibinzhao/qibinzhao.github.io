@@ -27,6 +27,16 @@
   number_educ: 0
   education1: TBD
   education2: TBD
+  
+# --------------------------------------------------------------
+- name: Nguyen Duc Thien
+  photo: None.png
+  info: Junior Research Associate (JRA)
+  url: 'https://ducthiennguyen.github.io/'
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
 
 # --------------------------------------------------------------
 - name: Tenghui Li
@@ -102,7 +112,7 @@
 - name: Jinliang Xiao
   photo: None.png
   info: Intern
-  url: ''
+  url: 'https://jin-liangxiao.github.io'
   email: 
   number_educ: 0
   education1: TBD

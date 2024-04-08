@@ -9,7 +9,7 @@
   education1: TBD
   education2: TBD
 
-  # --------------------------------------------------------------
+# --------------------------------------------------------------
 - name: Andong Wang
   photo: andongWang.jpg
   info: Postdoctoral Researcher
@@ -19,7 +19,7 @@
   education1: TBD
   education2: TBD
 
-  # --------------------------------------------------------------
+# --------------------------------------------------------------
 - name: Mingyuan Bai
   photo: None.png
   info: Postdoctoral Researcher
@@ -29,10 +29,20 @@
   education1: TBD
   education2: TBD
 
-  # --------------------------------------------------------------
+# --------------------------------------------------------------
 - name: Yuning Qiu
   photo: yuningQiu.jpg
   info: Special Postdoctoral Researcher
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+# --------------------------------------------------------------
+- name: Yicong He
+  photo: yicongHe.jpg
+  info: Postdoctoral Researcher
   url: ''
   email: 
   number_educ: 0

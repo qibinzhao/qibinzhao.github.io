@@ -7,7 +7,7 @@ main:
     url: /members/
   - title: "Publications"
     url: /publications/
-  - title: "Codes"
+  - title: "Code"
     url: /codes/
   - title: "Academic activities"
     url: /academic_activities/

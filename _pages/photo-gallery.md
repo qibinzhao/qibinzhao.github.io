@@ -8,6 +8,10 @@ gallery:
   #   image_path: /assets/images/gallery/harsha_defense_1.png
   #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
+  - url: /assets/images/gallery/TLTSeminar20240425.jpg
+    image_path: /assets/images/gallery/TLTSeminar20240425.jpg
+    alt: "[Tensor Learning Team Seminar] Talk by Prof. Danilo P. Mandic, Imperial College London"
+    title: "[Tensor Learning Team Seminar] Talk by Prof. Danilo P. Mandic, Imperial College London"
   - url: /assets/images/gallery/AAAI2024_03.jpg
     image_path: /assets/images/gallery/AAAI2024_03.jpg
     alt: "Presentation at AAAI 2024 "

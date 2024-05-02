@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/042-news/
-title: 'Our team have 3 papers accepted by AAAI 2024.'
+title: 'Our team has 3 papers accepted by AAAI 2024.'
 date: 2023-12-15
 news_content: ''
 number_photo: 0

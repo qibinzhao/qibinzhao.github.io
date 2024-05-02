@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/043-news/
-title: 'Our team have two papers accepted by ICLR 2024 with one spotlight and one poster presentation.'
+title: 'Our team has two papers accepted by ICLR 2024 with one spotlight and one poster presentation.'
 date: 2024-01-17
 news_content: ''
 number_photo: 0

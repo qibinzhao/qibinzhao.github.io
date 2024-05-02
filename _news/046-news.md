@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/046-news/
-title: ' Our team have five papers accepted by ICML 2024.'
+title: ' Our team has five papers accepted by ICML 2024.'
 date: 2024-05-02
 news_content: ''
 number_photo: 0

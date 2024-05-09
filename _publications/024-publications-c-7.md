@@ -6,7 +6,7 @@ year: 2024
 type: conference
 title: 'Adversarially Robust Deep Multi-View Clustering: A Novel Attack and Defense Framework'
 authors: H. Huang, G. Zhou, Y. Zheng, Y. Qiu, A. Wang and Q. Zhao
-venue: IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2024
+venue: International Conference on Machine Learning (ICML), 2024
 picture: 
 links:
   # - type: arxiv

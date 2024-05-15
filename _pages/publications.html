@@ -99,7 +99,7 @@ li {
   <!-- ---------------------------------------------------------------------- -->
   <h2>2024</h2>
   <table class="publications">
-    {% assign sorted = site.publications | reverse %}
+    {% assign sorted = site.publications %}
     {% for paper in sorted %}
     {% if paper.year == 2024 %}
     <tr class="paper-font" style="height:95px;">

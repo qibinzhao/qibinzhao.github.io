@@ -18,7 +18,15 @@ links:
   # - type: code
   #   display: Code
   #   url: https://github.com/pingzaiwang/Analysis4TNN
-bibtex: ''
+bibtex: '@inproceedings{qiu2024towards,
+  title={Towards Multi-Mode Outlier Robust Tensor Ring Decomposition},
+  author={Qiu, Yuning and Zhou, Guoxu and Wang, Andong and Huang, Zhenhao and Zhao, Qibin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={13},
+  pages={14713--14721},
+  year={2024}
+}'
 ---
 
 <script>

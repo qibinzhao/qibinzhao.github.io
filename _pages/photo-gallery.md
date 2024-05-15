@@ -8,44 +8,48 @@ gallery:
   #   image_path: /assets/images/gallery/harsha_defense_1.png
   #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
-  - url: /assets/images/gallery/TLTSeminar20240425.jpg
-    image_path: /assets/images/gallery/TLTSeminar20240425.jpg
+  - url: /assets/gallery/ICLR2024_01.jpg
+    image_path: /assets/gallery/ICLR2024_01.jpg
+    alt: "Presentation at ICLR 2024 "
+    title: "Presentation at ICLR 2024"
+  - url: /assets/gallery/TLTSeminar20240425.jpg
+    image_path: /assets/gallery/TLTSeminar20240425.jpg
     alt: "[Tensor Learning Team Seminar] Talk by Prof. Danilo P. Mandic, Imperial College London"
     title: "[Tensor Learning Team Seminar] Talk by Prof. Danilo P. Mandic, Imperial College London"
-  - url: /assets/images/gallery/AAAI2024_03.jpg
-    image_path: /assets/images/gallery/AAAI2024_03.jpg
+  - url: /assets/gallery/AAAI2024_03.jpg
+    image_path: /assets/gallery/AAAI2024_03.jpg
     alt: "Presentation at AAAI 2024 "
     title: "Presentation at AAAI 2024"
-  - url: /assets/images/gallery/AAAI2024_02.jpg
-    image_path: /assets/images/gallery/AAAI2024_02.jpg
+  - url: /assets/gallery/AAAI2024_02.jpg
+    image_path: /assets/gallery/AAAI2024_02.jpg
     alt: "Presentation at AAAI 2024"
     title: "Presentation at AAAI 2024"
-  - url: /assets/images/gallery/AAAI2024_01.jpg
-    image_path: /assets/images/gallery/AAAI2024_01.jpg
+  - url: /assets/gallery/AAAI2024_01.jpg
+    image_path: /assets/gallery/AAAI2024_01.jpg
     alt: "Presentation at AAAI 2024"
     title: "Presentation at AAAI 2024"
-  - url: /assets/images/gallery/NeurIPS2023_04.jpg
-    image_path: /assets/images/gallery/NeurIPS2023_04.jpg
+  - url: /assets/gallery/NeurIPS2023_04.jpg
+    image_path: /assets/gallery/NeurIPS2023_04.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/images/gallery/NeurIPS2023_03.jpg
-    image_path: /assets/images/gallery/NeurIPS2023_03.jpg
+  - url: /assets/gallery/NeurIPS2023_03.jpg
+    image_path: /assets/gallery/NeurIPS2023_03.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/images/gallery/NeurIPS2023_02.jpg
-    image_path: /assets/images/gallery/NeurIPS2023_02.jpg
+  - url: /assets/gallery/NeurIPS2023_02.jpg
+    image_path: /assets/gallery/NeurIPS2023_02.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/images/gallery/NeurIPS2023_01.jpg
-    image_path: /assets/images/gallery/NeurIPS2023_01.jpg
+  - url: /assets/gallery/NeurIPS2023_01.jpg
+    image_path: /assets/gallery/NeurIPS2023_01.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/images/gallery/002.jpg
-    image_path: /assets/images/gallery/002.jpg
+  - url: /assets/gallery/002.jpg
+    image_path: /assets/gallery/002.jpg
     alt: "[Tensor Learning Team Seminar] Talk by Dr. Yuandong Tian"
     title: "[Tensor Learning Team Seminar] Talk by Dr. Yuandong Tian"
-  - url: /assets/images/gallery/001.jpg
-    image_path: /assets/images/gallery/001.jpg
+  - url: /assets/gallery/001.jpg
+    image_path: /assets/gallery/001.jpg
     # alt: ""
     # title: ""
 

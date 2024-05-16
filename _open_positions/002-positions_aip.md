@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /open_positions/002-positions/
 title: Part-time student
-url_: https://www.riken.jp/en/careers/researchers/20230316_1/index.html
+url_: https://www.riken.jp/en/careers/researchers/20240515_1/index.html
 is_open: 0
 is_riken: 1
 description: ''

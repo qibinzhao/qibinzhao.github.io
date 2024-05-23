@@ -89,20 +89,20 @@
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Haonan Huang
-  photo: haonanHuang.jpg
-  info: Intern
-  url: 'https://libertyhhn.github.io/'
+- name: Jinhua Chen
+  photo: None.png
+  info: Research Part-time Worker
+  url: ''
   email: 
   number_educ: 0
   education1: TBD
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Junhua Zeng
-  photo: None.png
+- name: Haonan Huang
+  photo: haonanHuang.jpg
   info: Intern
-  url: ''
+  url: 'https://libertyhhn.github.io/'
   email: 
   number_educ: 0
   education1: TBD

@@ -12,12 +12,12 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: https://arxiv.org/abs/2303.00196
-  # - type: pdf
-  #   display: PDF
-  #   url: https://openreview.net/pdf?id=rih3hsSWx8
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/Analysis4TNN
+  - type: website
+    display: Paper
+    url: https://openreview.net/forum?id=D9EfAkQCzh
+  - type: code
+    display: Code
+    url: https://github.com/libertyhhn/AR-DMVC
 bibtex: '@inproceedings{huang2024Adversarially,
  title={Adversarially Robust Deep Multi-View Clustering: A Novel Attack and Defense Framework},
  author={Huang, Haonan and Zhou, Guoxu and Zheng, Yanghang and Qiu, Yuning and Wang, Andong, and Zhao, Qibin},

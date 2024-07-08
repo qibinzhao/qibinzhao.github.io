@@ -13,11 +13,11 @@ gallery:
     alt: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
     title: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
   - url: /assets/gallery/CAI2024_02.jpg
-    image_path: /assets/gallery/CAI2024_01.jpg
+    image_path: /assets/gallery/CAI2024_02.jpg
     alt: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
     title: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
   - url: /assets/gallery/CAI2024_03.jpg
-    image_path: /assets/gallery/CAI2024_01.jpg
+    image_path: /assets/gallery/CAI2024_03.jpg
     alt: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
     title: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
   - url: /assets/gallery/ICLR2024_01.jpg

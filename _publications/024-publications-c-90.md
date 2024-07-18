@@ -12,7 +12,7 @@ picture:
 links:
   - type: pdf
     display: Poster
-    url: assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
+    url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8

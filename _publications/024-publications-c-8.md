@@ -9,12 +9,12 @@ authors: W. Zhou, S. Bai, S. Yu, Q. Zhao and B. Chen
 venue: International Conference on Machine Learning (ICML), 2024
 picture: 
 links:
-  - type: arxiv
-    display: arxiv
-    url: http://arxiv.org/abs/2405.08779
   - type: website
     display: Paper
     url: https://openreview.net/forum?id=FG5hjRBtpm&referrer=%5Bthe%20profile%20of%20Shujian%20Yu%5D(%2Fprofile%3Fid%3D~Shujian_Yu1)
+  - type: arxiv
+    display: arxiv
+    url: http://arxiv.org/abs/2405.08779
   - type: code
     display: Code
     url: https://github.com/ElleZWQ/JRNGC.git

@@ -9,15 +9,15 @@ authors: G. Lin, C. Li, J. Zhang, T. Tanaka, and Q. Zhao
 venue: International Conference on Learning Representations (ICLR), 2024
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: https://arxiv.org/abs/2303.00196
-  # - type: pdf
-  #   display: PDF
-  #   url: https://openreview.net/pdf?id=rih3hsSWx8
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/Analysis4TNN
+  - type: website
+    display: Paper
+    url: https://openreview.net/forum?id=u7559ZMvwY
+  - type: pdf
+    display: Poster
+    url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
+  - type: code
+    display: Code
+    url: https://github.com/glin2022/atop
 bibtex: '@article{lin2024adversarial,
   title={Adversarial Training on Purification (AToP): Advancing Both Robustness and Generalization},
   author={Lin, Guang and Li, Chao and Zhang, Jianhai and Tanaka, Toshihisa and Zhao, Qibin},

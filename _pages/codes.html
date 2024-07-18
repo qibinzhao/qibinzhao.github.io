@@ -56,6 +56,29 @@ li {
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1> -->
   <br>
 
+  <h2> 2024 </h2>
+  <table class="publications">
+    {% assign sorted = site.codes | reverse %}
+    {% for paper in sorted %}
+    {% if paper.year == 2024 %}
+    <tr class="paper-font">
+      <td>
+        <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
+        {% for link in paper.links %}
+        {% if link.icon == 'bibtex' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn">&nbsp;<i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;</button></a>&nbsp;
+        {% endif %}
+        {% if link.icon == 'github' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
+        {% endif %}
+        {% endfor %}
+        <b><span>{{ paper.title }}</span></b>&nbsp;
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+
   <h2> 2023 </h2>
   <table class="publications">
     {% assign sorted = site.codes | reverse %}

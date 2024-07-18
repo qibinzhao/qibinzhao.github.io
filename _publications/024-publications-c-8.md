@@ -12,9 +12,9 @@ links:
   - type: arxiv
     display: arxiv
     url: http://arxiv.org/abs/2405.08779
-  # - type: pdf
-  #   display: PDF
-  #   url: https://openreview.net/pdf?id=rih3hsSWx8
+  - type: website
+    display: Paper
+    url: https://openreview.net/forum?id=FG5hjRBtpm&referrer=%5Bthe%20profile%20of%20Shujian%20Yu%5D(%2Fprofile%3Fid%3D~Shujian_Yu1)
   - type: code
     display: Code
     url: https://github.com/ElleZWQ/JRNGC.git

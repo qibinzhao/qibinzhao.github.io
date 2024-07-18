@@ -10,12 +10,12 @@ authors: J. Zeng, C. Li, Z. Sun, Q. Zhao, G. Zhou
 venue: International Conference on Machine Learning (ICML), 2024
 picture: 
 links:
+  - type: website
+    display: Paper
+    url: https://openreview.net/forum?id=LVgT0ShxN5&referrer=%5Bthe%20profile%20of%20Junhua%20Zeng%5D(%2Fprofile%3Fid%3D~Junhua_Zeng1)
   - type: pdf
     display: Poster
     url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
-  # - type: pdf
-  #   display: PDF
-  #   url: https://openreview.net/pdf?id=rih3hsSWx8
   - type: code
     display: Code
     url: https://github.com/ChaoLiAtRIKEN/tngps

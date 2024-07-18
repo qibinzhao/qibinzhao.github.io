@@ -1,13 +1,13 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /codes/020-codes/
+permalink: /codes/022-codes/
 year: 2024
-title: 'Efficient nonparametric tensor decomposition for binary and count data (AAAI 2024)'
+title: 'Adversarially Robust Deep Multi-View Clustering: A Novel Attack and Defense Framework (ICML 2024)'
 links:
   - type: github
     display: Github
-    url: https://github.com/taozerui/gptd
+    url: https://github.com/libertyhhn/AR-DMVC
     icon: github
 ---
 

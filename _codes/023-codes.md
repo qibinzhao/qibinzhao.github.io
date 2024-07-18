@@ -1,13 +1,13 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /codes/020-codes/
+permalink: /codes/022-codes/
 year: 2024
-title: 'Efficient nonparametric tensor decomposition for binary and count data (AAAI 2024)'
+title: 'Jacobian Regularizer-based Neural Granger Causality (ICML 2024)'
 links:
   - type: github
     display: Github
-    url: https://github.com/taozerui/gptd
+    url: https://github.com/ElleZWQ/JRNGC.git
     icon: github
 ---
 

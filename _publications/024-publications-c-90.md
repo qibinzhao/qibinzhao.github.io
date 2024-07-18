@@ -10,7 +10,7 @@ authors: J. Zeng, C. Li, Z. Sun, Q. Zhao, G. Zhou
 venue: International Conference on Machine Learning (ICML), 2024
 picture: 
 links:
-  - type: website
+  - type: pdf
     display: Poster
     url: assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
   # - type: pdf

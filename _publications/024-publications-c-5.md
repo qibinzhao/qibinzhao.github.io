@@ -14,7 +14,7 @@ links:
     url: https://openreview.net/forum?id=u7559ZMvwY
   - type: pdf
     display: Poster
-    url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
+    url: /assets/publications/ICLR2024_LinGuang/Guang_Lin_ICLR_poster.pdf
   - type: code
     display: Code
     url: https://github.com/glin2022/atop

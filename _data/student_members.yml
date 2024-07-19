@@ -67,10 +67,30 @@
   number_educ: 0
   education1: TBD
   education2: TBD
-  # --------------------------------------------------------------
+# --------------------------------------------------------------
 
 - name: Hailin Wang
   photo: hailinWang.jpg
+  info: International Program Associate (IPA)
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+# --------------------------------------------------------------
+
+- name: Dongping Zhang
+  photo: None.png
+  info: International Program Associate (IPA)
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+# --------------------------------------------------------------
+
+- name: Zhenhao Huang
+  photo: None.png
   info: International Program Associate (IPA)
   url: ''
   email: 

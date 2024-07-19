@@ -15,6 +15,9 @@ links:
   - type: arxiv
     display: arxiv
     url: http://arxiv.org/abs/2405.08779
+  - type: pdf
+    display: Poster
+    url: /assets/publications/ICML2024_WanqiZhou/JRNGC_poster.pdf
   - type: code
     display: Code
     url: https://github.com/ElleZWQ/JRNGC.git

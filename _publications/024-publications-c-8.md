@@ -12,9 +12,6 @@ links:
   - type: website
     display: Paper
     url: https://openreview.net/forum?id=FG5hjRBtpm&referrer=%5Bthe%20profile%20of%20Shujian%20Yu%5D(%2Fprofile%3Fid%3D~Shujian_Yu1)
-  - type: arxiv
-    display: arxiv
-    url: http://arxiv.org/abs/2405.08779
   - type: pdf
     display: Poster
     url: /assets/publications/ICML2024_WanqiZhou/JRNGC_poster.pdf

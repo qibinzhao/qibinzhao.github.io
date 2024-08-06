@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /open_positions/001-positions/
 title: Postdoctoral Researcher, 1 position
-url_: https://www.riken.jp/en/careers/researchers/20240111_5/index.html
+url_: https://www.riken.jp/en/careers/researchers/20240806_2/index.html 
 is_open: 0
 is_riken: 1
 description: 'The candidate is expected to conduct research on the development of tensor decomposition theory and algorithms and leverage it to solve challenging machine learning problems. Specifically, several research themes can be investigated, such as adversarial machine learning, nonlinear tensor decomposition and generative models. The experiences and expertise in tensor methods, Bayesian methods and trustworthy machine learning are highly expected.'

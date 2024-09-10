@@ -15,9 +15,9 @@ links:
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/Analysis4TNN
+  - type: code
+    display: Code
+    url: https://github.com/BaiShuanghao/Prompt-based-Distribution-Alignment
 bibtex: '@article{bai2023prompt,
   title={Prompt-based Distribution Alignment for Unsupervised Domain Adaptation},
   author={Bai, Shuanghao and Zhang, Min and Zhou, Wanqi and Huang, Siteng and Luan, Zhirong and Wang, Donglin and Chen, Badong},

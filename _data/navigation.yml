@@ -15,3 +15,5 @@ main:
     url: /positions/
   - title: "Gallery"
     url: /gallery/
+  - title: "Official Link"
+    url: https://aip.riken.jp/labs/generic_tech/tensor_learn/?lang=en

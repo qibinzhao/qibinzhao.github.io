@@ -1,17 +1,16 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/012-events/
-date: 2024-01-01
-title: 'Workshop on TMME: Tensor Models for Machine Learning: Empowering Efficiency, lnterpretability, and Reliability in conjunction with IEEE CAI 2024'
-url_: https://tensorworkshop.github.io/TMME-CAI2024/
+permalink: /events/005-event/
+date: 2020-11-1
+title: '[1st AIP Open Seminar] Talks by Tensor Learning Team.'
+url_: https://aip.riken.jp/events/event_112436/
 pdf_url: 
 sub: 0
-type: 
 links:
-  - sub_title: ''
+  - sub_title:
     url: 
-    pdf_url: 
+    pdf_url:
 ---
 
 
@@ -82,7 +81,7 @@ li {
 
 </style>
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> academic activities </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
   <br><br>
   <div class="news-a">
     <section class="news-p">

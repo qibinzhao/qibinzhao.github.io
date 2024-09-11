@@ -1,14 +1,15 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/009-events/
-date: 2021-12-01
-title: 'Second Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2020.'
-url_: https://tensorworkshop.github.io/NeurIPS2021/index.html
+permalink: /events/004-event/
+date: 2022-02-16
+title: '[EPFL CIS - RIKEN AIP Joint Seminar]: <i>Efficient Machine Learning with Tensor Networks</i> by Dr. Qibin Zhao.'
+url_: https://aip.riken.jp/video/epfl-cis-riken-aip-joint-seminar-8-20220216/
 pdf_url: 
 sub: 0
+type: 
 links:
-  - sub_title:
+  - sub_title: 
     url: 
     pdf_url: 
 ---
@@ -81,7 +82,7 @@ li {
 
 </style>
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> academic activities </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
   <br><br>
   <div class="news-a">
     <section class="news-p">

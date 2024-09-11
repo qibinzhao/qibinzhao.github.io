@@ -1,17 +1,20 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/006-events/
-date: 2020-11-01
-title: '[ACML 2020 Tutorial] <i>Tensor Networks in Machine Learning: Recent Advances and Frontiers</i> by Dr. Qibin Zhao. (<a href="/ACML2020_Tutorial/TNML-ACML2020Tutorial-QibinZhao.pdf">Slide</a>)'
-url_: https://qibinzhao.github.io/ACML2020_Tutorial/
+permalink: /events/003-event/
+date: 1970-01-01
+title: 'Lectures at The University of Tokyo'
+url_: 
 pdf_url: 
-sub: 0
+sub: 1
 type: 
 links:
-  - sub_title: ''
+  - sub_title: 'Lecture 1: Tensor Factorization and Tensor Networks for Machine Learning.'
     url: 
-    pdf_url: 
+    pdf_url: /assets/events/2021_TN4ML.pdf
+  - sub_title: 'Lecture 2: Interpretable and Adversarial Machine Learning.'
+    url: 
+    pdf_url: /assets/events/2021_TrustworthyML.pdf
 ---
 
 
@@ -82,11 +85,11 @@ li {
 
 </style>
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> academic activities </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <br>
+      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

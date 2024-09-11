@@ -1,16 +1,16 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/005-events/
-date: 2020-11-1
-title: '[1st AIP Open Seminar] Talks by Tensor Learning Team.'
-url_: https://aip.riken.jp/events/event_112436/
+permalink: /events/008-event/
+date: 2021-01-01
+title: 'International Workshop on Tensor Network Representations in Machine Learning In conjunction with IJCAI-2020.'
+url_: https://tensorworkshop.github.io/2020/
 pdf_url: 
 sub: 0
 links:
   - sub_title:
     url: 
-    pdf_url:
+    pdf_url: 
 ---
 
 
@@ -81,11 +81,11 @@ li {
 
 </style>
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> academic activities </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <br>
+      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

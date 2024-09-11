@@ -1,23 +1,16 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/001-events/
-date: 2018-06-01
-title: 'Waseda University Lectures'
-url_: 
+permalink: /events/010-event/
+date: 2023-10-01
+title: '[Tensor Learning Team Seminar] <i>Demystifying Attention Mechanism in Multi-layer Transformer and its application to Better Inference of Large Language Models (LLMs)</i> by Dr. Yuandong Tian, Meta AI Research (FAIR).'
+url_: https://aip.riken.jp/video/tensor-learning-team-seminar-20231006/
 pdf_url: 
-sub: 1
-type: 
+sub: 0
 links:
-  - sub_title: 'Lecture 1: Multilinear Algebra and Tensor Decompositions.'
+  - sub_title:
     url: 
-    pdf_url: /assets/events/Lesson 1 Multilinear Algebra and Tensor Decompositions.pdf
-  - sub_title: 'Lecture 2: Tensor Networks.'
-    url: 
-    pdf_url: /assets/events/Lesson 2 tensor networks.pdf
-  - sub_title: 'Lecture 3: Tensor Methods for Signal Processing and Machine Learning.'
-    url: 
-    pdf_url: /assets/events/Lesson 3 Tensor Methods for Signal Processing and Machine Learning.pdf
+    pdf_url: 
 ---
 
 
@@ -88,7 +81,7 @@ li {
 
 </style>
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> academic activities </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
   <br><br>
   <div class="news-a">
     <section class="news-p">

@@ -83,25 +83,25 @@ li {
     <br><br>
     <div class="news-a">
       {% assign sorted = site.events | reverse %}
-      {% for activity in sorted %}
+      {% for event in sorted %}
       <section class="news-p">
-        {% if activity.title != 'Lectures at The University of Tokyo' %}
-        <span class="news-date"><b>{{ activity.date | date: "%b %Y" }}</b></span><br>
+        {% if event.title != 'Lectures at The University of Tokyo' %}
+        <span class="news-date"><b>{{ event.date | date: "%b %Y" }}</b></span><br>
         {% endif %}
 
-        {% if activity.url_.size > 0 %}
-        <a href="{{ activity.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
+        {% if event.url_.size > 0 %}
+        <a href="{{ event.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
         {% endif %}
 
-        {% if activity.pdf_url.size > 0 %}
-        <a href="{{ activity.pdf_url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&emsp;&nbsp;PDF&emsp;</button></a>
+        {% if event.pdf_url.size > 0 %}
+        <a href="{{ event.pdf_url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&emsp;&nbsp;PDF&emsp;</button></a>
         {% endif %}
 
-        &nbsp;<span class="bold">{{ activity.title }}</span>&nbsp;
+        &nbsp;<span class="bold">{{ event.title }}</span>&nbsp;
         <br>
 
-        {% if activity.sub == 1 %}
-          {% for link in activity.links %}
+        {% if event.sub == 1 %}
+          {% for link in event.links %}
           &emsp;&emsp;
           {% if link.url.size > 0 %}
           <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>

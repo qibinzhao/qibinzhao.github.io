@@ -1,17 +1,23 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/002-events/
-date: 2019-05-01
-title: 'Tensor Network Representation for Machine Learning - Recent Advances and Perspectives.'
+permalink: /events/001-event/
+date: 2018-06-01
+title: 'Waseda University Lectures'
 url_: 
-pdf_url: /assets/events/2019AIPsymposium.pdf
-sub: 0
+pdf_url: 
+sub: 1
 type: 
 links:
-  - sub_title: 
+  - sub_title: 'Lecture 1: Multilinear Algebra and Tensor Decompositions.'
     url: 
-    pdf_url: 
+    pdf_url: /assets/events/Lesson 1 Multilinear Algebra and Tensor Decompositions.pdf
+  - sub_title: 'Lecture 2: Tensor Networks.'
+    url: 
+    pdf_url: /assets/events/Lesson 2 tensor networks.pdf
+  - sub_title: 'Lecture 3: Tensor Methods for Signal Processing and Machine Learning.'
+    url: 
+    pdf_url: /assets/events/Lesson 3 Tensor Methods for Signal Processing and Machine Learning.pdf
 ---
 
 
@@ -82,7 +88,7 @@ li {
 
 </style>
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> academic activities </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
   <br><br>
   <div class="news-a">
     <section class="news-p">

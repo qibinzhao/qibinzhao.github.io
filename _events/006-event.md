@@ -1,10 +1,10 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/013-events/
-date: 2024-08-01
-title: 'The 2nd RIKEN AIP – SJTU CS Joint Workshop on Machine Learning and Brain-like Intelligence'
-url_: https://tensorworkshop.github.io/RIKENAIP_SJTUCS2024
+permalink: /events/006-event/
+date: 2020-11-01
+title: '[ACML 2020 Tutorial] <i>Tensor Networks in Machine Learning: Recent Advances and Frontiers</i> by Dr. Qibin Zhao. (<a href="/ACML2020_Tutorial/TNML-ACML2020Tutorial-QibinZhao.pdf">Slide</a>)'
+url_: https://qibinzhao.github.io/ACML2020_Tutorial/
 pdf_url: 
 sub: 0
 type: 
@@ -82,7 +82,7 @@ li {
 
 </style>
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> academic activities </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
   <br><br>
   <div class="news-a">
     <section class="news-p">

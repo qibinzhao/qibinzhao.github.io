@@ -1,23 +1,16 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/001-activities/
-date: 2018-06-01
-title: 'Waseda University Lectures'
-url_: 
+permalink: /events/008-events/
+date: 2021-01-01
+title: 'International Workshop on Tensor Network Representations in Machine Learning In conjunction with IJCAI-2020.'
+url_: https://tensorworkshop.github.io/2020/
 pdf_url: 
-sub: 1
-type: 
+sub: 0
 links:
-  - sub_title: 'Lecture 1: Multilinear Algebra and Tensor Decompositions.'
+  - sub_title:
     url: 
-    pdf_url: /assets/academic_activities/Lesson 1 Multilinear Algebra and Tensor Decompositions.pdf
-  - sub_title: 'Lecture 2: Tensor Networks.'
-    url: 
-    pdf_url: /assets/academic_activities/Lesson 2 tensor networks.pdf
-  - sub_title: 'Lecture 3: Tensor Methods for Signal Processing and Machine Learning.'
-    url: 
-    pdf_url: /assets/academic_activities/Lesson 3 Tensor Methods for Signal Processing and Machine Learning.pdf
+    pdf_url: 
 ---
 
 

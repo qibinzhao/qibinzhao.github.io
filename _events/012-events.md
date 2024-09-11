@@ -1,16 +1,17 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/005-activities/
-date: 2020-11-1
-title: '[1st AIP Open Seminar] Talks by Tensor Learning Team.'
-url_: https://aip.riken.jp/events/event_112436/
+permalink: /events/012-events/
+date: 2024-01-01
+title: 'Workshop on TMME: Tensor Models for Machine Learning: Empowering Efficiency, lnterpretability, and Reliability in conjunction with IEEE CAI 2024'
+url_: https://tensorworkshop.github.io/TMME-CAI2024/
 pdf_url: 
 sub: 0
+type: 
 links:
-  - sub_title:
+  - sub_title: ''
     url: 
-    pdf_url:
+    pdf_url: 
 ---
 
 

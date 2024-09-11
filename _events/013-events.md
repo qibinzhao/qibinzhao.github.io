@@ -1,14 +1,15 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/010-activities/
-date: 2023-10-01
-title: '[Tensor Learning Team Seminar] <i>Demystifying Attention Mechanism in Multi-layer Transformer and its application to Better Inference of Large Language Models (LLMs)</i> by Dr. Yuandong Tian, Meta AI Research (FAIR).'
-url_: https://aip.riken.jp/video/tensor-learning-team-seminar-20231006/
+permalink: /events/013-events/
+date: 2024-08-01
+title: 'The 2nd RIKEN AIP – SJTU CS Joint Workshop on Machine Learning and Brain-like Intelligence'
+url_: https://tensorworkshop.github.io/RIKENAIP_SJTUCS2024
 pdf_url: 
 sub: 0
+type: 
 links:
-  - sub_title:
+  - sub_title: ''
     url: 
     pdf_url: 
 ---
@@ -85,7 +86,7 @@ li {
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
+      <br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

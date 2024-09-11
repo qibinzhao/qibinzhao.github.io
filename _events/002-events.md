@@ -1,14 +1,15 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/009-activities/
-date: 2021-12-01
-title: 'Second Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2020.'
-url_: https://tensorworkshop.github.io/NeurIPS2021/index.html
-pdf_url: 
+permalink: /events/002-events/
+date: 2019-05-01
+title: 'Tensor Network Representation for Machine Learning - Recent Advances and Perspectives.'
+url_: 
+pdf_url: /assets/events/2019AIPsymposium.pdf
 sub: 0
+type: 
 links:
-  - sub_title:
+  - sub_title: 
     url: 
     pdf_url: 
 ---
@@ -85,7 +86,7 @@ li {
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <br>
+      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: splash
-permalink: /academic_activities/
-title: "academic activities"
+permalink: /events/
+title: "events"
 $paragraph-indent: true
 ---
 
@@ -82,7 +82,7 @@ li {
 
     <br><br>
     <div class="news-a">
-      {% assign sorted = site.academic_activities | reverse %}
+      {% assign sorted = site.events | reverse %}
       {% for activity in sorted %}
       <section class="news-p">
         {% if activity.title != 'Lectures at The University of Tokyo' %}

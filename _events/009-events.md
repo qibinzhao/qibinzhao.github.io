@@ -1,10 +1,10 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/008-activities/
-date: 2021-01-01
-title: 'International Workshop on Tensor Network Representations in Machine Learning In conjunction with IJCAI-2020.'
-url_: https://tensorworkshop.github.io/2020/
+permalink: /events/009-events/
+date: 2021-12-01
+title: 'Second Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2020.'
+url_: https://tensorworkshop.github.io/NeurIPS2021/index.html
 pdf_url: 
 sub: 0
 links:
@@ -85,7 +85,7 @@ li {
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
+      <br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

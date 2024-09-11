@@ -1,14 +1,15 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/007-activities/
-date: 2020-12-01
-title: 'First Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2020.'
-url_: https://tensorworkshop.github.io/NeurIPS2020/
+permalink: /events/006-events/
+date: 2023-10-01
+title: '[Talk at Mila-Quebec] <i>Tensor network structure search (TN-SS)</i> by Dr. Chao Li. (<a href="/assets/academic_activities/TNSSMILA.pdf">Slide</a>)'
+url_: https://tensor-networks.github.io/
 pdf_url: 
 sub: 0
+type: 
 links:
-  - sub_title:
+  - sub_title: ''
     url: 
     pdf_url: 
 ---

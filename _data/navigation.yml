@@ -9,11 +9,11 @@ main:
     url: /publications/
   - title: "Code"
     url: /codes/
-  - title: "Academic activities"
+  - title: "Events"
     url: /academic_activities/
   - title: "Join us"
     url: /positions/
   - title: "Gallery"
     url: /gallery/
-  - title: "Official webpage"
+  - title: "Official Web"
     url: https://aip.riken.jp/labs/generic_tech/tensor_learn/?lang=en

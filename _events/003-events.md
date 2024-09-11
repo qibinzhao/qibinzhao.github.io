@@ -1,17 +1,20 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/013-activities/
-date: 2024-08-01
-title: 'The 2nd RIKEN AIP – SJTU CS Joint Workshop on Machine Learning and Brain-like Intelligence'
-url_: https://tensorworkshop.github.io/RIKENAIP_SJTUCS2024
+permalink: /events/003-events/
+date: 1970-01-01
+title: 'Lectures at The University of Tokyo'
+url_: 
 pdf_url: 
-sub: 0
+sub: 1
 type: 
 links:
-  - sub_title: ''
+  - sub_title: 'Lecture 1: Tensor Factorization and Tensor Networks for Machine Learning.'
     url: 
-    pdf_url: 
+    pdf_url: /assets/events/2021_TN4ML.pdf
+  - sub_title: 'Lecture 2: Interpretable and Adversarial Machine Learning.'
+    url: 
+    pdf_url: /assets/events/2021_TrustworthyML.pdf
 ---
 
 
@@ -86,7 +89,7 @@ li {
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <br>
+      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

@@ -1,20 +1,23 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/003-activities/
-date: 1970-01-01
-title: 'Lectures at The University of Tokyo'
+permalink: /events/001-events/
+date: 2018-06-01
+title: 'Waseda University Lectures'
 url_: 
 pdf_url: 
 sub: 1
 type: 
 links:
-  - sub_title: 'Lecture 1: Tensor Factorization and Tensor Networks for Machine Learning.'
+  - sub_title: 'Lecture 1: Multilinear Algebra and Tensor Decompositions.'
     url: 
-    pdf_url: /assets/academic_activities/2021_TN4ML.pdf
-  - sub_title: 'Lecture 2: Interpretable and Adversarial Machine Learning.'
+    pdf_url: /assets/events/Lesson 1 Multilinear Algebra and Tensor Decompositions.pdf
+  - sub_title: 'Lecture 2: Tensor Networks.'
     url: 
-    pdf_url: /assets/academic_activities/2021_TrustworthyML.pdf
+    pdf_url: /assets/events/Lesson 2 tensor networks.pdf
+  - sub_title: 'Lecture 3: Tensor Methods for Signal Processing and Machine Learning.'
+    url: 
+    pdf_url: /assets/events/Lesson 3 Tensor Methods for Signal Processing and Machine Learning.pdf
 ---
 
 

@@ -1,15 +1,15 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/002-activities/
-date: 2019-05-01
-title: 'Tensor Network Representation for Machine Learning - Recent Advances and Perspectives.'
-url_: 
-pdf_url: /assets/academic_activities/2019AIPsymposium.pdf
+permalink: /events/006-events/
+date: 2020-11-01
+title: '[ACML 2020 Tutorial] <i>Tensor Networks in Machine Learning: Recent Advances and Frontiers</i> by Dr. Qibin Zhao. (<a href="/ACML2020_Tutorial/TNML-ACML2020Tutorial-QibinZhao.pdf">Slide</a>)'
+url_: https://qibinzhao.github.io/ACML2020_Tutorial/
+pdf_url: 
 sub: 0
 type: 
 links:
-  - sub_title: 
+  - sub_title: ''
     url: 
     pdf_url: 
 ---
@@ -86,7 +86,7 @@ li {
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
+      <br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

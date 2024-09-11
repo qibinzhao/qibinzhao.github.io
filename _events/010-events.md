@@ -1,15 +1,14 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/012-activities/
-date: 2024-01-01
-title: 'Workshop on TMME: Tensor Models for Machine Learning: Empowering Efficiency, lnterpretability, and Reliability in conjunction with IEEE CAI 2024'
-url_: https://tensorworkshop.github.io/TMME-CAI2024/
+permalink: /events/010-events/
+date: 2023-10-01
+title: '[Tensor Learning Team Seminar] <i>Demystifying Attention Mechanism in Multi-layer Transformer and its application to Better Inference of Large Language Models (LLMs)</i> by Dr. Yuandong Tian, Meta AI Research (FAIR).'
+url_: https://aip.riken.jp/video/tensor-learning-team-seminar-20231006/
 pdf_url: 
 sub: 0
-type: 
 links:
-  - sub_title: ''
+  - sub_title:
     url: 
     pdf_url: 
 ---
@@ -86,7 +85,7 @@ li {
   <br><br>
   <div class="news-a">
     <section class="news-p">
-      <br>
+      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span><br>
       {% if page.url.size > 0 %}
       <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
       {% endif %}

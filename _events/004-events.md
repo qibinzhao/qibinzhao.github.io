@@ -1,15 +1,15 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/006-activities/
-date: 2023-10-01
-title: '[Talk at Mila-Quebec] <i>Tensor network structure search (TN-SS)</i> by Dr. Chao Li. (<a href="/assets/academic_activities/TNSSMILA.pdf">Slide</a>)'
-url_: https://tensor-networks.github.io/
+permalink: /events/004-events/
+date: 2022-02-16
+title: '[EPFL CIS - RIKEN AIP Joint Seminar]: <i>Efficient Machine Learning with Tensor Networks</i> by Dr. Qibin Zhao.'
+url_: https://aip.riken.jp/video/epfl-cis-riken-aip-joint-seminar-8-20220216/
 pdf_url: 
 sub: 0
 type: 
 links:
-  - sub_title: ''
+  - sub_title: 
     url: 
     pdf_url: 
 ---

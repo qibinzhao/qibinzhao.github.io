@@ -1,15 +1,14 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/004-activities/
-date: 2022-02-16
-title: '[EPFL CIS - RIKEN AIP Joint Seminar]: <i>Efficient Machine Learning with Tensor Networks</i> by Dr. Qibin Zhao.'
-url_: https://aip.riken.jp/video/epfl-cis-riken-aip-joint-seminar-8-20220216/
+permalink: /events/007-events/
+date: 2020-12-01
+title: 'First Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2020.'
+url_: https://tensorworkshop.github.io/NeurIPS2020/
 pdf_url: 
 sub: 0
-type: 
 links:
-  - sub_title: 
+  - sub_title:
     url: 
     pdf_url: 
 ---

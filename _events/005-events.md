@@ -1,17 +1,16 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /academic_activities/006-activities/
-date: 2020-11-01
-title: '[ACML 2020 Tutorial] <i>Tensor Networks in Machine Learning: Recent Advances and Frontiers</i> by Dr. Qibin Zhao. (<a href="/ACML2020_Tutorial/TNML-ACML2020Tutorial-QibinZhao.pdf">Slide</a>)'
-url_: https://qibinzhao.github.io/ACML2020_Tutorial/
+permalink: /events/005-events/
+date: 2020-11-1
+title: '[1st AIP Open Seminar] Talks by Tensor Learning Team.'
+url_: https://aip.riken.jp/events/event_112436/
 pdf_url: 
 sub: 0
-type: 
 links:
-  - sub_title: ''
+  - sub_title:
     url: 
-    pdf_url: 
+    pdf_url:
 ---
 
 

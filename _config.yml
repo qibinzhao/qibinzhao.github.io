@@ -23,7 +23,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  academic_activities:
+  events:
     output: true
     permalink: /:collection/:path/
   open_positions:

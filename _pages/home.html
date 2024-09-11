@@ -66,12 +66,22 @@ h4 {
     font-weight: bold;
 }
 
+h5 {
+      position: relative; /* 为了定位自定义的列表点 */
+      padding-left: 15px; /* 在标题的左侧留出空间放方块 */
+      margin: 0 0 10px 0; /* 调整标题的边距 */
+  }
 h5::before {
-/*    content: '•'; /* 使用符号作为项目符号 */*/
-/*    position: absolute;*/
-    left: 0;
-    line-height: 1;
+    content: "◾"; /* 必须有内容才会显示 */
+    position: absolute; /* 绝对定位，相对于其父元素h2或h3 */
+    left: 0; /* 方块显示在文本最左侧 */
+    top: 50%; /* 调整方块的垂直位置至标题高度中间 */
+    transform: translateY(-50%); /* 确保方块垂直居中 */
+    background-color: black; /* 方块的颜色 */
 }
+h5::before {
+    width: 12px; /* 方块的宽度 */
+    height: 12px; /* 方块的高度 */
 
 .page__footer-follow li {
   display: inline-block;
@@ -104,6 +114,11 @@ a {
     cursor: pointer;
     border-radius: 15%;
 }
+
+ul {
+      list-style: none; /* 移除列表点 */
+      padding: 0; /* 移除内边距 */
+  }
 
 </style>
 

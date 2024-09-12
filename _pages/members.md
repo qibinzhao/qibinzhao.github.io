@@ -75,7 +75,7 @@ a {
 </style>
 
 <div>
-<div id="gridid" style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
+<div id="gridid" style="padding-bottom: 10rem;" class="container-home page__other__hero--overlay">
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1> -->
   <br>
 

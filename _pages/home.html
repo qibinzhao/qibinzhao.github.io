@@ -36,7 +36,8 @@ excerpt: ' '
   }
 
   .news-p p {
-    font-size:0.85em;
+/*    font-size:0.85em;*/
+    font-size:1em;
     margin-bottom: 1.0em;
     text-align: start; 
   }
@@ -267,7 +268,9 @@ excerpt: ' '
             {% assign sortednews = site.news | reverse %}
             <section class="news-p">
               {% for post in sortednews limit:6  %}
-              <span class="news-date">{{ post.date | date: "%b %Y" }}</span><br><p>{{ post.title }}</p>
+              <span class="news-date">{{ post.date | date: "%b %Y" }}</span>
+              <br>
+              <p>{{ post.title }}</p>
               {% endfor %}
             </section>
             <p>For previous news, see the <a href="/news-list/">News List</a></p>

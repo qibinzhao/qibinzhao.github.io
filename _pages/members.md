@@ -67,15 +67,30 @@ h4, .h4 {
     box-shadow: 2px 2px 5px #888;
 }
 
-a {
-    color: #158CBA;
-}
+.a__link {
+    a {
+        color: #158CBA;
+    }
+
+     a:visited {
+        color: #158CBA; /* 自定义为紫色 */
+    }
+    /* 鼠标悬停时的链接 */
+    a:hover {
+        color: #5481B0; /* 自定义为红色 */
+    }
+
+    /* 点击时的链接 */
+    a:active {
+        color: #5481B0; /* 自定义为绿色 */
+    }
+  }
 
 
 </style>
 
 <div>
-<div id="gridid" style="padding-bottom: 10rem;" class="container-home page__other__hero--overlay">
+<div id="gridid" style="padding-bottom: 2rem;" class="container-home page__other__hero--overlay a__link">
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1> -->
   <br>
 
@@ -261,7 +276,7 @@ a {
 </div>
 
 
-<div style="position: absolute; bottom: 0;" class="page__footer">
+<div style="position: relative; bottom: 0;" class="page__footer">
   <footer-new>
     <div class="row">
       <div id="gridid" class="col-sm-12">

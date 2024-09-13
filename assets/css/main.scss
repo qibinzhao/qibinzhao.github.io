@@ -144,14 +144,17 @@ body {
 
 /* 主页footer部分格式调整 */
 .page__footer {
+    position: relative;
     border-width: 3px 1px 0 1px;
     background-color: #f8f8f8;
     border-color: #e7e7e7;
+    bottom: 0;
     width: 100%;
     margin-top: auto;
     margin-right: auto;
     margin-left: auto;
     color: #000;
+
 }
 
 .page__footer footer{
@@ -163,14 +166,9 @@ body {
     width: 100%;
     display: block;
     color: #000;
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     max-width: 1100px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 20px 10px 30px 10px;
 }
 
 /* 其他页面目录下面留白空间高度 */
@@ -185,6 +183,8 @@ body {
       padding: 180px 0 12px 0;
       margin-bottom: 0;
 }
+
+
 
 .page__hero--overlay .page__title {
     font-size: 18px;

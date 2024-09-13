@@ -67,9 +67,24 @@ td {
     border-bottom: 1px solid #fff;
 }
 
-a {
-    color: #158CBA;
-}
+.a__link {
+    a {
+        color: #158CBA;
+    }
+
+     a:visited {
+        color: #158CBA; /* 自定义为紫色 */
+    }
+    /* 鼠标悬停时的链接 */
+    a:hover {
+        color: #5481B0; /* 自定义为红色 */
+    }
+
+    /* 点击时的链接 */
+    a:active {
+        color: #5481B0; /* 自定义为绿色 */
+    }
+  }
 
 .ai {
     font-family: 'Academicons';
@@ -93,7 +108,7 @@ li {
 
 </style>
 
-<div style="padding-bottom: 10rem;" class="container-home page__other__hero--overlay">
+<div style="padding-bottom: 2rem;" class="container-home page__other__hero--overlay a__link">
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"><a href="/assets/publications/TLT-PublicationList.pdf"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;Full publication list</button></a></h1> -->
   <br><a href="/assets/publications/TLT-PublicationList.pdf"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;Full publication list</button></a><br><br><h1>Selected Publications</h1>
   <!-- ---------------------------------------------------------------------- -->
@@ -440,7 +455,7 @@ li {
 
 
 
-<div style="position: absolute; bottom: 0;" class="page__footer">
+<div style="position: relative; bottom: 0;" class="page__footer">
   <footer-new>
     <div class="row">
       <div id="gridid" class="col-sm-12">

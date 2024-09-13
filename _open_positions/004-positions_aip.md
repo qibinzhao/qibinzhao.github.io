@@ -1,12 +1,12 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /open_positions/004-positions/
-title: Postdoctoral Researcher, Research Scientist and Senior Research Scientist (W23143)
-url_: https://www.riken.jp/en/careers/researchers/20230921_1/index.html
+permalink: /open_positions/003-positions/
+title: AIP internship program
+url_: https://aip.riken.jp/aip-osc2-0/?lang=en
 is_open: 0
 is_riken: 1
-description: 'RIKEN has established the "Transformative Research Innovation Platform of RIKEN Platforms (TRIP). As one of the foundations of TRIP, the <a href="https://rq.riken.jp/en/research/">RIKEN Consortium for Quantum Computational Science (RIKEN Quantum)</a>, a RIKEN cross-disciplinary framework for bringing innovation to physics, chemistry, and life sciences based on quantum computational science, has been established with the RIKEN <a href="https://ithems.riken.jp/en">iTHEMS</a> en as its hub. This call is open to researchers in any field who wish to participate in RIKEN Quantum.'
+description: ''
 ---
 
 

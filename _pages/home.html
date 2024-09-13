@@ -70,7 +70,7 @@ excerpt: ' '
   h5 {
         position: relative; /* 为了定位自定义的列表点 */
         padding-left: 15px; /* 在标题的左侧留出空间放方块 */
-        margin: 0 0 10px 0; /* 调整标题的边距 */
+        margin: 0 0 3px 0; /* 调整标题的边距 */
     }
   h5::before {
       content: ""; /* 必须有内容才会显示 */
@@ -99,8 +99,23 @@ excerpt: ' '
       padding: 0;
   }
 
-  a {
-      color: #158CBA;
+  .a__link {
+    a {
+        color: #158CBA;
+    }
+
+     a:visited {
+        color: #158CBA; /* 自定义为紫色 */
+    }
+    /* 鼠标悬停时的链接 */
+    a:hover {
+        color: #5481B0; /* 自定义为红色 */
+    }
+
+    /* 点击时的链接 */
+    a:active {
+        color: #5481B0; /* 自定义为绿色 */
+    }
   }
 
   #gridid i {
@@ -184,14 +199,14 @@ excerpt: ' '
        });
        </script>
   
-<div style="padding-bottom: 10rem;" class="container-home">
+<div style="padding-bottom: 2rem;" class="container-home">
 <!--   <div class="highlights">
     <div class="slick-slide">
       <img style="border:solid 1px #fff; margin:0 auto;" src="assets/header/test1.jpg">
     </div>
   </div> -->
 
-  <div class="row">
+  <div class="row a__link">
     <div id="gridid" class="col-sm-12">
       <div class="row">
         <div class="col-sm-8 clearfix">
@@ -264,17 +279,15 @@ excerpt: ' '
             <br>
             <h4>Our Videos on <a href="https://www.youtube.com/@aipriken8732/search?query=Tensor%20Learning%20Team"><button class="paper-btnYT"><i class="fa fa-link"></i> YouTube AIP RIKEN</button></a></h4>
           </div>
-          <br>
           <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=_pR2tqo16lHGreL8a5W66hxc_laOBd_38VvitQZI8ak&cl=ffffff&w=a"></script>
         </div>
-
 
       </div>
     </div>
   </div>
 </div>
 
-<div style="position: absolute; bottom: 0;" class="page__footer">
+<div style="position: relative; bottom: 0;" class="page__footer">
   <footer-new>
     <div class="row">
       <div id="gridid" class="col-sm-12">

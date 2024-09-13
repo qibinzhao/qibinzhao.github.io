@@ -26,9 +26,24 @@ td {
     border-bottom: 1px solid #fff;
 }
 
-a {
-    color: #158CBA;
-}
+.a__link {
+    a {
+        color: #158CBA;
+    }
+
+     a:visited {
+        color: #158CBA; /* 自定义为紫色 */
+    }
+    /* 鼠标悬停时的链接 */
+    a:hover {
+        color: #5481B0; /* 自定义为红色 */
+    }
+
+    /* 点击时的链接 */
+    a:active {
+        color: #5481B0; /* 自定义为绿色 */
+    }
+  }
 
 #gridid i {
     font-size: 16px;
@@ -72,7 +87,7 @@ li {
 
 </style>
 
-<div style="padding-bottom: 15rem;" class="container-home page__other__hero--overlay">
+<div style="padding-bottom: 2rem;" class="container-home page__other__hero--overlay a__link">
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1> -->
   <br><br>
 
@@ -83,14 +98,14 @@ li {
       {% for opsition in sorted %}
         {% if opsition.is_riken == 1 %}
           <section class="news-p">
+            {% if opsition.url_.size > 0 %}
+              <a href="{{ opsition.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Details</button></a>
+            {% endif %}
             {% if opsition.is_open == 0 %}
               <i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i>&nbsp;<b>{{ opsition.title }}</b>&nbsp;
             {% endif %}
             {% if opsition.is_open == 1 %}
               <i style="font-size: 12px; color: #BEBEBE" class="fa fa-star" aria-hidden="true"></i>&nbsp;<a style="color: #dc143c;">[Closed]</a>&nbsp;<b style="color: #BEBEBE">{{ opsition.title }}</b>&nbsp;
-            {% endif %}
-            {% if opsition.url_.size > 0 %}
-              <a href="{{ opsition.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Details</button></a>
             {% endif %}
             {% if opsition.description.size > 0 %}
               <p style="color: #696969">&emsp;{{ opsition.description }}</p>
@@ -107,14 +122,14 @@ li {
         {% for opsition in sorted %}
           {% if opsition.is_riken == 0 %}
             <section class="news-p">
+              {% if opsition.url_.size > 0 %}
+                <a href="{{ opsition.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Details</button></a>
+              {% endif %}
               {% if opsition.is_open == 0 %}
                 <i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i>&nbsp;<b>{{ opsition.title }}</b>&nbsp;
               {% endif %}
               {% if opsition.is_open == 1 %}
                 <i style="font-size: 12px; color: #BEBEBE" class="fa fa-star" aria-hidden="true"></i>&nbsp;<a style="color: #dc143c;">[Closed]</a>&nbsp;<b style="color: #BEBEBE">{{ opsition.title }}</b>&nbsp;
-              {% endif %}
-              {% if opsition.url_.size > 0 %}
-                <a href="{{ opsition.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Details</button></a>
               {% endif %}
               {% if opsition.description.size > 0 %}
                 <p style="color: #696969">&emsp;{{ opsition.description }}</p>
@@ -131,14 +146,14 @@ li {
         {% for opsition in sorted %}
           {% if opsition.is_riken == 2 %}
             <section class="news-p">
+              {% if opsition.url_.size > 0 %}
+                <a href="{{ opsition.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Details</button></a>
+              {% endif %}
               {% if opsition.is_open == 0 %}
                 <i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i>&nbsp;<b>{{ opsition.title }}</b>&nbsp;
               {% endif %}
               {% if opsition.is_open == 1 %}
                 <i style="font-size: 12px; color: #BEBEBE" class="fa fa-star" aria-hidden="true"></i>&nbsp;<a style="color: #dc143c;">[Closed]</a>&nbsp;<b style="color: #BEBEBE">{{ opsition.title }}</b>&nbsp;
-              {% endif %}
-              {% if opsition.url_.size > 0 %}
-                <a href="{{ opsition.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Details</button></a>
               {% endif %}
               {% if opsition.description.size > 0 %}
                 <p style="color: #696969">&emsp;{{ opsition.description }}</p>
@@ -150,11 +165,12 @@ li {
           {% endif %}
         {% endfor %}
     </div> 
+    <br><br><br><br><br>
     <!-- <h2> RIKEN programmes </h2> -->
   </div>
 
 
-<div style="position: absolute; bottom: 0;" class="page__footer">
+<div style="position: relative; bottom: 0;" class="page__footer">
   <footer-new>
     <div class="row">
       <div id="gridid" class="col-sm-12">

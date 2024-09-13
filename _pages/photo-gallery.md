@@ -108,7 +108,7 @@ gallery:
 }
 </style>
 
-<div style="padding-bottom: 10rem;" class="container-home page__other__hero--overlay">
+<div style="padding-bottom: 2rem;" class="container-home page__other__hero--overlay">
 <!-- <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1> -->
 <br>
 
@@ -118,7 +118,7 @@ gallery:
 
 </div>
 
-<div style="position: absolute; bottom: 0;" class="page__footer">
+<div style="position: relative; bottom: 0;" class="page__footer">
   <footer-new>
     <div class="row">
       <div id="gridid" class="col-sm-12">

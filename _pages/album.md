@@ -1,76 +1,76 @@
 ---
 layout: splash
-permalink: /gallery/
-title: "Photo gallery"
+permalink: /album/
+title: "Photo Album"
 author_profile: false
 gallery:
   # - url: /assets/images/gallery/harsha_defense_1.png
   #   image_path: /assets/images/gallery/harsha_defense_1.png
   #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
-  - url: /assets/gallery/ICML2024_01.jpg
-    image_path: /assets/gallery/ICML2024_01.jpg
+  - url: /assets/album/ICML2024_01.jpg
+    image_path: /assets/album/ICML2024_01.jpg
     alt: "Presentation at ICML 2024 "
     title: "Presentation at ICML 2024"
-  - url: /assets/gallery/ICML2024_02.jpg
-    image_path: /assets/gallery/ICML2024_02.jpg
+  - url: /assets/album/ICML2024_02.jpg
+    image_path: /assets/album/ICML2024_02.jpg
     alt: "Presentation at ICML 2024 "
     title: "Presentation at ICML 2024"
 
-  - url: /assets/gallery/CAI2024_01.jpg
-    image_path: /assets/gallery/CAI2024_01.jpg
+  - url: /assets/album/CAI2024_01.jpg
+    image_path: /assets/album/CAI2024_01.jpg
     alt: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
     title: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
-  - url: /assets/gallery/CAI2024_02.jpg
-    image_path: /assets/gallery/CAI2024_02.jpg
+  - url: /assets/album/CAI2024_02.jpg
+    image_path: /assets/album/CAI2024_02.jpg
     alt: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
     title: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
-  - url: /assets/gallery/CAI2024_03.jpg
-    image_path: /assets/gallery/CAI2024_03.jpg
+  - url: /assets/album/CAI2024_03.jpg
+    image_path: /assets/album/CAI2024_03.jpg
     alt: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
     title: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"
-  - url: /assets/gallery/ICLR2024_01.jpg
-    image_path: /assets/gallery/ICLR2024_01.jpg
+  - url: /assets/album/ICLR2024_01.jpg
+    image_path: /assets/album/ICLR2024_01.jpg
     alt: "Presentation at ICLR 2024 "
     title: "Presentation at ICLR 2024"
-  - url: /assets/gallery/TLTSeminar20240425.jpg
-    image_path: /assets/gallery/TLTSeminar20240425.jpg
+  - url: /assets/album/TLTSeminar20240425.jpg
+    image_path: /assets/album/TLTSeminar20240425.jpg
     alt: "[Tensor Learning Team Seminar] Talk by Prof. Danilo P. Mandic, Imperial College London"
     title: "[Tensor Learning Team Seminar] Talk by Prof. Danilo P. Mandic, Imperial College London"
-  - url: /assets/gallery/AAAI2024_03.jpg
-    image_path: /assets/gallery/AAAI2024_03.jpg
+  - url: /assets/album/AAAI2024_03.jpg
+    image_path: /assets/album/AAAI2024_03.jpg
     alt: "Presentation at AAAI 2024 "
     title: "Presentation at AAAI 2024"
-  - url: /assets/gallery/AAAI2024_02.jpg
-    image_path: /assets/gallery/AAAI2024_02.jpg
+  - url: /assets/album/AAAI2024_02.jpg
+    image_path: /assets/album/AAAI2024_02.jpg
     alt: "Presentation at AAAI 2024"
     title: "Presentation at AAAI 2024"
-  - url: /assets/gallery/AAAI2024_01.jpg
-    image_path: /assets/gallery/AAAI2024_01.jpg
+  - url: /assets/album/AAAI2024_01.jpg
+    image_path: /assets/album/AAAI2024_01.jpg
     alt: "Presentation at AAAI 2024"
     title: "Presentation at AAAI 2024"
-  - url: /assets/gallery/NeurIPS2023_04.jpg
-    image_path: /assets/gallery/NeurIPS2023_04.jpg
+  - url: /assets/album/NeurIPS2023_04.jpg
+    image_path: /assets/album/NeurIPS2023_04.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/gallery/NeurIPS2023_03.jpg
-    image_path: /assets/gallery/NeurIPS2023_03.jpg
+  - url: /assets/album/NeurIPS2023_03.jpg
+    image_path: /assets/album/NeurIPS2023_03.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/gallery/NeurIPS2023_02.jpg
-    image_path: /assets/gallery/NeurIPS2023_02.jpg
+  - url: /assets/album/NeurIPS2023_02.jpg
+    image_path: /assets/album/NeurIPS2023_02.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/gallery/NeurIPS2023_01.jpg
-    image_path: /assets/gallery/NeurIPS2023_01.jpg
+  - url: /assets/album/NeurIPS2023_01.jpg
+    image_path: /assets/album/NeurIPS2023_01.jpg
     alt: "Presentation at NeurIPS 2023"
     title: "Presentation at NeurIPS 2023"
-  - url: /assets/gallery/002.jpg
-    image_path: /assets/gallery/002.jpg
+  - url: /assets/album/002.jpg
+    image_path: /assets/album/002.jpg
     alt: "[Tensor Learning Team Seminar] Talk by Dr. Yuandong Tian"
     title: "[Tensor Learning Team Seminar] Talk by Dr. Yuandong Tian"
-  - url: /assets/gallery/001.jpg
-    image_path: /assets/gallery/001.jpg
+  - url: /assets/album/001.jpg
+    image_path: /assets/album/001.jpg
     # alt: ""
     # title: ""
 

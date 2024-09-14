@@ -13,7 +13,7 @@ main:
     url: /events/
   - title: "Join Us"
     url: /positions/
-  - title: "Gallery"
-    url: /gallery/
+  - title: "Album"
+    url: /album/
   # - title: "Official Web"
   #   url: https://aip.riken.jp/labs/generic_tech/tensor_learn/?lang=en

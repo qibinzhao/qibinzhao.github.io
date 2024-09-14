@@ -97,8 +97,8 @@ h4, .h4 {
   <h2>Team Leader</h2>
   <div class="row">
     {% for member in site.data.team_leader %}
-    <div class="col-sm-4 clearfix">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left;"/>
+    <div class="col-sm-6 clearfix">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="20%" style="float: left;"/>
       {% if member.url.size > 0 %}
       <h4><a href="{{ member.url }}">{{ member.name }}</a></h4>
       {% endif %}

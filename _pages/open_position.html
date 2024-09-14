@@ -89,13 +89,13 @@ li {
 
 <div style="padding-bottom: 2rem;" class="container-home page__other__hero--overlay a__link">
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1> -->
-  <br><br>
-
-    <h1>  </h1>
+  <br>
+  <!-- <br><br>
+  <p>We welcome passionate researchers, graduate students (seeking a PhD program), junior/postdoctoral researchers,  and visiting scientists to join our team!</p> -->
+    <h2> Job Openings </h2>
     <div class="news-a">
       <!-- AIP programmes -->
       {% assign sorted = site.open_positions %}
-      <h2> Job Openings </h2>
       {% for opsition in sorted %}
         {% if opsition.is_riken == 1 %}
           <section class="news-p">
@@ -118,7 +118,6 @@ li {
         {% endif %}
       {% endfor %}
       <!-- RIKEN programmes -->
-      <br>
         <h2> RIKEN Programs for Junior Scientists </h2>
         {% for opsition in sorted %}
           {% if opsition.is_riken == 0 %}

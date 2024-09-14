@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/001-positions/
-title: Postdoctoral Researcher, 1 position
+title: Postdoctoral researcher position on trustworthy machine learning with tensor methods
 url_: https://www.riken.jp/en/careers/researchers/20240806_2/index.html 
 is_open: 0
 is_riken: 1

@@ -1,8 +1,8 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /open_positions/003-positions/
-title: AIP internship program
+permalink: /open_positions/004-positions/
+title: AIP internship program for overseas students
 url_: https://aip.riken.jp/aip-osc2-0/?lang=en
 is_open: 0
 is_riken: 1

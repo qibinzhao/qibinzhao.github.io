@@ -1,8 +1,8 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /open_positions/002-positions/
-title: Part-time student
+permalink: /open_positions/003-positions/
+title: Part-time worker position for domestic students
 url_: https://www.riken.jp/en/careers/researchers/20240515_1/index.html
 is_open: 0
 is_riken: 1

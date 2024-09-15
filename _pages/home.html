@@ -1,11 +1,6 @@
 ---
 layout: splash
 permalink: /
-title: "<br><br><br><br><br><br>"
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/linkprediction.jpg
-excerpt: ' '
 ---
 
 <!-- <link rel="stylesheet" type="text/css" href="/assets/css/home.css"> -->
@@ -23,7 +18,7 @@ excerpt: ' '
   }
 
   .entry-headers {
-    padding-top: 1.0em;
+    padding-top: 2.0em;
     padding-bottom: 1.0em;
   }
 
@@ -139,7 +134,13 @@ excerpt: ' '
 
   ul.custom-list li p {
     padding-left: 15px; /* 设置与h5标题一致的左侧内边距 */
-}
+  }
+
+  .img__link {
+    img {
+        padding-top: 46px;
+    }
+  }
 
 </style>
 
@@ -207,13 +208,15 @@ excerpt: ' '
   </div> -->
 
   <div class="row a__link">
-    <div id="gridid" class="col-sm-12">
+    <div id="gridid" class="col-sm-12 img__link">
+      <img src="/assets/images/linkprediction.jpg">
+      <br><br>
       <div class="row">
         <div class="col-sm-8 clearfix">
           <!-- <h1 class="entry-headers" style="color:#5481B0;">Research Directions</h1> -->
           <!-- <h1 class="entry-headers" style="color:#5481B0;"></h1> -->
           <!-- <hr> -->
-          <br><br><br><br>
+          <br><br> 
           <p>Our team is affiliated with the <a href="https://aip.riken.jp/">RIKEN Center for Advanced Intelligence Project (AIP)</a>, located in Tokyo. You can also visit our official pages on the <a href="https://www.riken.jp/en/research/labs/aip/generic_tech/tensor_learn/">RIKEN website</a> and <a href="https://aip.riken.jp/labs/generic_tech/tensor_learn/">AIP website</a>. </p><br>
           <h1>Research</h1>
           <p>Modern machine learning technologies often demand vast amounts of data, large-scale models, and considerable computational resources, which also results in challenges related to the reliability and interpretability of well-trained models. Our team aims to develop efficient, robust, and interpretable machine learning models and algorithms, along with their theoretical analysis. We focus on several key directions including tensor methods for machine learning, robust and interpretable machine learning and quantum machine learning. Our research spans various areas such as self-supervised learning, unsupervised representation learning, multi-modal learning and deep generative models. We also seek collaborations in practical domains such as brain-computer interfaces, medical diagnosis, and etc. </p>
@@ -264,7 +267,6 @@ excerpt: ' '
 
 
         <div class="col-sm-4 clearfix" style="margin-top: 20px;">
-          <br>
           <div class="well news-a">
             <h4>News</h4>
             {% assign sortednews = site.news | reverse %}

@@ -1,12 +1,3 @@
-# --------------------------------------------------------------
-- name: Zerui Tao
-  photo: zeruiTao.jpg
-  info: Junior Research Associate (JRA)
-  url: ''
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
 
 # --------------------------------------------------------------
 - name: Linfeng Sui
@@ -97,8 +88,38 @@
   number_educ: 0
   education1: TBD
   education2: TBD
-
 # --------------------------------------------------------------
+
+- name: Zerui Tao
+  photo: zeruiTao.jpg
+  info: Student Trainee
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+# --------------------------------------------------------------
+
+- name: Antoine Debouchage
+  photo: None.png
+  info: Student Trainee
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+# --------------------------------------------------------------
+
+- name: Qi Huang
+  photo: None.png
+  info: Student Trainee
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+# --------------------------------------------------------------
+
 - name: Huidong Jiang
   photo: None.png
   info: Research Part-time Worker
@@ -109,7 +130,8 @@
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Jinhua Chen
+
+- name: Sujata
   photo: None.png
   info: Research Part-time Worker
   url: ''
@@ -119,6 +141,18 @@
   education2: TBD
 
 # --------------------------------------------------------------
+
+- name: Yaswitha Gujju
+  photo: None.png
+  info: Research Part-time Worker
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+# --------------------------------------------------------------
+
 - name: Haonan Huang
   photo: haonanHuang.jpg
   info: Intern

@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /events/013-event/
 date: 2024-08-01
-title: 'The 2nd RIKEN AIP – SJTU CS Joint Workshop on Machine Learning and Brain-like Intelligence. (<a href="https://www.youtube.com/watch?v=g2JHL1c-7Bg">Video</a>)'
+title: 'The 2nd RIKEN AIP – SJTU CS Joint Workshop on Machine Learning and Brain-like Intelligence. (<a href="https://www.youtube.com/@aipriken8732/search?query=The%202nd%20RIKEN%20AIP%20%E2%80%93%20SJTU%20CS%20Joint%20Workshop%20on%20Machine%20Learning%20and%20Brain-like%20Intelligence">Videos</a>)'
 url_: https://tensorworkshop.github.io/RIKENAIP_SJTUCS2024
 pdf_url: 
 sub: 0

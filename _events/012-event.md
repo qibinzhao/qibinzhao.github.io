@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /events/012-event/
 date: 2024-01-01
-title: 'Workshop on TMME: Tensor Models for Machine Learning: Empowering Efficiency, lnterpretability, and Reliability in conjunction with IEEE CAI 2024'
+title: 'Workshop on TMME: Tensor Models for Machine Learning: Empowering Efficiency, lnterpretability, and Reliability in conjunction with IEEE CAI 2024.'
 url_: https://tensorworkshop.github.io/TMME-CAI2024/
 pdf_url: 
 sub: 0
@@ -131,7 +131,11 @@ li {
           <!-- end custom footer snippets -->
             <div class="page__footer-follow">
               <ul class="social-icons">
-                <li><strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>&nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+                <li>
+                  <strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>
+                  <!-- &nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal"  class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp; -->
+                  &nbsp;<a href="https://twitter.com/rikenaiptlt" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+                </li>
               </ul>
             </div>
           </div>

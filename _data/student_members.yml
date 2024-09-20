@@ -122,7 +122,7 @@
 
 - name: Huidong Jiang
   photo: None.png
-  info: Research Part-time Worker
+  info: Part-time Worker
   url: ''
   email: 
   number_educ: 0
@@ -133,7 +133,7 @@
 
 - name: Sujata
   photo: None.png
-  info: Research Part-time Worker
+  info: Part-time Worker
   url: ''
   email: 
   number_educ: 0
@@ -144,7 +144,18 @@
 
 - name: Yaswitha Gujju
   photo: None.png
-  info: Research Part-time Worker
+  info: Part-time Worker
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+  # --------------------------------------------------------------
+
+- name: Jinhua Chen
+  photo: None.png
+  info: Part-time Worker
   url: ''
   email: 
   number_educ: 0

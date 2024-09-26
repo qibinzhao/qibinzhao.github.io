@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /news/048-news/
 title: ' Our team has one paper accepted by NeurIPS 2024.'
-date: 2024-05-02
+date: 2024-09-26
 news_content: ''
 number_photo: 0
 photo1: 

@@ -1,12 +1,13 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /open_positions/001-positions/
-title: Postdoctoral researcher position on trustworthy machine learning with tensor methods
-url_: https://www.riken.jp/en/careers/researchers/20240806_2/index.html 
-is_open: 1
-is_riken: 1
-description: ''
+permalink: /news/047-news/
+title: ' Our team has one paper accepted by NeurIPS 2024.'
+date: 2024-05-02
+news_content: ''
+number_photo: 0
+photo1: 
+photo2: 
 ---
 
 
@@ -14,10 +15,21 @@ description: ''
 <link rel="stylesheet" href="/assets/css/bootstrap.css">
 
 <style>
-
-  .entry-headers {
-    padding-top: 1.0em;
+  img{
+      max-width:345px;
+      max-height:258px;
+      OBJECT-FIT:contain;
   }
+
+
+.entry-headers {
+  padding-top: 1.0em;
+}
+
+#gridid i {
+    font-size: 16px;
+    font-style: italic;
+}
 
 .page__footer-follow li {
   display: inline-block;
@@ -27,71 +39,61 @@ description: ''
   text-transform: none;
 }
 
-td {
-    border-bottom: 1px solid #fff;
+.news-date {
+  font-size:1.0em;
+  color:#5481B0;
+}
+.news-title {
+  font-size:1.0em;
 }
 
-a {
-    color: #158CBA;
+.news-p p {
+  font-size:1.1em;
 }
 
-#gridid i {
-    font-size: 16px;
-    font-style: italic;
+.news-a a {
+  font-size:1.0em;
+  color: #158CBA;
 }
-
-
-li {
-    font-size: 12px;
-}
-
 .paper-btn {
     background-color: #158CBA;
     border: none;
     color: white;
-    padding: 2px 2px;
-    font-size: 12px;
+    padding: 1px 1px;
     cursor: pointer;
     border-radius: 15%;
 }
-
-
-.news-date {
-    font-size:1.0em;
-    color:#5481B0;
-  }
-  .news-title {
-    font-size:0.8em;
-  }
-
-  .news-p p {
-    font-size:1.0em;
-    margin-bottom: 1.0em;
-    text-align: start; 
-  }
-
-  .news-a a {
-    font-size:1.0em;
-    color: #158CBA;
-  }
-
 </style>
 
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> Open positions </h1>
-    <h2>  </h2>
-    <div class="news-a">
-      <section class="news-p">
-        <i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i>&nbsp;<b>{{ page.title }}</b>&nbsp;
-        <a href="{{ page.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;For detail</button></a>
-        {% if page.description.size > 0 %}
-        <p>&emsp;{{ page.description }}</p>
-        {% endif %}
-      </section>
+  <h1 style="text-transform: capitalize" class="entry-headers"> News </h1>
+  <br>
+  <div class="news-a">
+    <section class="news-p">
+      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span>
       <br>
-    </div> 
-    <!-- <h2> RIKEN programmes </h2> -->
-
+      <b>{{ page.title }}</b>
+      <p>&emsp;{{ page.news_content }}</p>
+      {% if page.number_photo == 1 %}
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="/assets/images/news/{{ page.photo1 }}" class="img-responsive" width="100%">
+        </div>
+      </div>
+      {% endif %}
+      {% if page.number_photo == 2 %}
+      <div class="row">
+        <div class="col-sm-6 clearfix">
+          <img src="/assets/images/news/{{ page.photo1 }}" class="img-responsive" width="100%">
+        </div>
+        <div class="col-sm-6 clearfix">
+          <img src="/assets/images/news/{{ page.photo2 }}" class="img-responsive" width="100%">
+        </div>
+      </div>
+      {% endif %}
+    </section>
+  </div>
+  <br><br><br><br><br><br><br>
 </div>
 
 <div style="position: absolute; bottom: 0;" class="page__footer">

@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /events/013-event/
 date: 2025-03-01
-title: 'International Workshop on CoLoRAI - Connecting Low-Rank Representations in Al  in conjunction with AAAI 2025'
+title: 'International Workshop on CoLoRAI - Connecting Low-Rank Representations in Al  in conjunction with AAAI 2025.'
 url_: https://april-tools.github.io/colorai/
 pdf_url: 
 sub: 0

@@ -1,13 +1,13 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /codes/022-codes/
+permalink: /codes/026-codes/
 year: 2024
-title: 'Adversarial training on purification (AToP): Advancing both robustness and generalization (ICLR 2024)'
+title: 'tnGPS: Discovering Unknown Tensor Network Structure Search Algorithms via Large Language Models (LLMs) (ICML 2024)'
 links:
   - type: github
     display: Github
-    url: https://github.com/glin2022/atop
+    url: https://github.com/ChaoLiAtRIKEN/tngps
     icon: github
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /codes/022-codes/
+permalink: /codes/023-codes/
 year: 2024
-title: 'Jacobian Regularizer-based Neural Granger Causality (ICML 2024)'
+title: 'Adversarially Robust Deep Multi-View Clustering: A Novel Attack and Defense Framework (ICML 2024)'
 links:
   - type: github
     display: Github
-    url: https://github.com/ElleZWQ/JRNGC.git
+    url: https://github.com/libertyhhn/AR-DMVC
     icon: github
 ---
 

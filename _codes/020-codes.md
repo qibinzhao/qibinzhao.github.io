@@ -2,12 +2,12 @@
 layout: splash
 $paragraph-indent: true
 permalink: /codes/020-codes/
-year: 2024
-title: 'Efficient nonparametric tensor decomposition for binary and count data (AAAI 2024)'
+year: 2023
+title: 'Transformed low-rank parameterization can help robust generalization for tensor neural networks (NeurIPS 2023)'
 links:
   - type: github
     display: Github
-    url: https://github.com/taozerui/gptd
+    url: https://github.com/pingzaiwang/Analysis4TNN
     icon: github
 ---
 
@@ -80,7 +80,7 @@ li {
 </style>
 
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> Code </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> Open Source Code </h1>
   <h2>  </h2>
   <table class="publications">
   <tr class="paper-font">

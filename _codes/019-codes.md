@@ -3,11 +3,11 @@ layout: splash
 $paragraph-indent: true
 permalink: /codes/019-codes/
 year: 2023
-title: 'Transformed low-rank parameterization can help robust generalization for tensor neural networks (NeurIPS 2023)'
+title: 'Undirected Probabilistic Model for Tensor Decomposition (NeurIPS 2023)'
 links:
   - type: github
     display: Github
-    url: https://github.com/pingzaiwang/Analysis4TNN
+    url: https://github.com/taozerui/energy_td
     icon: github
 ---
 

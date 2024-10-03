@@ -3,11 +3,11 @@ layout: splash
 $paragraph-indent: true
 permalink: /codes/021-codes/
 year: 2024
-title: 'Adversarial training on purification (AToP): Advancing both robustness and generalization (ICLR 2024)'
+title: 'Efficient nonparametric tensor decomposition for binary and count data (AAAI 2024)'
 links:
   - type: github
     display: Github
-    url: https://github.com/glin2022/atop
+    url: https://github.com/taozerui/gptd
     icon: github
 ---
 

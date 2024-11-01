@@ -152,3 +152,36 @@
   number_educ: 0
   education1: TBD
   education2: TBD
+
+  # --------------------------------------------------------------
+
+- name: Yuchen Cong
+  photo: YuchenCong.jpg
+  info: Part-time Worker
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+  # --------------------------------------------------------------
+
+- name: Ziqing Chang
+  photo: None.png
+  info: Part-time Worker
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+  # --------------------------------------------------------------
+
+- name: Peilin Yang
+  photo: None.png
+  info: Part-time Worker
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD

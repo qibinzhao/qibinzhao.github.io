@@ -10,7 +10,7 @@ venue: IEEE Transactions on Neural Networks and Learning Systems, 2023
 picture: 
 links:
    - type: website
-     display: website
+     display: Website
      url: https://ieeexplore.ieee.org/abstract/document/10361837/
   # - type: pdf
   #   display: PDF

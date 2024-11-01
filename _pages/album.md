@@ -10,8 +10,8 @@ gallery:
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
    - url: /assets/album/DLworkshop_2024.jpeg
     image_path: /assets/album/DLworkshop_2024.jpeg
-    alt: "Some team members and Professor Amari on deep learning workshop 2024"
-    title: "Some team members and Professor Amari on deep learning workshop 2024" 
+    alt: "Some team members and Prof.Amari on deep learning workshop 2024"
+    title: "Some team members and Prof.Amari on deep learning workshop 2024" 
   - url: /assets/album/ICML2024_01.jpg
     image_path: /assets/album/ICML2024_01.jpg
     alt: "Presentation at ICML 2024 "

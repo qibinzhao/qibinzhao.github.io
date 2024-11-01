@@ -9,15 +9,15 @@ authors: A. Wang, Y. Qiu, M. Bai, Z. Jin, G. Zhou and Q. Zhao
 venue: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS), 2024
 picture: 
 links:
-  # - type: website
-  #   display: Paper
-  #   url: https://openreview.net/forum?id=LVgT0ShxN5&referrer=%5Bthe%20profile%20of%20Junhua%20Zeng%5D(%2Fprofile%3Fid%3D~Junhua_Zeng1)
+   - type: website
+     display: Paper
+     url: https://neurips.cc/virtual/2024/poster/96844
   # - type: pdf
   #   display: Poster
   #   url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/ChaoLiAtRIKEN/tngps
+   - type: code
+     display: Code
+     url: https://github.com/pingzaiwang/FtSVD4MORCDS
 bibtex: '@inproceedings{wang2024FtSVD,
  author = {Wang, Andong and Qiu, Yuning and Bai, Mingyuan and Jin, Zhong and Zhou, Guoxu and Zhao, Qibin},
  booktitle = {Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)},

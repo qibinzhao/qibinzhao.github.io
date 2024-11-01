@@ -9,9 +9,9 @@ authors: H. Qiu, C. Li, Y. Weng, Z. Sun, and Q. Zhao
 venue: IEEE Transactions on Neural Networks and Learning Systems, 2023
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: https://arxiv.org/abs/2303.00196
+   - type: website
+     display: website
+     url: https://ieeexplore.ieee.org/abstract/document/10361837/
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8

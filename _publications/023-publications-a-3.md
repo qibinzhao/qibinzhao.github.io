@@ -9,16 +9,22 @@ authors: Y. Qiu, G. Zhou, A. Wang, Q. Zhao, and S. Xie
 venue: IEEE Transactions on Neural Networks and Learning Systems, 2024
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: https://arxiv.org/abs/2303.00196
+   - type: website
+     display: Website
+     url: https://ieeexplore.ieee.org/abstract/document/10507804
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8
   # - type: code
   #   display: Code
   #   url: https://github.com/pingzaiwang/Analysis4TNN
-bibtex: ''
+bibtex: '@article{qiu2024balanced,
+  title={Balanced Unfolding Induced Tensor Nuclear Norms for High-Order Tensor Completion},
+  author={Qiu, Yuning and Zhou, Guoxu and Wang, Andong and Zhao, Qibin and Xie, Shengli},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2024},
+  publisher={IEEE}
+}'
 ---
 
 <script>

@@ -12,13 +12,19 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: https://arxiv.org/abs/2303.00196
-  # - type: pdf
-  #   display: PDF
-  #   url: https://openreview.net/pdf?id=rih3hsSWx8
+   - type: pdf
+     display: PDF
+     url: https://openaccess.thecvf.com/content/CVPR2024/papers/Zheng_SVDinsTN_A_Tensor_Network_Paradigm_for_Efficient_Structure_Search_from_CVPR_2024_paper.pdf
   # - type: code
   #   display: Code
   #   url: https://github.com/pingzaiwang/Analysis4TNN
-bibtex: ''
+bibtex: '@inproceedings{zheng2024svdinstn,
+  title={SVDinsTN: A Tensor Network Paradigm for Efficient Structure Search from Regularized Modeling Perspective},
+  author={Zheng, Yu-Bang and Zhao, Xi-Le and Zeng, Junhua and Li, Chao and Zhao, Qibin and Li, Heng-Chao and Huang, Ting-Zhu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={26254--26263},
+  year={2024}
+}'
 ---
 
 <script>

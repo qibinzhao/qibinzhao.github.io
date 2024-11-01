@@ -4,14 +4,14 @@ $paragraph-indent: true
 permalink: /publications/048-publications/
 year: 2024
 type: journal
-title: 'Tensor robust kernel pca for multi- dimensional data'
+title: 'Tensor robust kernel pca for multi-dimensional data'
 authors: J. Lin, T.-Z. Huang, X.-L. Zhao, T.-Y. Ji, and Q. Zhao
 venue: IEEE Transactions on Neural Networks and Learning Systems, 2024
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: https://arxiv.org/abs/2303.00196
+   - type: website
+     display: Website
+     url: https://ieeexplore.ieee.org/abstract/document/10420484
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8

@@ -9,15 +9,15 @@ authors: Z. Tao, T. Tanaka, and Q. Zhao
 venue: Neural Networks, 2024
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: https://arxiv.org/abs/2303.00196
+   - type: website
+     display: Website
+     url: https://www.sciencedirect.com/science/article/pii/S0893608023005853
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/Analysis4TNN
+   - type: code
+     display: Code
+     url: https://github.com/taozerui/nonlinear_tr
 bibtex: '@article{tao2024nonparametric,
   title={Nonparametric tensor ring decomposition with scalable amortized inference},
   author={Tao, Zerui and Tanaka, Toshihisa and Zhao, Qibin},

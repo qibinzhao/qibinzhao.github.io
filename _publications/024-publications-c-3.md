@@ -12,9 +12,9 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: https://arxiv.org/abs/2303.00196
-  # - type: pdf
-  #   display: PDF
-  #   url: https://openreview.net/pdf?id=rih3hsSWx8
+   - type: pdf
+     display: PDF
+     url: https://ojs.aaai.org/index.php/AAAI/article/download/29389/30624
   # - type: code
   #   display: Code
   #   url: https://github.com/pingzaiwang/Analysis4TNN

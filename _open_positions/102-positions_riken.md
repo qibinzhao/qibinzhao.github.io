@@ -6,7 +6,7 @@ title: International Program Associate (IPA)
 url_: https://www.riken.jp/en/careers/programs/ipa/index.html
 is_open: 0
 is_riken: 0
-description: ''
+description: 'for overseas students'
 ---
 
 

@@ -6,7 +6,7 @@ title: Junior Research Associate Program (JRA)
 url_: https://www.riken.jp/en/careers/programs/jra/index.html
 is_open: 0
 is_riken: 0
-description: ''
+description: 'for domestic students'
 ---
 
 

@@ -6,7 +6,7 @@ title: RIKEN Student Researcher (RSR)
 url_: https://www.riken.jp/en/careers/programs/rsr/index.html
 is_open: 0
 is_riken: 0
-description: ''
+description: 'for domestic students'
 ---
 
 

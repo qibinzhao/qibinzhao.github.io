@@ -71,14 +71,14 @@
   education2: TBD
 # --------------------------------------------------------------
 
-- name: Zhenhao Huang
-  photo: None.png
-  info: International Program Associate (IPA)
-  url: ''
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Zhenhao Huang
+#   photo: None.png
+#   info: International Program Associate (IPA)
+#   url: ''
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 # --------------------------------------------------------------
 
 - name: Antoine Debouchage
@@ -116,6 +116,17 @@
   photo: haonanHuang.jpg
   info: Intern
   url: 'https://libertyhhn.github.io/'
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+# --------------------------------------------------------------
+
+- name: Yunsong Deng
+  photo: None.png
+  info: Intern
+  url: ''
   email: 
   number_educ: 0
   education1: TBD

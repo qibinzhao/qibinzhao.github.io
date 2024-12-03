@@ -1,26 +1,35 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/014-event/
-date: 2025-03-01
-title: 'International Workshop on CoLoRAI - Connecting Low-Rank Representations in Al  in conjunction with AAAI 2025.'
-url_: https://april-tools.github.io/colorai/
-pdf_url: 
-sub: 0
-type: 
-links:
-  - sub_title: ''
-    url: 
-    pdf_url: 
+permalink: /news/051-news/
+title: ' Our proposal for international workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy in conjunction with ICLR 2025 has been accepted.[<a href="https://delta-workshop.github.io/">Link</a>]'
+date: 2024-12-3
+news_content: ''
+number_photo: 0
+photo1: 
+photo2: 
 ---
+
+
 
 <link rel="stylesheet" href="/assets/css/bootstrap.css">
 
 <style>
-
-  .entry-headers {
-    padding-top: 1.0em;
+  img{
+      max-width:345px;
+      max-height:258px;
+      OBJECT-FIT:contain;
   }
+
+
+.entry-headers {
+  padding-top: 1.0em;
+}
+
+#gridid i {
+    font-size: 16px;
+    font-style: italic;
+}
 
 .page__footer-follow li {
   display: inline-block;
@@ -30,86 +39,61 @@ links:
   text-transform: none;
 }
 
-td {
-    border-bottom: 1px solid #fff;
+.news-date {
+  font-size:1.0em;
+  color:#5481B0;
+}
+.news-title {
+  font-size:1.0em;
 }
 
-a {
-    color: #158CBA;
+.news-p p {
+  font-size:1.1em;
 }
 
-#gridid i {
-    font-size: 16px;
-    font-style: italic;
+.news-a a {
+  font-size:1.0em;
+  color: #158CBA;
 }
-
-
-li {
-    font-size: 12px;
-}
-
 .paper-btn {
     background-color: #158CBA;
     border: none;
     color: white;
-    padding: 2px 2px;
-    font-size: 12px;
+    padding: 1px 1px;
     cursor: pointer;
     border-radius: 15%;
 }
-
-
-.news-date {
-    font-size:1.0em;
-    color:#5481B0;
-  }
-  .news-title {
-    font-size:0.8em;
-  }
-
-  .news-p p {
-    font-size:1.0em;
-    margin-bottom: 1.0em;
-    text-align: start; 
-  }
-
-  .news-a a {
-    font-size:1.0em;
-    color: #158CBA;
-  }
-
 </style>
+
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
-  <br><br>
+  <h1 style="text-transform: capitalize" class="entry-headers"> News </h1>
+  <br>
   <div class="news-a">
     <section class="news-p">
+      <span class="news-date"><b>{{ page.date | date: "%b %Y" }}</b></span>
       <br>
-      {% if page.url.size > 0 %}
-      <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
+      <b>{{ page.title }}</b>
+      <p>&emsp;{{ page.news_content }}</p>
+      {% if page.number_photo == 1 %}
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="/assets/images/news/{{ page.photo1 }}" class="img-responsive" width="100%">
+        </div>
+      </div>
       {% endif %}
-      {% if page.pdf_url.size > 0 %}
-      <a href="{{ page.pdf_url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&emsp;&nbsp;PDF&emsp;</button></a>
-      {% endif %}
-      &nbsp;<b>{{ page.title }}</b>&nbsp;
-      <br>
-      {% if page.sub == 1 %}
-        {% for link in page.links %}
-        &emsp;&emsp;
-        {% if link.url.size > 0 %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
-        {% endif %}
-        {% if link.pdf_url.size > 0 %}
-        <a href="{{ link.pdf_url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;PDF</button></a>
-        {% endif %}
-        {{ link.sub_title }}
-        <br>
-        {% endfor %}
+      {% if page.number_photo == 2 %}
+      <div class="row">
+        <div class="col-sm-6 clearfix">
+          <img src="/assets/images/news/{{ page.photo1 }}" class="img-responsive" width="100%">
+        </div>
+        <div class="col-sm-6 clearfix">
+          <img src="/assets/images/news/{{ page.photo2 }}" class="img-responsive" width="100%">
+        </div>
+      </div>
       {% endif %}
     </section>
-    <br>
-    <hr>
-  </div> 
+  </div>
+  <br><br><br><br><br><br><br>
 </div>
 
 <div style="position: absolute; bottom: 0;" class="page__footer">

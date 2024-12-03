@@ -1,10 +1,10 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/014-event/
-date: 2025-03-01
-title: 'International Workshop on CoLoRAI - Connecting Low-Rank Representations in Al  in conjunction with AAAI 2025.'
-url_: https://april-tools.github.io/colorai/
+permalink: /events/015-event/
+date: 2025-04-27
+title: 'Deep Generative Model in Machine Learning: Theory, Principle and Efficacy in conjunction with ICLR 2025.'
+url_: https://delta-workshop.github.io/
 pdf_url: 
 sub: 0
 type: 

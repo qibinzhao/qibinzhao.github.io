@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/053-news/
-title: 'Our researchers, Guang Lin and Chao Li, have been recognized as NeurIPS 2024 Top Reviewers!'
+title: 'Our researchers, Guang Lin and Chao Li, have been recognized as NeurIPS 2024 Top Reviewers![<a href="https://neurips.cc/Conferences/2024/ProgramCommittee">Link</a>]'
 date: 2024-12-11
 news_content: ''
 number_photo: 0

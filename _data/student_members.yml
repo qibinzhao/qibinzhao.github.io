@@ -81,14 +81,14 @@
 #   education2: TBD
 # --------------------------------------------------------------
 
-- name: Antoine Debouchage
-  photo: Antoine.png
-  info: Student Trainee
-  url: 'https://antoine311200.github.io/'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Antoine Debouchage
+#   photo: Antoine.png
+#   info: Student Trainee
+#   url: 'https://antoine311200.github.io/'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 # --------------------------------------------------------------
 
 - name: Qi Huang

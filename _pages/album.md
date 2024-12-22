@@ -8,6 +8,10 @@ gallery:
   #   image_path: /assets/images/gallery/harsha_defense_1.png
   #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
+  - url: /assets/album/NeurIPS2024.jpg 
+    image_path: /assets/album/NeurIPS2024.jpg
+    alt: "Team member on NeurIPS 2024"
+    title: "Team member on NeurIPS 2024" 
   - url: /assets/album/DLworkshop_2024.jpg 
     image_path: /assets/album/DLworkshop_2024.jpg
     alt: "Some team members and Prof.Amari on Deep Learning workshop 2024"
@@ -20,7 +24,6 @@ gallery:
     image_path: /assets/album/ICML2024_02.jpg
     alt: "Presentation at ICML 2024 "
     title: "Presentation at ICML 2024"
-
   - url: /assets/album/CAI2024_01.jpg
     image_path: /assets/album/CAI2024_01.jpg
     alt: "2024 IEEE CAI Workshop on Tensor Models for Machine Learning (mainly organized by Tensor Learning Team)"

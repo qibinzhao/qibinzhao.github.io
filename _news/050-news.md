@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/050-news/
-title: 'Our researcher Mingyuan Bai won the Best Poster Award in the 28th Interdisciplinary Exchange Evening![<a href="https://aip.riken.jp/news/28th-interdisciplinary-exchange-evening/">Link</a>]'
+title: '[<a href="https://aip.riken.jp/news/28th-interdisciplinary-exchange-evening/">Link</a>] Our researcher Mingyuan Bai won the Best Poster Award in the 28th Interdisciplinary Exchange Evening!'
 date: 2024-11-25
 news_content: ''
 number_photo: 0

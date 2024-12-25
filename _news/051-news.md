@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/051-news/
-title: ' Our proposal for international workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy in conjunction with ICLR 2025 has been accepted.[<a href="https://delta-workshop.github.io/">Link</a>]'
+title: '[<a href="https://delta-workshop.github.io/">Link</a>] Our proposal for international workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy in conjunction with ICLR 2025 has been accepted.'
 date: 2024-12-3
 news_content: ''
 number_photo: 0

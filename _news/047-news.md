@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/047-news/
-title: ' Our proposal for international workshop on CoLoRAI - Connecting Low-Rank Representations in Al  in conjunction with AAAI 2025 has been accepted.[<a href="https://april-tools.github.io/colorai/">Link</a>]'
+title: '[<a href="https://april-tools.github.io/colorai/">Link</a>] Our proposal for international workshop on CoLoRAI - Connecting Low-Rank Representations in Al  in conjunction with AAAI 2025 has been accepted.'
 date: 2024-09-20
 news_content: ''
 number_photo: 0

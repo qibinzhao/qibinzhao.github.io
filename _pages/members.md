@@ -100,7 +100,7 @@ h4, .h4 {
     <div class="col-sm-6 clearfix">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="20%" style="float: left;"/>
       {% if member.url.size > 0 %}
-      <h4><a href="{{ member.url }}">{{ member.name }}</a></h4>
+      <h4><a style="text-decoration: none;" href="{{ member.url }}">{{ member.name }}</a></h4>
       {% endif %}
       {% if member.url.size == 0 %}
       <h4>{{ member.name }}</h4>
@@ -146,7 +146,7 @@ h4, .h4 {
     <div class="col-sm-4 clearfix">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left;"/>
       {% if member.url.size > 0 %}
-      <h4><a href="{{ member.url }}">{{ member.name }}</a></h4>
+      <h4><a style="text-decoration: none;"  href="{{ member.url }}">{{ member.name }}</a></h4>
       {% endif %}
       {% if member.url.size == 0 %}
       <h4>{{ member.name }}</h4>
@@ -189,7 +189,7 @@ h4, .h4 {
     <div class="col-sm-4 clearfix">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
       {% if member.url.size > 0 %}
-      <h4><a href="{{ member.url }}">{{ member.name }}</a></h4>
+      <h4><a style="text-decoration: none;"  href="{{ member.url }}">{{ member.name }}</a></h4>
       {% endif %}
       {% if member.url.size == 0 %}
       <h4>{{ member.name }}</h4>
@@ -233,7 +233,7 @@ h4, .h4 {
     <div class="col-sm-4 clearfix">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
       {% if member.url.size > 0 %}
-      <h4><a href="{{ member.url }}">{{ member.name }}</a></h4>
+      <h4><a style="text-decoration: none;"  href="{{ member.url }}">{{ member.name }}</a></h4>
       {% endif %}
       {% if member.url.size == 0 %}
       <h4>{{ member.name }}</h4>

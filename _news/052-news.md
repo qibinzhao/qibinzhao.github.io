@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/052-news/
-title: ' Qibin Zhao gave a talk at 31st Prediction Science Seminar.[<a href="https://prediction.riken.jp/events/ps_seminar/20241205/index_en.html">Link</a>]'
+title: '[<a href="https://prediction.riken.jp/events/ps_seminar/20241205/index_en.html">Link</a>] Qibin Zhao gave a talk at 31st Prediction Science Seminar.'
 date: 2024-12-5
 news_content: ''
 number_photo: 0

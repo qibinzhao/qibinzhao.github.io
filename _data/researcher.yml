@@ -58,3 +58,13 @@
   number_educ: 0
   education1: TBD
   education2: TBD
+
+  # --------------------------------------------------------------
+- name: Haonan Huang
+  photo: haonanHuang.jpg
+  info: Postdoctoral Researcher
+  url: 'https://libertyhhn.github.io/'
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD

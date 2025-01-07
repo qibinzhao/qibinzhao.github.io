@@ -51,14 +51,14 @@
 
 # --------------------------------------------------------------
 
-- name: Hailin Wang
-  photo: hailinWang.jpg
-  info: International Program Associate (IPA)
-  url: 'https://github.com/wanghailin97'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Hailin Wang
+#   photo: hailinWang.jpg
+#   info: International Program Associate (IPA)
+#   url: 'https://github.com/wanghailin97'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 # --------------------------------------------------------------
 
 - name: Dongping Zhang
@@ -112,14 +112,14 @@
 
 # --------------------------------------------------------------
 
-- name: Haonan Huang
-  photo: haonanHuang.jpg
-  info: Intern
-  url: 'https://libertyhhn.github.io/'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Haonan Huang
+#   photo: haonanHuang.jpg
+#   info: Intern
+#   url: 'https://libertyhhn.github.io/'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
 # --------------------------------------------------------------
 

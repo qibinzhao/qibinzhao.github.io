@@ -3,10 +3,10 @@ layout: splash
 $paragraph-indent: true
 permalink: /open_positions/101-positions/
 title: Special Postdoctoral Researcher (SPDR)
-url_: https://www.riken.jp/en/careers/programs/spdr/career2025/
+url_: https://www.riken.jp/en/careers/programs/spdr/career2026/
 is_open: 0
 is_riken: 0
-description: ''
+description: 'The application deadline is April 3, 2025.'
 ---
 
 

@@ -40,14 +40,14 @@
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Yicong He
-  photo: yicongHe.jpg
-  info: Postdoctoral Researcher
-  url: 'https://scholar.google.com/citations?user=fV-awCMAAAAJ&hl=en&oi=ao'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Yicong He
+#   photo: yicongHe.jpg
+#   info: Postdoctoral Researcher
+#   url: 'https://scholar.google.com/citations?user=fV-awCMAAAAJ&hl=en&oi=ao'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
   # --------------------------------------------------------------
 - name: Zerui Tao

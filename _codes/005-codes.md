@@ -3,14 +3,13 @@ layout: splash
 $paragraph-indent: true
 permalink: /codes/005-codes/
 year: 'other'
-title: 'Tensor Ring Decomposotion Toolbox (Matlab)'
+title: 'Tensor Ring Decomposotion Toolbox [(<a href="assets/softwares/TR_Toolbox.zip">Matlab</a>)][(<a href="https://github.com/SUIlf/Tensor_Ring_Toolbox">Python</a>]'
 links:
   - type: file
     display: Code
     url: /assets/softwares/TR_Toolbox.zip
     icon: bibtex
 ---
-
 
 
 <link rel="stylesheet" href="/assets/css/bootstrap.css">

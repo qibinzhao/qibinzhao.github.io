@@ -3,7 +3,7 @@ layout: splash
 $paragraph-indent: true
 permalink: /events/009-event/
 date: 2021-12-01
-title: 'Second Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2020.'
+title: 'Second Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2021.'
 url_: https://tensorworkshop.github.io/NeurIPS2021/index.html
 pdf_url: 
 sub: 0

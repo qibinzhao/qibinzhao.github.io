@@ -134,6 +134,17 @@
 
 # --------------------------------------------------------------
 
+- name: Hangjie Yi
+  photo: hangjie.jpg
+  info: Student Trainee
+  url: 'https://scholar.google.com/citations?user=0aNBiwkAAAAJ&hl=en&oi=ao'
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+# --------------------------------------------------------------
+
 - name: Huidong Jiang
   photo: None.png
   info: Part-time Worker

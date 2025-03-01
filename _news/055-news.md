@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/055-news/
-title: ' Our team has two paper accepted by CVPR 2025.'
+title: ' Our team has two papers accepted by CVPR 2025.'
 date: 2025-2-27
 news_content: ''
 number_photo: 0

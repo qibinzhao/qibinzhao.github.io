@@ -8,10 +8,14 @@ gallery:
   #   image_path: /assets/images/gallery/harsha_defense_1.png
   #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
+  - url: /assets/album/AIPretreat2025.jpg 
+    image_path: /assets/album/AIPretreat2025.jpg
+    alt: "Team members on RIKEN AIP Retreat 2025"
+    title: "Team members on RIKEN AIP Retreat 2025"   
   - url: /assets/album/NeurIPS2024.jpg 
     image_path: /assets/album/NeurIPS2024.jpg
-    alt: "Team member on NeurIPS 2024"
-    title: "Team member on NeurIPS 2024" 
+    alt: "Team members on NeurIPS 2024"
+    title: "Team members on NeurIPS 2024" 
   - url: /assets/album/DLworkshop_2024.jpg 
     image_path: /assets/album/DLworkshop_2024.jpg
     alt: "Some team members and Prof.Amari on Deep Learning workshop 2024"

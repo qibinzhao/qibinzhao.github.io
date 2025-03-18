@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /events/017-event/
-date: 2025-8-6
+date: 2025-8-4
 title: 'The RIKEN AIP – Tensor Learning Team Workshop 2025 on
 Tensor Representation for Machine Learning'
 url_: https://tensorworkshop.github.io/RIKENAIP_TRML2025/

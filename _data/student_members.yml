@@ -1,13 +1,13 @@
 
 # --------------------------------------------------------------
-- name: Linfeng Sui
-  photo: linfengSui.jpg
-  info: Junior Research Associate (JRA)
-  url: ''
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Linfeng Sui
+#   photo: linfengSui.jpg
+#   info: Junior Research Associate (JRA)
+#   url: ''
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
 # --------------------------------------------------------------
 - name: Guang Lin
@@ -20,14 +20,14 @@
   education2: TBD
   
 # --------------------------------------------------------------
-- name: Nguyen Duc Thien
-  photo: thien.jpg
-  info: Junior Research Associate (JRA)
-  url: 'https://ducthiennguyen.github.io/'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Nguyen Duc Thien
+#   photo: thien.jpg
+#   info: Junior Research Associate (JRA)
+#   url: 'https://ducthiennguyen.github.io/'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
 # --------------------------------------------------------------
 - name: Tenghui Li
@@ -40,14 +40,14 @@
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Yichun Qiu
-  photo: None.png
-  info: International Program Associate (IPA)
-  url: ''
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Yichun Qiu
+#   photo: None.png
+#   info: International Program Associate (IPA)
+#   url: ''
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
 # --------------------------------------------------------------
 
@@ -91,24 +91,24 @@
 #   education2: TBD
 # --------------------------------------------------------------
 
-- name: Qi Huang
-  photo: None.png
-  info: Student Trainee
-  url: ''
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Qi Huang
+#   photo: None.png
+#   info: Student Trainee
+#   url: ''
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 # --------------------------------------------------------------
 
-- name: Yixiao Sun
-  photo: None.png
-  info: Student Trainee
-  url: ''
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Yixiao Sun
+#   photo: None.png
+#   info: Student Trainee
+#   url: ''
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
 # --------------------------------------------------------------
 
@@ -145,14 +145,25 @@
 
 # --------------------------------------------------------------
 
-- name: Huidong Jiang
-  photo: None.png
-  info: Part-time Worker
+- name: Wenjing Lu
+  photo: wenjing.jpg
+  info: Student Trainee
   url: ''
   email: 
   number_educ: 0
   education1: TBD
   education2: TBD
+
+# --------------------------------------------------------------
+
+# - name: Huidong Jiang
+#   photo: None.png
+#   info: Part-time Worker
+#   url: ''
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
 # --------------------------------------------------------------
 
@@ -202,6 +213,17 @@
 
 - name: Peilin Yang
   photo: None.png
+  info: Part-time Worker
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+  # --------------------------------------------------------------
+
+- name: Shanglin Li
+  photo: shanglin.jpg
   info: Part-time Worker
   url: ''
   email: 

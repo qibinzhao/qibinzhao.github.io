@@ -94,7 +94,7 @@ h4, .h4 {
   <!-- <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1> -->
   <br>
 
-  <h2>Team Leader</h2>
+  <h2>Team Director</h2>
   <div class="row">
     {% for member in site.data.team_leader %}
     <div class="col-sm-4 clearfix">

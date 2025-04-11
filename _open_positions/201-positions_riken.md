@@ -6,7 +6,7 @@ title: FY 2026 JSPS Postdoctoral Researcher Program
 url_: https://www.riken.jp/en/careers/programs/jsps_pd/index.html
 is_open: 1
 is_riken: 2
-description: ''
+description: 'The application deadline is March 17, 2025.'
 ---
 
 

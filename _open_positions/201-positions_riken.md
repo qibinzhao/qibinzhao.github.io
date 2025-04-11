@@ -2,9 +2,9 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/201-positions/
-title: JSPS postdoctoral fellowship programs
-url_: https://www.jsps.go.jp/english/e-fellow/
-is_open: 0
+title: FY 2026 JSPS Postdoctoral Researcher Program
+url_: https://www.riken.jp/en/careers/programs/jsps_pd/index.html
+is_open: 1
 is_riken: 2
 description: ''
 ---

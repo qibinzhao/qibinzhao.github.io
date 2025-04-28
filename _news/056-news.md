@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/056-news/
-title: ' Chao Li's proposal for Tutorial on Al Meets Algebra: Foundations and Frontiers in IJCAI 2025 has been accepted.'
+title: "Chao Li's proposal for Tutorial on Al Meets Algebra: Foundations and Frontiers in IJCAI 2025 has been accepted."
 date: 2025-4-28
 news_content: ''
 number_photo: 0

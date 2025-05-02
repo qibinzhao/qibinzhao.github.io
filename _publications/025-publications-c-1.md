@@ -18,11 +18,11 @@ links:
   # - type: code
   #   display: Code
   #   url: https://github.com/pingzaiwang/FtSVD4MORCDS
-#bibtex: '@inproceedings{qiu2024FtSVD,
-# author = {Wang, Andong and Qiu, Yuning and Bai, Mingyuan and Jin, Zhong and Zhou, Guoxu and Zhao, Qibin},
-# booktitle = {Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)},
-# title = {Generalized Tensor Decomposition for Understanding Multi-Output Regression under Combinatorial Shifts},
-# year = {2024}}'
+bibtex: '@inproceedings{Qiu2025steps,
+ author = {Qiu, Yuning and Wang, Andong and Li, Chao and Huang, Haonan and Zhou, Guoxu and Zhao, Qibin},
+ booktitle = {IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)},
+ title = {STEPS: Sequential Probability Tensor Estimation for Text-to-Image Hard Prompt Search},
+ year = {2025}}'
 ---
 
 <script>

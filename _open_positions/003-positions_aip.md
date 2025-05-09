@@ -1,7 +1,7 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /open_positions/003-positions/
+% permalink: /open_positions/003-positions/
 title: Part-time worker position for domestic students
 url_: ''
 is_open: 1

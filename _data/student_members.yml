@@ -154,6 +154,17 @@
   education1: TBD
   education2: TBD
 
+  # --------------------------------------------------------------
+
+- name: Peilin Yang
+  photo: None.png
+  info: Student Trainee
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
 # --------------------------------------------------------------
 
 # - name: Huidong Jiang
@@ -209,16 +220,7 @@
 #   education1: TBD
 #   education2: TBD
 
-  # --------------------------------------------------------------
 
-- name: Peilin Yang
-  photo: None.png
-  info: Part-time Worker
-  url: ''
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
 
   # --------------------------------------------------------------
 

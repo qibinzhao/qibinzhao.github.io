@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/058-news/
-title: "Welcome Dr. Patrick Gelß to our group for an academic visit and give us a talk about "Optimization-Driven Quantum Circuit Decomposition"!"
+title: "Welcome [<a href="https://patrickgelss.com/">Dr. Patrick Gelß</a>] to our group for an academic visit and give us a talk about "Optimization-Driven Quantum Circuit Decomposition"!"
 date: 2025-5-23
 news_content: ''
 number_photo: 0

@@ -11,18 +11,20 @@ picture:
 links:
    - type: website
      display: Paper
-     url: https://openaccess.thecvf.com/content/CVPR2025/html/Qiu_STEPS_Sequential_Probability_Tensor_Estimation_for_Text-to-Image_Hard_Prompt_Search_CVPR_2025_paper.html
+     url: https://openaccess.thecvf.com/content/CVPR2025/html/Xiao_Hyperspectral_Pansharpening_via_Diffusion_Models_with_Iteratively_Zero-Shot_Guidance_CVPR_2025_paper.html
   # - type: pdf
   #   display: Poster
   #   url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
    - type: code
      display: Code
-     url: https://github.com/ynqiu/STEPS
-#bibtex: '@inproceedings{qiu2024FtSVD,
-# author = {Wang, Andong and Qiu, Yuning and Bai, Mingyuan and Jin, Zhong and Zhou, Guoxu and Zhao, Qibin},
-# booktitle = {Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)},
-# title = {Generalized Tensor Decomposition for Understanding Multi-Output Regression under Combinatorial Shifts},
-# year = {2024}}'
+     url: https://github.com/Jin-liangXiao/DM-zs
+bibtex: '@inproceedings{xiao2025hyperspectral,
+  title={Hyperspectral Pansharpening via Diffusion Models with Iteratively Zero-Shot Guidance},
+  author={Xiao, Jin-Liang and Huang, Ting-Zhu and Deng, Liang-Jian and Lin, Guang and Cao, Zihan and Li, Chao and Zhao, Qibin},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={12669--12678},
+  year={2025}
+}'
 ---
 
 <script>

@@ -9,20 +9,22 @@ authors: Y. Qiu, A. Wang, C. Li, H. Huang, G. Zhou and Q. Zhao
 venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025
 picture: 
 links:
-  # - type: website
-  #   display: Paper
-  #   url: https://neurips.cc/virtual/2024/poster/96844
+   - type: website
+     display: Paper
+     url: https://openaccess.thecvf.com/content/CVPR2025/html/Qiu_STEPS_Sequential_Probability_Tensor_Estimation_for_Text-to-Image_Hard_Prompt_Search_CVPR_2025_paper.html
   # - type: pdf
   #   display: Poster
   #   url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/FtSVD4MORCDS
-bibtex: '@inproceedings{Qiu2025steps,
- author = {Qiu, Yuning and Wang, Andong and Li, Chao and Huang, Haonan and Zhou, Guoxu and Zhao, Qibin},
- booktitle = {IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)},
- title = {STEPS: Sequential Probability Tensor Estimation for Text-to-Image Hard Prompt Search},
- year = {2025}}'
+   - type: code
+     display: Code
+     url: https://github.com/ynqiu/STEPS
+bibtex: '@inproceedings{qiu2025steps,
+  title={STEPS: Sequential Probability Tensor Estimation for Text-to-Image Hard Prompt Search},
+  author={Qiu, Yuning and Wang, Andong and Li, Chao and Huang, Haonan and Zhou, Guoxu and Zhao, Qibin},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={28640--28650},
+  year={2025}
+}'
 ---
 
 <script>

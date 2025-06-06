@@ -15,9 +15,9 @@ links:
   # - type: pdf
   #   display: PDF
   #   url: https://openreview.net/pdf?id=rih3hsSWx8
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/Analysis4TNN
+   - type: code
+     display: Code
+     url: https://github.com/huang-qi/Uni-Poly
 bibtex: '@Article{Huang2025,
   author    = {Huang, Qi and Li, Yedi and Zhu, Lei and Zhao, Qibin and Yu, Wenjie},
   journal   = {npj Computational Materials},

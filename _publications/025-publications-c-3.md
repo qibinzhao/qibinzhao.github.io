@@ -12,12 +12,12 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: https://arxiv.org/abs/2303.00196
-  - type: website
-    display: Paper
-    url: https://openreview.net/forum?id=huu5JErrT1&noteId=FEiJKY32fb
-  - type: code
-    display: Code
-    url: https://github.com/pingzaiwang/LoRT
+   - type: website
+     display: Paper
+     url: https://openreview.net/forum?id=huu5JErrT1&noteId=FEiJKY32fb
+   - type: code
+     display: Code
+     url: https://github.com/pingzaiwang/LoRT
 bibtex: '@inproceedings{wang2025Low,
  title={Low-Rank Tensor Transitions (LoRT) for Transferable Tensor Regression},
  author={Wang, Andong and Qiu, Yuning and Jin, Zhong and Zhou, Guoxu and Zhao, Qibin},

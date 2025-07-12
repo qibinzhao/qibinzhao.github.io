@@ -1,7 +1,7 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/064-publications/
+permalink: /publications/065-publications/
 year: 2025
 type: journal
 title: 'Unified multimodal multidomain polymer representation for property prediction'

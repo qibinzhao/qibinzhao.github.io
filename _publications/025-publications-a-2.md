@@ -1,7 +1,7 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/065-publications/
+permalink: /publications/066-publications/
 year: 2025
 type: journal
 title: 'Adversarial guided diffusion models for adversarial purification'

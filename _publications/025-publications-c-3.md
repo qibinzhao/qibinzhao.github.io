@@ -12,7 +12,7 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: https://arxiv.org/abs/2303.00196
-   - type: website
+  - type: website
     display: Paper
     url: https://openreview.net/forum?id=huu5JErrT1&noteId=FEiJKY32fb
   - type: code

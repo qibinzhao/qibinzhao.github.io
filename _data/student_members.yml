@@ -179,11 +179,11 @@
   # --------------------------------------------------------------
 
 - name: Farzaneh Heidari
-  photo: None.png
+  photo: Farzaneh.jpeg
   info: Student Trainee
-  url: ''
+  url: 'https://tensor-networks.github.io/farzanah.github.io/'
   email: 
-  number_educ: 0
+  number_educ: 1
   education1: Université de Montreal
   education2: TBD
 

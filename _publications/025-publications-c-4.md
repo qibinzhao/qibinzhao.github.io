@@ -12,9 +12,9 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: https://arxiv.org/abs/2303.00196
-    - type: website
-      display: Paper
-      url: https://openreview.net/forum?id=lWvj3jifuO
+   - type: website
+     display: Paper
+     url: https://openreview.net/forum?id=lWvj3jifuO
   #- type: code
   #  display: Code
   #  url: https://github.com/libertyhhn/AR-DMVC

@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/061-news/
-title: "[<a href="https://www2.yukawa.kyoto-u.ac.jp/~yitp-tns-2025/index.php">Link</a>] Qibin will give a talk and Chao will give a poster presentation in Yukawa Institute for Theoretical Physics, Kyoto University."
+title: '[<a href="https://www2.yukawa.kyoto-u.ac.jp/~yitp-tns-2025/index.php">Link</a>] Qibin will give a talk and Chao will give a poster presentation in Yukawa Institute for Theoretical Physics, Kyoto University.'
 date: 2025-7-23
 news_content: ''
 number_photo: 0

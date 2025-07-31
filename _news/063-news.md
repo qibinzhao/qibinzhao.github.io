@@ -2,8 +2,8 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/063-news/
-title: '[<a href="https://algebra4ai.github.io/">Link</a>] Chao Li is organizing a IJCAI'25 tutorial on AI Meets Algebra on 16 Aug., Montréal, Canada.'
-date: 2025-7-26
+title: "[<a href='https://algebra4ai.github.io/'>Link</a>] Chao Li is organizing a IJCAI'25 tutorial on AI Meets Algebra on 16 Aug., Montréal, Canada."
+date: 2025-7-31
 news_content: ''
 number_photo: 0
 photo1: 

@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/059-news/
-title: "We are pleased to welcome Prof. John Paisley to our team for an academic visit."
+title: "We are pleased to welcome Prof. John Paisley (Columbia University) to our team for an academic visit."
 date: 2025-6-26
 news_content: '<p>We are pleased to welcome <a href="https://www.columbia.edu/~jwp2128/">Prof. John Paisley</a> to our group for an academic visit!</p>'
 number_photo: 0

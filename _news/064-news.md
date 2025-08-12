@@ -1,10 +1,10 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /news/058-news/
-title: "We are pleased to welcome Dr. Patrick Gelß (Zuse Institute Berlin) to our team for an academic visit."
-date: 2025-5-23
-news_content: '<p>We are pleased to welcome <a href="https://patrickgelss.com/">Dr. Patrick Gelß</a> to our group for an academic visit and a talk on <strong>Optimization-Driven Quantum Circuit Decomposition</strong>!</p>'
+permalink: /news/064-news/
+title: "We are pleased to welcome Prof. Liqing Zhang (SJTU) to our team for an academic visit."
+date: 2025-8-4
+news_content: ''
 number_photo: 0
 photo1: 
 photo2: 

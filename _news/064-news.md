@@ -2,8 +2,8 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/064-news/
-title: "We are pleased to welcome Prof. Liqing Zhang (SJTU) to our team for an academic visit."
-date: 2025-8-4
+title: "We are pleased to welcome Prof. Danilo Mandic (ICL), Prof. Liqing Zhang (SJTU) and Prof. Cesar (CONICET) to our team for an academic visit."
+date: 2025-8-8
 news_content: ''
 number_photo: 0
 photo1: 

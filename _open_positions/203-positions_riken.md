@@ -1,18 +1,12 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /events/018-event/
-date: 2025-08-30
-title: '[Team's Research Achievements Report] <i>Tensor Representation for Machine Learning:
-Efficiency and Reliability</i> by Prof. Qibin Zhao. (<a href="/assets/events/2025_TRML_TeamWorkshop.pdf">Slide</a>)'
-url_: 
-pdf_url: 
-sub: 0
-type: 
-links:
-  - sub_title: ''
-    url: 
-    pdf_url: 
+permalink: /open_positions/203-positions/
+title: JSPS Invitational Fellowships for Research in Japan
+url_: https://www.jsps.go.jp/english/e-inv/index.html
+is_open: 0
+is_riken: 2
+description: ''
 ---
 
 
@@ -82,37 +76,22 @@ li {
   }
 
 </style>
+
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> events </h1>
-  <br><br>
-  <div class="news-a">
-    <section class="news-p">
-      <br>
-      {% if page.url.size > 0 %}
-      <a href="{{ page.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
-      {% endif %}
-      {% if page.pdf_url.size > 0 %}
-      <a href="{{ page.pdf_url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&emsp;&nbsp;PDF&emsp;</button></a>
-      {% endif %}
-      &nbsp;<b>{{ page.title }}</b>&nbsp;
-      <br>
-      {% if page.sub == 1 %}
-        {% for link in page.links %}
-        &emsp;&emsp;
-        {% if link.url.size > 0 %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
+  <h1 style="text-transform: capitalize" class="entry-headers"> Open positions </h1>
+    <h2>  </h2>
+    <div class="news-a">
+      <section class="news-p">
+        <i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i>&nbsp;<b>{{ page.title }}</b>&nbsp;
+        <a href="{{ page.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;For detail</button></a>
+        {% if page.description.size > 0 %}
+        <p>&emsp;{{ page.description }}</p>
         {% endif %}
-        {% if link.pdf_url.size > 0 %}
-        <a href="{{ link.pdf_url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;PDF</button></a>
-        {% endif %}
-        {{ link.sub_title }}
-        <br>
-        {% endfor %}
-      {% endif %}
-    </section>
-    <br>
-    <hr>
-  </div> 
+      </section>
+      <br>
+    </div> 
+    <!-- <h2> RIKEN programmes </h2> -->
+
 </div>
 
 <div style="position: absolute; bottom: 0;" class="page__footer">

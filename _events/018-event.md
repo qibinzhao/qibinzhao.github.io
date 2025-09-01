@@ -3,8 +3,8 @@ layout: splash
 $paragraph-indent: true
 permalink: /events/018-event/
 date: 2025-08-30
-title: '[Team's Research Achievements Report] <i>Tensor Representation for Machine Learning:
-Efficiency and Reliability</i> by Prof. Qibin Zhao. (<a href="/assets/events/2025_TRML_TeamWorkshop.pdf">Slide</a>)'
+title: "[Team's Research Achievements Report] <i>Tensor Representation for Machine Learning:
+Efficiency and Reliability</i> by Prof. Qibin Zhao. (<a href="/assets/events/2025_TRML_TeamWorkshop.pdf">Slide</a>)"
 url_: 
 pdf_url: 
 sub: 0

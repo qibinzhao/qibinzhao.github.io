@@ -12,11 +12,11 @@ gallery:
     image_path: /assets/album/trml125.jpg 
     alt: "TRML Workshop 2025"
     title: "TRML Workshop 2025" 
-- url: /assets/album/trml25.jpg 
+  - url: /assets/album/trml25.jpg 
     image_path: /assets/album/trml25.jpg 
     alt: "TRML Workshop 2025"
     title: "TRML Workshop 2025" 
-- url: /assets/album/trml025.JPG 
+  - url: /assets/album/trml025.JPG 
     image_path: /assets/album/trml025.JPG 
     alt: "TRML Workshop 2025"
     title: "TRML Workshop 2025" 

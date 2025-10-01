@@ -3,8 +3,8 @@ layout: splash
 $paragraph-indent: true
 permalink: /open_positions/002-positions/
 title: Postdoctoral Researcher, Research Scientist and Senior Research Scientist positions on quantum machine learning using tensor networks
-url_: https://www.riken.jp/en/careers/researchers/20250213_2/index.html
-is_open: 1
+url_: https://www.riken.jp/en/careers/researchers/20250912_1/index.html
+is_open: 0
 is_riken: 1
 description: ''
 ---

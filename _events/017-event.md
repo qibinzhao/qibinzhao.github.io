@@ -4,7 +4,7 @@ $paragraph-indent: true
 permalink: /events/017-event/
 date: 2025-8-4
 title: '[AIP Progress Report Meeting Series] 
-Workshop on Tensor Representation for Machine Learning'
+Workshop on Tensor Representation for Machine Learning (<a href="https://www.youtube.com/watch?v=Z6ccsFHLDjE">Videos Part 1</a>) (<a href="https://www.youtube.com/watch?v=CCVPH7FYTP0 ">Videos Part 2</a>)'
 url_: https://tensorworkshop.github.io/RIKENAIP_TRML2025/
 pdf_url: 
 sub: 0

@@ -178,14 +178,14 @@
 
   # --------------------------------------------------------------
 
-- name: Farzaneh Heidari
-  photo: Farzaneh.jpeg
-  info: Student Trainee
-  url: 'https://tensor-networks.github.io/farzanah/'
-  email: 
-  number_educ: 0
-  education1: Université de Montreal
-  education2: TBD
+# - name: Farzaneh Heidari
+#   photo: Farzaneh.jpeg
+#   info: Student Trainee
+#   url: 'https://tensor-networks.github.io/farzanah/'
+#   email: 
+#   number_educ: 0
+#   education1: Université de Montreal
+#   education2: TBD
 
 # --------------------------------------------------------------
 
@@ -248,6 +248,17 @@
 
 - name: Shanglin Li
   photo: shanglin.jpg
+  info: Part-time Worker
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+  # --------------------------------------------------------------
+
+- name: Tianxiao Cao
+  photo: tianxiao.jpg
   info: Part-time Worker
   url: ''
   email: 

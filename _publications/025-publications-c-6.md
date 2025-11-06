@@ -12,12 +12,15 @@ links:
    - type: website
      display: Paper
      url: https://neurips.cc/virtual/2025/poster/120278
-  # - type: pdf
-  #   display: Poster
-  #   url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
-  # - type: code
-  #   display: Code
-  #   url: https://github.com/pingzaiwang/FtSVD4MORCDS
+   - type: video
+     display: Video
+     url: https://recorder-v3.slideslive.com/?share=104925&s=c8b9b042-204f-41ae-b079-e9bacfe4325f
+   - type: pdf
+     display: Slide
+     url: /assets/publications/NeurIPS25-ShortVideo-Andong.pptx
+   - type: code
+     display: Code
+     url: https://github.com/pingzaiwang/BTR4tGeometry
   # bibtex: '@inproceedings{wang2024FtSVD,
   # author = {Wang, Andong and Qiu, Yuning and Bai, Mingyuan and Jin, Zhong and Zhou, Guoxu and Zhao, Qibin},
   # booktitle = {Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)},

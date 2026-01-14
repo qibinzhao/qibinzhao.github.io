@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/064-news/
-title: "We are pleased to welcome Prof. Danilo Mandic (ICL), Prof. Liqing Zhang (SJTU) and Prof. Cesar (CONICET) to our team for an academic visit."
+title: "We are pleased to welcome Prof. <a href=\"https://www.commsp.ee.ic.ac.uk/~mandic/\">Danilo Mandic</a> (ICL), Prof. <a href=\"https://scholar.google.com/citations?user=1smFmxAAAAAJ&hl=en\">Liqing Zhang</a> (SJTU) and Prof. <a href=\"https://ccaiafa.wixsite.com/cesar\">Cesar</a> (CONICET) to our team for an academic visit."
 date: 2025-8-8
 news_content: ''
 number_photo: 0

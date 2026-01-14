@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/067-news/
-title: '[<a href="https://c5dc59ed978213830355fc8978.doorkeeper.jp/events/193813">Link</a>] We are pleased to welcome Prof. Bao-Liang Lu (SJTU) to our team for an academic visit.'
+title: '[<a href="https://c5dc59ed978213830355fc8978.doorkeeper.jp/events/193813">Link</a>] We are pleased to welcome Prof. <a href="https://bcmi.sjtu.edu.cn/home/blu/">Bao-Liang Lu</a> (SJTU) to our team for an academic visit.'
 date: 2026-01-14
 news_content: ''
 number_photo: 0

@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /news/066-news/
-title: '[<a href="https://c5dc59ed978213830355fc8978.doorkeeper.jp/events/192887">Link</a>] We are pleased to welcome Prof. Yongsheng Gao (Griffith University) to our team for an academic visit.'
+title: '[<a href="https://c5dc59ed978213830355fc8978.doorkeeper.jp/events/192887">Link</a>] We are pleased to welcome Prof. <a href="https://scholar.google.com/citations?user=IqazXu4AAAAJ&hl=en">Yongsheng Gao</a> (Griffith University) to our team for an academic visit.'
 date: 2025-11-19
 news_content: ''
 number_photo: 0

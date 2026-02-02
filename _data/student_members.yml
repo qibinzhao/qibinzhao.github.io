@@ -167,14 +167,14 @@
 
   # --------------------------------------------------------------
 
-- name: Jian Xu
-  photo: jianxu.jpg
-  info: Student Trainee
-  url: 'https://xujianscut.github.io/JianXu.github.io/about/'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Jian Xu
+#   photo: jianxu.jpg
+#   info: Student Trainee
+#   url: 'https://xujianscut.github.io/JianXu.github.io/about/'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
   # --------------------------------------------------------------
 

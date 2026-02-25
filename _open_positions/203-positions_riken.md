@@ -6,7 +6,9 @@ title: JSPS Invitational Fellowships for Research in Japan
 url_: https://www.jsps.go.jp/english/e-inv/index.html
 is_open: 0
 is_riken: 2
-description: ''
+description: 'FY2026 JSPS Invitational
+Fellowships for Research in Japan（Short-term, 2nd Phase) has been opened. <Deadlines>
+Internal deadline(RIKEN): Wednesday, April 14, 2026'
 ---
 
 

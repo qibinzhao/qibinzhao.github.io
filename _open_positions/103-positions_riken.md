@@ -2,11 +2,11 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/103-positions/
-title: Junior Research Associate Program (JRA) 
+title: Junior Research Associate Program (JRA) (only for domestic students)
 url_: https://www.riken.jp/en/careers/programs/jra/index.html
 is_open: 0
 is_riken: 0
-description: 'for domestic students. The DDL for FY2026 is Oct. 24, 2025.'
+description: 'The DDL for FY2026 is Oct. 24, 2025.'
 ---
 
 

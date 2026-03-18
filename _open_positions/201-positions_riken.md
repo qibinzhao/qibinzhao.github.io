@@ -2,11 +2,11 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/201-positions/
-title: FY 2027 JSPS Postdoctoral Researcher Program
+title: JSPS Postdoctoral Researcher Program (PD&RPD) (for Japanese citizen or permanent resident of Japan)
 url_: https://www.riken.jp/careers/programs/jsps_pd/index.html 
 is_open: 0
 is_riken: 2
-description: 'The application deadline of RPD is March 16, 2026. The application deadline of PD is March 27, 2026. Both for Japanese citizen or permanent resident of Japan.'
+description: 'The FY 2027 application deadline of RPD is March 16, 2026. The application deadline of PD is March 27, 2026.'
 ---
 
 

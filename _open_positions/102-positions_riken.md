@@ -2,11 +2,11 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/102-positions/
-title: International Program Associate (IPA) 
+title: International Program Associate (IPA) (for non-Japanese doctoral candidate)
 url_: https://www.riken.jp/en/careers/programs/ipa/index.html
 is_open: 0
 is_riken: 0
-description: 'for non-Japanese doctoral candidate.'
+description: ''
 ---
 
 

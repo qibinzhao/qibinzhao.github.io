@@ -6,7 +6,7 @@ title: Special Postdoctoral Researcher (SPDR)
 url_: https://www.riken.jp/en/careers/programs/spdr/career2027
 is_open: 0
 is_riken: 0
-description: 'The FY 2027 application deadline is <span style="color:red;"><b>April 2, 2026</b>.'
+description: 'The FY 2027 application <span style="color:red;"><b>Deadline:</b> April 2, 2026 </span>.'
 ---
 
 

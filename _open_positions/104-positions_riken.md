@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/104-positions/
-title: RIKEN Student Researcher (RSR) (only for domestic students)
+title: RIKEN Student Researcher (RSR) (for domestic students)
 url_: https://www.riken.jp/en/careers/programs/rsr/index.html
 is_open: 0
 is_riken: 0

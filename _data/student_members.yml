@@ -10,15 +10,25 @@
 #   education2: TBD
 
 # --------------------------------------------------------------
-- name: Guang Lin
-  photo: guangLin.jpg
+- name: Takanobu Furuhashi
+  photo: TakanobuFuruhashi.jpg
   info: Junior Research Associate (JRA)
-  url: 'https://scholar.google.com/citations?user=BQ-oau0AAAAJ&hl=en&oi=ao'
+  url: 'https://furunov.github.io/'
   email: 
   number_educ: 0
   education1: TBD
   education2: TBD
-  
+
+# --------------------------------------------------------------
+# - name: Guang Lin
+#   photo: guangLin.jpg
+#   info: Junior Research Associate (JRA)
+#   url: 'https://scholar.google.com/citations?user=BQ-oau0AAAAJ&hl=en&oi=ao'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
+
 # --------------------------------------------------------------
 # - name: Nguyen Duc Thien
 #   photo: thien.jpg
@@ -145,14 +155,14 @@
 
 # --------------------------------------------------------------
 
-- name: Wenjing Lu
-  photo: wenjing.jpg
-  info: Student Trainee
-  url: 'https://scholar.google.com/citations?hl=en&user=yVw0XEMAAAAJ'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Wenjing Lu
+#   photo: wenjing.jpg
+#   info: Student Trainee
+#   url: 'https://scholar.google.com/citations?hl=en&user=yVw0XEMAAAAJ'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
   # --------------------------------------------------------------
 
@@ -177,24 +187,24 @@
   education2: TBD
 
   # --------------------------------------------------------------
-- name: Wuyang Zhou
-  photo: wuyang.jpg
-  info: Student Trainee
-  url: 'https://scholar.google.com/citations?user=QLc_5wIAAAAJ&hl=en'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Wuyang Zhou
+#   photo: wuyang.jpg
+#   info: Student Trainee
+#   url: 'https://scholar.google.com/citations?user=QLc_5wIAAAAJ&hl=en'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
   # --------------------------------------------------------------
-- name: Giorgos Iacovides
-  photo: Giorgos.jpg
-  info: Student Trainee
-  url: 'https://scholar.google.com/citations?user=5e6hBf8AAAAJ&hl=en'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Giorgos Iacovides
+#   photo: Giorgos.jpg
+#   info: Student Trainee
+#   url: 'https://scholar.google.com/citations?user=5e6hBf8AAAAJ&hl=en'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
   # --------------------------------------------------------------
 
@@ -277,22 +287,22 @@
 
   # --------------------------------------------------------------
 
-- name: Shanglin Li
-  photo: shanglin.jpg
-  info: Part-time Worker
-  url: 'https://scholar.google.com/citations?hl=en&user=ZfbvnHkAAAAJ'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Shanglin Li
+#   photo: shanglin.jpg
+#   info: Part-time Worker
+#   url: 'https://scholar.google.com/citations?hl=en&user=ZfbvnHkAAAAJ'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
   # --------------------------------------------------------------
 
-- name: Tianxiao Cao
-  photo: tianxiao.jpg
-  info: Part-time Worker
-  url: 'https://scholar.google.com/citations?hl=en&user=GZVe6_kAAAAJ'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Tianxiao Cao
+#   photo: tianxiao.jpg
+#   info: Part-time Worker
+#   url: 'https://scholar.google.com/citations?hl=en&user=GZVe6_kAAAAJ'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD

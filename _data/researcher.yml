@@ -12,7 +12,7 @@
 # --------------------------------------------------------------
 - name: Andong Wang
   photo: andongWang.jpg
-  info: Postdoctoral Researcher
+  info: Research Scientist
   url: 'https://www.patternrecognition.asia/wad/'
   email: 
   number_educ: 0
@@ -20,20 +20,30 @@
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Mingyuan Bai
-  photo: MingyuanBai.jpg
-  info: Postdoctoral Researcher
-  url: 'https://scholar.google.com/citations?user=lo0_2rMAAAAJ&hl=en'
+# - name: Mingyuan Bai
+#   photo: MingyuanBai.jpg
+#   info: Postdoctoral Researcher
+#   url: 'https://scholar.google.com/citations?user=lo0_2rMAAAAJ&hl=en'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
+
+# --------------------------------------------------------------
+- name: Yuning Qiu
+  photo: yuningQiu.jpg
+  info: Special Postdoctoral Researcher (SPDR)
+  url: 'https://scholar.google.com/citations?user=zGb0k1MAAAAJ&hl=en&oi=ao'
   email: 
   number_educ: 0
   education1: TBD
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Yuning Qiu
-  photo: yuningQiu.jpg
-  info: Special Postdoctoral Researcher
-  url: 'https://scholar.google.com/citations?user=zGb0k1MAAAAJ&hl=en&oi=ao'
+- name: Guang Lin
+  photo: guangLin.jpg
+  info: Special Postdoctoral Researcher (SPDR))
+  url: 'https://scholar.google.com/citations?user=BQ-oau0AAAAJ&hl=en&oi=ao'
   email: 
   number_educ: 0
   education1: TBD

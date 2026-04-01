@@ -6,7 +6,7 @@ title: JSPS Postdoctoral Fellowships for Research in Japan
 url_: https://www.jsps.go.jp/english/e-fellow/index.html
 is_open: 0
 is_riken: 2
-description: 'The call for proposals for FY2026 Postdoctoral Fellowships for Research in Japan (Standard, 2nd round) is now open. RIKEN Internal deadline: <span style="color:red">Tuesday, March 31, 2026</span>. Application deadline: <span style="color:red">5 p.m. on April 28, 2026 (JST)</span>.'
+description: 'The call for proposals for FY2026 Postdoctoral Fellowships for Research in Japan (Standard, 2nd round) is now open. RIKEN Internal deadline: <span style="color:red; text-decoration: line-through;">Tuesday, March 31, 2026</span>. Application deadline: <span style="color:red">5 p.m. on April 28, 2026 (JST)</span>.'
 ---
 
 

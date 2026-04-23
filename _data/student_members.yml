@@ -186,7 +186,19 @@
   education1: TBD
   education2: TBD
 
-  # --------------------------------------------------------------
+  #
+ --------------------------------------------------------------
+- name: Zixuan Lin
+  photo: zixuan.jpg
+  info: Student Trainee
+  url: ''
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+# --------------------------------------------------------------
+
 # - name: Wuyang Zhou
 #   photo: wuyang.jpg
 #   info: Student Trainee

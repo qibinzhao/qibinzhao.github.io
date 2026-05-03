@@ -1,11 +1,11 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/070-publications/
+permalink: /publications/073-publications/
 year: 2026
 type: conference
-title: 'Bayesian Tensor Decomposition with Diffusion Model Prior'
-authors: Z. Tao and Q. Zhao
+title: 'MTNL: A Unified Modeling Perspective for Enhancing Tensor Network Learning'
+authors: J. Zeng, Y. Qiu, B. Li, C. Li, Q. Zhao, and G. Zhou
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:

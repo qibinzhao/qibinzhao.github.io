@@ -241,6 +241,17 @@
 
 # --------------------------------------------------------------
 
+- name: Wenjing Lu
+  photo: wenjing.jpg
+  info: Part-time Worker
+  url: 'https://scholar.google.com/citations?hl=en&user=yVw0XEMAAAAJ'
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+# --------------------------------------------------------------
+
 # - name: Huidong Jiang
 #   photo: None.png
 #   info: Part-time Worker

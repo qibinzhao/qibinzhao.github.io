@@ -1,11 +1,11 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/072-publications/
+permalink: /publications/071-publications/
 year: 2026
 type: conference
-title: 'Towards Disentangled Preference Optimization Dynamics'
-authors: W. Chen, Y. Wu, J. Yang, D. Zeng, Q. Zhao, J. Paisley, M. Chen, and Z. Wang
+title: 'Calibrating Uncertainty for Zero-Shot Adversarial CLIP'
+authors: W. Lu, Z. Tao, Y. Qiu, D. Zhang, Y. Yang, and Q. Zhao
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:

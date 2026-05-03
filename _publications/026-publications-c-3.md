@@ -1,11 +1,11 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/069-publications/
+permalink: /publications/074-publications/
 year: 2026
 type: conference
-title: 'Refining Dual Spectral Sparsity in Transformed Tensor Singular Values'
-authors: A. Wang, Y. Qiu, H. Huang, Z. Jin, G. Zhou, and Q. Zhao
+title: 'EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts'
+authors: R. Zhou*, S. Li*, G. Huang, X. Zhou, Q. Zhao, M. Kawanabe, Y. Ding, and C. Guan
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:
@@ -18,6 +18,7 @@ links:
   # - type: code
   #   display: Code
   #   url: 
+note: ''
 ---
 
 <script>

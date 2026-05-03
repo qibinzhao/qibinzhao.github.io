@@ -1,11 +1,11 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/075-publications/
+permalink: /publications/069-publications/
 year: 2026
 type: conference
-title: 'Two Modalities Are Better Than One: Efficient Adversarial Purification via Multimodal Diffusion Models'
-authors: M. Bai, W. Huang, T. Li, A. Wang, C. Li, C. F. Caiafa, J. Gao, and Q. Zhao
+title: 'Refining Dual Spectral Sparsity in Transformed Tensor Singular Values'
+authors: A. Wang, Y. Qiu, H. Huang, Z. Jin, G. Zhou, and Q. Zhao
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:

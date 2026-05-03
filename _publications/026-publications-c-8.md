@@ -1,11 +1,11 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/074-publications/
+permalink: /publications/070-publications/
 year: 2026
 type: conference
-title: 'EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts'
-authors: R. Zhou*, S. Li*, G. Huang, X. Zhou, Q. Zhao, M. Kawanabe, Y. Ding, and C. Guan
+title: 'Bayesian Tensor Decomposition with Diffusion Model Prior'
+authors: Z. Tao and Q. Zhao
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:
@@ -18,7 +18,6 @@ links:
   # - type: code
   #   display: Code
   #   url: 
-note: '* Equal contribution'
 ---
 
 <script>

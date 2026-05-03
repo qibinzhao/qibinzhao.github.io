@@ -1,11 +1,11 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/073-publications/
+permalink: /publications/075-publications/
 year: 2026
 type: conference
-title: 'MTNL: A Unified Modeling Perspective for Enhancing Tensor Network Learning'
-authors: J. Zeng, Y. Qiu, B. Li, C. Li, Q. Zhao, and G. Zhou
+title: 'Two Modalities Are Better Than One: Efficient Adversarial Purification via Multimodal Diffusion Models'
+authors: M. Bai, W. Huang, T. Li, A. Wang, C. Li, C. F. Caiafa, J. Gao, and Q. Zhao
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:

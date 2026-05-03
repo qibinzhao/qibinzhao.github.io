@@ -1,28 +1,24 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/065-publications/
-year: 2025
+permalink: /publications/074-publications/
+year: 2026
 type: conference
-title: 'Efficient Low Rank Attention for Long-Context Inference in Large Language Models'
-authors: T. Li, G. Zhou, X. Zhao, Y. Qiu and Q. Zhao
-venue: Thirty-ninth Conference on Neural Information Processing Systems (NeurIPS), 2025
+title: 'EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts'
+authors: R. Zhou*, S. Li*, G. Huang, X. Zhou, Q. Zhao, M. Kawanabe, Y. Ding, and C. Guan
+venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:
-   - type: website
-     display: Paper
-     url: https://neurips.cc/virtual/2025/poster/118451
+  # - type: arxiv
+  #   display: arxiv
+  #   url: 
   # - type: pdf
   #   display: Poster
-  #   url: /assets/publications/ICML2024_JunhuaZeng/zjh_ICML2024_Poster.pdf
+  #   url: 
   # - type: code
   #   display: Code
-  #   url: https://github.com/pingzaiwang/FtSVD4MORCDS
-  # bibtex: '@inproceedings{wang2024FtSVD,
-  # author = {Wang, Andong and Qiu, Yuning and Bai, Mingyuan and Jin, Zhong and Zhou, Guoxu and Zhao, Qibin},
-  # booktitle = {Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)},
-  # title = {Generalized Tensor Decomposition for Understanding Multi-Output Regression under Combinatorial Shifts},
-  # year = {2024}}'
+  #   url: 
+note: '* Equal contribution'
 ---
 
 <script>
@@ -61,7 +57,7 @@ links:
     };
     dlink.click();
     dlink.remove();
-    document.body.removeChild(dlink);
+  document.body.removeChild(dlink);
   }
 </script>
 

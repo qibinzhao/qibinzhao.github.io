@@ -6,7 +6,7 @@ year: 2025
 type: conference
 title: 'Towards a Geometric Understanding of Tensor Learning via the t-Product'
 authors: A. Wang, Y. Qiu, H. Huang, Z. Jin, G. Zhou and Q. Zhao
-venue: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS), 2025
+venue: Thirty-ninth Conference on Neural Information Processing Systems (NeurIPS), 2025
 picture: 
 links:
    - type: website

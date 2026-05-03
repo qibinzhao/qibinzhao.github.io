@@ -177,14 +177,14 @@
 
   # --------------------------------------------------------------
 
-- name: Wei Chen
-  photo: weichen.jpg
-  info: Student Trainee
-  url: 'https://hoemr.github.io/'
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Wei Chen
+#   photo: weichen.jpg
+#   info: Student Trainee
+#   url: 'https://hoemr.github.io/'
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
   # --------------------------------------------------------------
 - name: Zixuan Lin

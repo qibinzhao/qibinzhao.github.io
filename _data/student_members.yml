@@ -196,6 +196,16 @@
   education1: TBD
   education2: TBD
 
+  # --------------------------------------------------------------
+- name: Jingjing Zheng
+  photo: jingjing.jpg
+  info: Student Trainee
+  url: 'https://jzheng20.github.io/'
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
 # --------------------------------------------------------------
 
 # - name: Wuyang Zhou

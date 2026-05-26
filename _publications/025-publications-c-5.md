@@ -15,9 +15,9 @@ links:
   # - type: website
   #  display: Paper
   #  url: https://openreview.net/forum?id=D9EfAkQCzh
-    - type: code
-      display: Code
-      url: https://github.com/taozerui/tlora_diffusion
+   - type: code
+     display: Code
+     url: https://github.com/taozerui/tlora_diffusion
 bibtex: '@inproceedings{tao2025transformed,
   title={Transformed Low-rank Adaptation via Tensor Decomposition and Its Applications to Text-to-image Models},
   author={Tao, Zerui and Takida, Yuhta and Murata, Naoki and Zhao, Qibin and Mitsufuji, Yuki},

@@ -2,7 +2,7 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/202-positions/
-title: JSPS Postdoctoral Fellowships for Research in Japan
+title: JSPS Postdoctoral Fellowships for Research in Japan 
 url_: https://www.jsps.go.jp/english/e-fellow/index.html
 is_open: 0
 is_riken: 2

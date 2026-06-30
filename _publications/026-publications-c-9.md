@@ -9,7 +9,7 @@ authors: A. Wang, Y. Qiu, H. Huang, Z. Jin, G. Zhou, and Q. Zhao
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:
-   - type: openreview
+   - type: pdf
      display: openreview
      url: https://openreview.net/forum?id=1ZIjW3LFcH
   # - type: pdf

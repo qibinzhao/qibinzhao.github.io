@@ -9,15 +9,15 @@ authors: Z. Tao and Q. Zhao
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: 
+   - type: pdf
+     display: openreview
+     url: https://openreview.net/forum?id=q806xA8NPR
   # - type: pdf
   #   display: Poster
   #   url: 
-  # - type: code
-  #   display: Code
-  #   url: 
+   - type: code
+     display: Code
+     url: https://github.com/taozerui/DiffBCP
 ---
 
 <script>

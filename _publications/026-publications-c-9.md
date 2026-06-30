@@ -9,15 +9,15 @@ authors: A. Wang, Y. Qiu, H. Huang, Z. Jin, G. Zhou, and Q. Zhao
 venue: International Conference on Machine Learning (ICML), 2026
 picture: 
 links:
-  # - type: arxiv
-  #   display: arxiv
-  #   url: 
+   - type: openreview
+     display: openreview
+     url: https://openreview.net/forum?id=1ZIjW3LFcH
   # - type: pdf
   #   display: Poster
   #   url: 
-  # - type: code
-  #   display: Code
-  #   url: 
+   - type: code
+     display: Code
+     url: https://github.com/pingzaiwang/LpSq-QuasiNorm
 ---
 
 <script>

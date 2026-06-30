@@ -12,12 +12,12 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: 
-  # - type: pdf
-  #   display: Poster
-  #   url: 
-  # - type: code
-  #   display: Code
-  #   url: 
+   - type: pdf
+     display: openreview
+     url: https://openreview.net/forum?id=VSn4wLFd2p
+   - type: code
+     display: Code
+     url: https://github.com/zhourunhe/EEG-MoCE
 note: ''
 ---
 

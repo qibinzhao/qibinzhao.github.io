@@ -12,9 +12,9 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: 
-  # - type: pdf
-  #   display: Poster
-  #   url: 
+   - type: pdf
+     display: openreview
+     url: https://openreview.net/forum?id=f788iRLSVI
   # - type: code
   #   display: Code
   #   url: 

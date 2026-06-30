@@ -12,12 +12,12 @@ links:
   # - type: arxiv
   #   display: arxiv
   #   url: 
-  # - type: pdf
-  #   display: Poster
-  #   url: 
-  # - type: code
-  #   display: Code
-  #   url: 
+   - type: pdf
+     display: openreview
+     url: https://openreview.net/forum?id=qpno1WY4rt
+   - type: code
+     display: Code
+     url: https://github.com/mbai8854/MultiDAP
 ---
 
 <script>

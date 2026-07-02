@@ -190,7 +190,17 @@
 - name: Zixuan Lin
   photo: zixuan.jpg
   info: Student Trainee
-  url: ''
+  url: 'https://scholar.google.com/citations?user=OHNu9QkAAAAJ&hl=zh-CN'
+  email: 
+  number_educ: 0
+  education1: TBD
+  education2: TBD
+
+  # --------------------------------------------------------------
+- name: Xuanhao Liu
+  photo: xuanhao.jpg
+  info: Student Trainee
+  url: 'https://xuanhaoliu.github.io/'
   email: 
   number_educ: 0
   education1: TBD

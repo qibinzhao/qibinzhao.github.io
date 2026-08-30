@@ -7,7 +7,7 @@ url_: https://www.jsps.go.jp/english/e-inv/index.html
 is_open: 0
 is_riken: 2
 description: 'FY2027 JSPS Invitational
-Fellowships for Research in Japan (Short-term and Long-term) have been opened. <span style="color:red"><b>Deadlines:</b>
+Fellowships for Research in Japan (Short-term and Long-term) have been opened. <span style="color:red; text-decoration: line-through;"><b>Deadlines:</b>
 Internal deadline(RIKEN): Friday, August 14, 2026</span>'
 ---
 

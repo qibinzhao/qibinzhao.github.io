@@ -8,6 +8,14 @@ gallery:
   #   image_path: /assets/images/gallery/harsha_defense_1.png
   #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
   #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
+  - url: /assets/album/icml2601.jpg
+    image_path: /assets/album/icml2601.jpg
+    alt: "Presentation at ICML 2026 "
+    title: "Presentation at ICML 2026"
+  - url: /assets/album/icml2602.jpg
+    image_path: /assets/album/icml2602.jpg
+    alt: "ICML 2026 "
+    title: "ICML 2026"
   - url: /assets/album/trml125.jpg 
     image_path: /assets/album/trml125.jpg 
     alt: "TRML Workshop 2025"

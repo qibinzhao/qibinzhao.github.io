@@ -1,7 +1,7 @@
 ---
 layout: splash
 $paragraph-indent: true
-permalink: /publications/070-publications/
+permalink: /publications/076-publications/
 year: 2026
 type: conference
 title: 'Shared Low-rank Basis Factorization for Data-free Mixture-of-Experts Compression'

@@ -9,7 +9,7 @@ authors: T. Cao, J. Shao, Y. Qiu, K. Atarashi, H. Kashima, and Q. Zhao
 venue: Empirical Methods in Natural Language Processing (EMNLP) Finding, 2026
 picture: 
 links:
-   - type: pdf
+  # - type: pdf
   #   display: openreview
   #   url: https://openreview.net/forum?id=1ZIjW3LFcH
   # - type: pdf

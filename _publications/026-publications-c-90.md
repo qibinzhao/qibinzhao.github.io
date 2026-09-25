@@ -1,4 +1,3 @@
-
 ---
 layout: splash
 $paragraph-indent: true

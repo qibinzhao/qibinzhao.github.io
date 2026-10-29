@@ -1,6 +1,6 @@
 # --------------------------------------------------------------
 - name: Andrzej Cichocki
-  photo: None.png
+  photo: Cichocki.png
   info: Senior Visiting Scientist
   info2: Systems Research Institute of Polish Academy of Sciences
   url: https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en&oi=ao
@@ -10,19 +10,19 @@
   education2: TBD
 
 # --------------------------------------------------------------
-- name: Jianting Cao
-  photo: None.png
-  info: Senior Visiting Scientist
-  info2: Saitama Institute of Technology
-  url: https://www.sit.ac.jp/user/cao/
-  email: 
-  number_educ: 0
-  education1: TBD
-  education2: TBD
+# - name: Jianting Cao
+#   photo: None.png
+#   info: Senior Visiting Scientist
+#   info2: Saitama Institute of Technology
+#   url: https://www.sit.ac.jp/user/cao/
+#   email: 
+#   number_educ: 0
+#   education1: TBD
+#   education2: TBD
 
 # --------------------------------------------------------------
 - name: Toshihisa Tanaka
-  photo: None.png
+  photo: tanaka.png
   info: Visiting Scientist
   info2: Tokyo University of Agriculture and Technology
   url: https://sites.google.com/a/sip.tuat.ac.jp/toshihisa-tanaka/
@@ -33,7 +33,7 @@
 
 # --------------------------------------------------------------
 - name: Cesar Caiafa
-  photo: None.png
+  photo: cesar.png
   info: Visiting Scientist
   info2: Argentinean Radioastronomy Institute (IAR)
   url: https://ccaiafa.wixsite.com/cesar
@@ -44,7 +44,7 @@
 
 # --------------------------------------------------------------
 - name: Tatsuya Yokota
-  photo: None.png
+  photo: yokota.png
   info: Visiting Scientist
   info2: Nagoya Institute of Technology
   url: https://sites.google.com/site/yokotatsuya/home
